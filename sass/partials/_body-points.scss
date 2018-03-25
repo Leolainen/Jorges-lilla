@@ -1,0 +1,15 @@
+.body_wrapper {
+  @include box;
+  text-align: center;
+
+  b {
+    display: inline-block;
+    margin: $medium;
+  }
+}
+
+.body_table {
+  width: 100%;
+  text-align: left;
+
+}

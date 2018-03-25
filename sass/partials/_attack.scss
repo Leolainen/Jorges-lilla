@@ -1,0 +1,16 @@
+.attack_wrapper {
+  @include box();
+  text-align: center;
+}
+
+.attack_table {
+  width: 100%;
+  text-align: justify;
+
+  table {
+  }
+
+  td {
+    width: 50%;
+  }
+}

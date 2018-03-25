@@ -1,0 +1,13 @@
+.skills_wrapper {
+  @include box;
+
+  h3 {
+    text-align: center;
+    margin-bottom: $small;
+  }
+}
+
+.skills_table {
+  width: 100%;
+  text-align: justify;
+}

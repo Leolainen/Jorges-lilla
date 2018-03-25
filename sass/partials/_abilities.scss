@@ -1,0 +1,17 @@
+.abilities_wrapper {
+  @include box;
+  text-align: center;
+
+  h3 {
+    margin: $medium 0;
+  }
+}
+
+.ability {
+  @include box;
+  text-align: justify;
+
+  h3 {
+    margin: $medium 0;
+  }
+}

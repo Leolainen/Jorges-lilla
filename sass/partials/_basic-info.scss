@@ -1,0 +1,23 @@
+.basic-info_wrapper {
+  @include box;
+
+  h3 {
+    text-align: center;
+    margin-bottom: $small;
+  }
+
+  table {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+    td {
+      padding: 0 $medium;
+    }
+
+    tr:nth-child(even) {
+      margin: $medium;
+      padding: $medium;
+    }
+  }
+}

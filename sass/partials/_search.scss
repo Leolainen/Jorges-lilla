@@ -1,0 +1,26 @@
+.search_wrapper{
+
+  input {
+    height: $large;
+  }
+}
+
+.result-bar {
+  display: block;
+  position: relative;
+  background: white;
+
+  ul {
+    max-height: 30vh;
+    overflow-y: scroll;
+  }
+
+  ul li {
+    display: block;
+    width: 100%;
+  }
+}
+
+.hide-result {
+  display: none;
+}

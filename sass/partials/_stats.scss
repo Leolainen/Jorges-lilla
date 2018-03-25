@@ -1,0 +1,11 @@
+.stats_wrapper {
+  @include box;
+  text-align: center;
+}
+
+.stats_table {
+
+  td {
+    padding: 4px;
+  }
+}
