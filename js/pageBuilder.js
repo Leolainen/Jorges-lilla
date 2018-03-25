@@ -22,7 +22,7 @@ const pageBuilder = (function() {
 
   function buildImg(imgSrc) {
     let img = document.getElementById("portrait");
-    img.setAttribute("src", "/excursion/" + imgSrc);
+    img.setAttribute("src", imgSrc);
   }
 
 
