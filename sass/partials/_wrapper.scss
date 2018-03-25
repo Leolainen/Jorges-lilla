@@ -2,7 +2,22 @@
   width: 90%;
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
   justify-content: center;
   padding: 2rem 0;
+
+  h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  @media screen and (min-width: $tablet) {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+
+  @media screen and (min-width: $desktop) {
+  justify-content: space-around;
+  align-items: space-between;
+  }
 }

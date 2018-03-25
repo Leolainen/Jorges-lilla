@@ -5,6 +5,14 @@
     text-align: center;
     margin-bottom: $small;
   }
+
+  @media screen and (min-width: $tablet) {
+    width: 66%;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 33%;
+  }
 }
 
 .skills_table {

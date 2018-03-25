@@ -1,12 +1,16 @@
 .basic-info_wrapper {
   @include box;
+  display: flex;
+  flex-flow: row wrap;
 
   h3 {
     text-align: center;
     margin-bottom: $small;
+    width: 100%;
   }
 
   table {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -19,5 +23,9 @@
       margin: $medium;
       padding: $medium;
     }
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 45%;
   }
 }

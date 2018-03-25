@@ -6,10 +6,13 @@
     display: inline-block;
     margin: $medium;
   }
+
+  @media screen and (min-width: $tablet) {
+    width: 45%;
+  }
 }
 
 .body_table {
   width: 100%;
   text-align: left;
-
 }

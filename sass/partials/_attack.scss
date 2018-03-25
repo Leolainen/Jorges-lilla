@@ -1,11 +1,22 @@
 .attack_wrapper {
   @include box();
   text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  h3 {
+    width: 100%;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 33%;
+  }
 }
 
 .attack_table {
   width: 100%;
-  text-align: justify;
+  text-align: center;
 
   table {
   }

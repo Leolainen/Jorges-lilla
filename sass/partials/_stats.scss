@@ -1,6 +1,24 @@
 .stats_wrapper {
   @include box;
   text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  h3 {
+    display: inline-block;
+    width: 100%;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 45%;
+    height: 30%;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 30%;
+    height: 30%;
+  }
 }
 
 .stats_table {
