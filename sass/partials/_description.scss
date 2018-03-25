@@ -10,4 +10,8 @@
     @include box;
     text-align: justify;
   }
+
+  @media screen and (min-width: $desktop) {
+    width: 49.5%;
+  }
 }

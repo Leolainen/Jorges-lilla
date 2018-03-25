@@ -1,11 +1,23 @@
 .search_wrapper{
+  //position: absolute;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: $large;
 
   input {
     height: $large;
   }
+
+  @media screen and (min-width: $desktop) {
+  }
 }
 
 .result-bar {
+  position: absolute;
   display: block;
   position: relative;
   background: white;
@@ -13,6 +25,7 @@
   ul {
     max-height: 30vh;
     overflow-y: scroll;
+      width: inherit;
   }
 
   ul li {

@@ -8,14 +8,14 @@
 
   @media screen and (min-width: $tablet) {
     display: flex;
-    justify-content: flex-start;
-    width: 50%;
+    justify-content: center;
+    width: 49.5%;
     height: 50%;
   }
 
   @media screen and (min-width: $desktop) {
-    width: 30%;
-    height: 30%;
+    width: 33%;
+    height: 33%;
   }
 }
 
