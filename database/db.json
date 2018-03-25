@@ -2,7 +2,7 @@
   "monster": [
     {
       "id": "1",
-      "img": "DODbestiarium/images/alv.png",
+      "img": "/images/alv.png",
       "art": "Alv",
       "urstam": "Okänd",
       "hemvist": "Skog",
@@ -144,7 +144,7 @@
     },
     {
       "id": "2",
-      "img": "DODbestiarium/images/bergsrese.png",
+      "img": "/images/bergsrese.png",
       "art": "Bergsrese",
       "urstam": "Bastjurs",
       "hemvist": "Berg och Högland",
@@ -255,7 +255,7 @@
     },
     {
       "id": "3",
-      "img": "DODbestiarium/images/blotdrase.png",
+      "img": "/images/blotdrase.png",
       "art": "Blotdrase",
       "urstam": "Yggdrajol",
       "hemvist": "Skog",
@@ -344,7 +344,7 @@
     },
     {
       "id": "4",
-      "img": "DODbestiarium/images/blotrese.png",
+      "img": "/images/blotrese.png",
       "art": "Blotrese",
       "urstam": "Yggdrajol",
       "hemvist": "Varierar, vanligtvis skog",
@@ -442,7 +442,7 @@
     },
     {
       "id": "5",
-      "img": "DODbestiarium/images/braskeltupp.png",
+      "img": "/images/braskeltupp.png",
       "art": "Braskeltupp",
       "urstam": "Drakjord",
       "hemvist": "Skog",
@@ -544,7 +544,7 @@
     },
     {
       "id": "6",
-      "img": "DODbestiarium/images/brotbest.png",
+      "img": "/images/brotbest.png",
       "art": "Brotbest",
       "urstam": "Drakjord",
       "hemvist": "Berg och stenlandskap",
@@ -637,7 +637,7 @@
     },
     {
       "id": "7",
-      "img": "DODbestiarium/images/fysiskDemon.png",
+      "img": "/images/fysiskDemon.png",
       "art": "Fysisk demon",
       "urstam": "Ingen",
       "hemvist": "Varierar",
@@ -743,7 +743,7 @@
     },
     {
       "id": "8",
-      "img": "DODbestiarium/images/ickeFysiskDemon.png",
+      "img": "/images/ickeFysiskDemon.png",
       "art": "Ickefysisk demon",
       "urstam": "Ingen",
       "hemvist": "Varierar",
@@ -799,7 +799,7 @@
     },
     {
       "id": "9",
-      "img": "DODbestiarium/images/diser.png",
+      "img": "/images/diser.png",
       "art": "Diser",
       "urstam": "Sergurontjos",
       "hemvist": "Varierar",
@@ -867,7 +867,7 @@
     },
     {
       "id": "10",
-      "img": "DODbestiarium/images/drakman.png",
+      "img": "/images/drakman.png",
       "art": "Ri'chiira",
       "urstam": "Drakjord",
       "hemvist": "Berg och högland",
@@ -1027,7 +1027,7 @@
     },
     {
       "id": "11",
-      "img": "DODbestiarium/images/drakman.png",
+      "img": "/images/drakman.png",
       "art": "Zuck'chiira",
       "urstam": "Drakjord",
       "hemvist": "Berg och högland",
@@ -1187,7 +1187,7 @@
     },
     {
       "id": "12",
-      "img": "DODbestiarium/images/drakman.png",
+      "img": "/images/drakman.png",
       "art": "Chiira",
       "urstam": "Drakjord",
       "hemvist": "Berg och högland",
@@ -1347,7 +1347,7 @@
     },
     {
       "id": "13",
-      "img": "DODbestiarium/images/drakman.png",
+      "img": "/images/drakman.png",
       "art": "Hich-chi'chiira",
       "urstam": "Drakjord",
       "hemvist": "Berg och högland",
@@ -1507,7 +1507,7 @@
     },
     {
       "id": "14",
-      "img": "DODbestiarium/images/skuugacks.png",
+      "img": "/images/skuugacks.png",
       "art": "Skuugacks",
       "urstam": "Drakjord",
       "hemvist": "Varierar",
@@ -1685,7 +1685,7 @@
     },
     {
       "id": "15",
-      "img": "DODbestiarium/images/draug.png",
+      "img": "/images/draug.png",
       "art": "Draug",
       "urstam": "Sergurontjos",
       "hemvist": "Gamla slagfält",
@@ -1799,7 +1799,7 @@
     },
     {
       "id": "16",
-      "img": "DODbestiarium/images/droktil.png",
+      "img": "/images/droktil.png",
       "art": "Droktil",
       "urstam": "Drakjord",
       "hemvist": "Skog och grottor",
@@ -1899,7 +1899,7 @@
     },
     {
       "id": "17",
-      "img": "DODbestiarium/images/dvärg.png",
+      "img": "/images/dvärg.png",
       "art": "Dvärg",
       "urstam": "Bastjurs",
       "hemvist": "Grottor",
@@ -2025,7 +2025,7 @@
     },
     {
       "id": "18",
-      "img": "DODbestiarium/images/dödsgast.png",
+      "img": "/images/dödsgast.png",
       "art": "Dödsgast",
       "urstam": "Sergurontjos",
       "hemvist": "Varierar",
@@ -2191,7 +2191,7 @@
     },
     {
       "id": "19",
-      "img": "DODbestiarium/images/dödsranka.png",
+      "img": "/images/dödsranka.png",
       "art": "Dödsranka",
       "urstam": "Yggdrajol",
       "hemvist": "Skog",
@@ -2289,7 +2289,7 @@
     },
     {
       "id": "20",
-      "img": "DODbestiarium/images/fjoltroll.png",
+      "img": "/images/fjoltroll.png",
       "art": "Fjoltroll",
       "urstam": "Bastjurs",
       "hemvist": "Varierar",
@@ -2395,7 +2395,7 @@
     },
     {
       "id": "21",
-      "img": "DODbestiarium/images/frostdrake.png",
+      "img": "/images/frostdrake.png",
       "art": "Frostdrake",
       "urstam": "Drakfjord",
       "hemvist": "Frusna ödemarker",
@@ -2551,7 +2551,7 @@
     },
     {
       "id": "22",
-      "img": "DODbestiarium/images/gagneldi.png",
+      "img": "/images/gagneldi.png",
       "art": "Gagneldi",
       "urstam": "Sergurontjos",
       "hemvist": "Varierar",
@@ -2631,7 +2631,7 @@
     },
     {
       "id": "23",
-      "img": "DODbestiarium/images/grip.png",
+      "img": "/images/grip.png",
       "art": "Grip",
       "urstam": "Drakfjord",
       "hemvist": "Slätter och öppen kuperad terräng",
@@ -2723,7 +2723,7 @@
     },
     {
       "id": "24",
-      "img": "DODbestiarium/images/gråtroll.png",
+      "img": "/images/gråtroll.png",
       "art": "Gråtroll",
       "urstam": "Bastjurs",
       "hemvist": "Varierar",
@@ -2837,7 +2837,7 @@
     },
     {
       "id": "25",
-      "img": "DODbestiarium/images/halvlängdsmän.png",
+      "img": "/images/halvlängdsmän.png",
       "art": "Halvlängdsmän",
       "urstam": "Yggdrajol",
       "hemvist": "Skog och kuperad terräng",
@@ -2976,7 +2976,7 @@
     },
     {
       "id": "26",
-      "img": "DODbestiarium/images/happja.png",
+      "img": "/images/happja.png",
       "art": "Happja",
       "urstam": "Drakjord",
       "hemvist": "Skog",
@@ -3075,7 +3075,7 @@
     },
     {
       "id": "27",
-      "img": "DODbestiarium/images/helhäst.png",
+      "img": "/images/helhäst.png",
       "art": "Helhäst",
       "urstam": "Sergurontjos",
       "hemvist": "Varierar",
@@ -3173,7 +3173,7 @@
     },
     {
       "id": "28",
-      "img": "DODbestiarium/images/hrimturse.png",
+      "img": "/images/hrimturse.png",
       "art": "Hrimturse",
       "urstam": "Bastjurs",
       "hemvist": "Frusna ödemarker",
@@ -3294,7 +3294,7 @@
     },
     {
       "id": "29",
-      "img": "DODbestiarium/images/huvfurdrake.png",
+      "img": "/images/huvfurdrake.png",
       "art": "Huvfurdrake",
       "urstam": "Drakjord",
       "hemvist": "Träsk och sumpmarker",
@@ -3388,7 +3388,7 @@
     },
     {
       "id": "30",
-      "img": "DODbestiarium/images/istroll.png",
+      "img": "/images/istroll.png",
       "art": "Istroll",
       "urstam": "Bastjurs",
       "hemvist": "Frusna ödemarker",
@@ -3510,7 +3510,7 @@
     },
     {
       "id": "31",
-      "img": "DODbestiarium/images/jordtmal.png",
+      "img": "/images/jordtmal.png",
       "art": "Jordtmal",
       "urstam": "Drakjord",
       "hemvist": "Varierar",
@@ -3590,7 +3590,7 @@
     },
     {
       "id": "32",
-      "img": "DODbestiarium/images/järndrake.png",
+      "img": "/images/järndrake.png",
       "art": "Järndrake",
       "urstam": "Drakjord",
       "hemvist": "Berg och grottor",
@@ -3770,7 +3770,7 @@
     },
     {
       "id": "33",
-      "img": "DODbestiarium/images/jätteorm.png",
+      "img": "/images/jätteorm.png",
       "art": "Sjöorm",
       "urstam": "Drakjord",
       "hemvist": "Varierar",
@@ -3850,7 +3850,7 @@
     },
     {
       "id": "34",
-      "img": "DODbestiarium/images/jätteorm.png",
+      "img": "/images/jätteorm.png",
       "art": "Skogsorm",
       "urstam": "Drakjord",
       "hemvist": "Varierar",
@@ -3930,7 +3930,7 @@
     },
     {
       "id": "35",
-      "img": "DODbestiarium/images/snöorm.png",
+      "img": "/images/snöorm.png",
       "art": "Snöorm",
       "urstam": "Drakjord",
       "hemvist": "Varierar",
@@ -4010,7 +4010,7 @@
     },
     {
       "id": "36",
-      "img": "DODbestiarium/images/jätteorm.png",
+      "img": "/images/jätteorm.png",
       "art": "Grottorm",
       "urstam": "Drakjord",
       "hemvist": "Varierar",
@@ -4094,7 +4094,7 @@
     },
     {
       "id": "37",
-      "img": "DODbestiarium/images/jättespindel.png",
+      "img": "/images/jättespindel.png",
       "art": "Grottorm",
       "urstam": "Yggdrajol",
       "hemvist": "Skog",
@@ -4211,7 +4211,7 @@
     },
     {
       "id": "38",
-      "img": "DODbestiarium/images/kummelgast.png",
+      "img": "/images/kummelgast.png",
       "art": "Kummelgast",
       "urstam": "Sergurontjos",
       "hemvist": "Gravplatser",
@@ -4309,7 +4309,7 @@
     },
     {
       "id": "39",
-      "img": "DODbestiarium/images/kungstroll.png",
+      "img": "/images/kungstroll.png",
       "art": "Kungstroll",
       "urstam": "Bastjurs",
       "hemvist": "Varierar, Skog",
@@ -4443,7 +4443,7 @@
     },
     {
       "id": "40",
-      "img": "DODbestiarium/images/lindorm.png",
+      "img": "/images/lindorm.png",
       "art": "Lindorm",
       "urstam": "Drakjord",
       "hemvist": "Skog",
@@ -4535,7 +4535,7 @@
     },
     {
       "id": "41",
-      "img": "DODbestiarium/images/loge.png",
+      "img": "/images/loge.png",
       "art": "Loge",
       "urstam": "Drakjord",
       "hemvist": "Grottor",
@@ -4626,7 +4626,7 @@
     },
     {
       "id": "42",
-      "img": "DODbestiarium/images/logedrake.png",
+      "img": "/images/logedrake.png",
       "art": "Logedrake",
       "urstam": "Drakjord",
       "hemvist": "Varierar",
@@ -4811,7 +4811,7 @@
     },
     {
       "id": "43",
-      "img": "DODbestiarium/images/lomed.png",
+      "img": "/images/lomed.png",
       "art": "Lomed",
       "urstam": "Humanjos",
       "hemvist": "Berg och skog",
@@ -4958,7 +4958,7 @@
     },
     {
       "id": "44",
-      "img": "DODbestiarium/images/lyktgubbe.png",
+      "img": "/images/lyktgubbe.png",
       "art": "Lyktgubbe",
       "urstam": "Sergurontjos",
       "hemvist": "Träsk och sumpmark",
@@ -5058,7 +5058,7 @@
     },
     {
       "id": "45",
-      "img": "DODbestiarium/images/manclid.png",
+      "img": "/images/manclid.png",
       "art": "Manclid",
       "urstam": "Vattnajol",
       "hemvist": "Grottsjöar",
@@ -5170,7 +5170,7 @@
     },
     {
       "id": "46",
-      "img": "DODbestiarium/images/mankora.png",
+      "img": "/images/mankora.png",
       "art": "Mankora",
       "urstam": "Forfaris",
       "hemvist": "Skog, slättland och kuperad terräng",
@@ -5270,7 +5270,7 @@
     },
     {
       "id": "47",
-      "img": "DODbestiarium/images/mara.png",
+      "img": "/images/mara.png",
       "art": "Mara",
       "urstam": "Sergurontjos",
       "hemvist": "Skog",
@@ -5362,7 +5362,7 @@
     },
     {
       "id": "48",
-      "img": "DODbestiarium/images/mastomant.png",
+      "img": "/images/mastomant.png",
       "art": "Mastomant",
       "urstam": "Forfaris",
       "hemvist": "Frusna ödemarker",
@@ -5441,7 +5441,7 @@
     },
     {
       "id": "49",
-      "img": "DODbestiarium/images/minox.png",
+      "img": "/images/minox.png",
       "art": "Minox",
       "urstam": "Humanjos",
       "hemvist": "Slätter och öppen kuperad terräng",
@@ -5577,7 +5577,7 @@
     },
     {
       "id": "50",
-      "img": "DODbestiarium/images/muspeljotn.png",
+      "img": "/images/muspeljotn.png",
       "art": "Muspeljotn",
       "urstam": "Bastjurs",
       "hemvist": "Berg, högland och grottor",
@@ -5712,7 +5712,7 @@
     },
     {
       "id": "51",
-      "img": "DODbestiarium/images/myling.png",
+      "img": "/images/myling.png",
       "art": "Myling",
       "urstam": "Sergurontjos",
       "hemvist": "Vattendrag, träsk och sumpmark",
@@ -5789,7 +5789,7 @@
     },
     {
       "id": "52",
-      "img": "DODbestiarium/images/nattulm.png",
+      "img": "/images/nattulm.png",
       "art": "Nattulm",
       "urstam": "Humanjos",
       "hemvist": "Grottor",
@@ -5884,7 +5884,7 @@
     },
     {
       "id": "53",
-      "img": "DODbestiarium/images/rugtanne.png",
+      "img": "/images/rugtanne.png",
       "art": "Rugtanne",
       "urstam": "Humanjos",
       "hemvist": "Varierar",
@@ -5971,7 +5971,7 @@
     },
     {
       "id": "54",
-      "img": "DODbestiarium/images/nymf.png",
+      "img": "/images/nymf.png",
       "art": "Nymf",
       "urstam": "Yggdrajol",
       "hemvist": "Skog",
@@ -6057,7 +6057,7 @@
     },
     {
       "id": "55",
-      "img": "DODbestiarium/images/rafner.png",
+      "img": "/images/rafner.png",
       "art": "Rafner",
       "urstam": "Sergurontjos",
       "hemvist": "Varierar",
@@ -6118,7 +6118,7 @@
     },
     {
       "id": "56",
-      "img": "DODbestiarium/images/rotvälta.png",
+      "img": "/images/rotvälta.png",
       "art": "Rotvälta",
       "urstam": "Yggdrajol",
       "hemvist": "Skog",
@@ -6184,7 +6184,7 @@
     },
     {
       "id": "57",
-      "img": "DODbestiarium/images/runstenstroll.png",
+      "img": "/images/runstenstroll.png",
       "art": "Runstenstroll",
       "urstam": "Bastjurs",
       "hemvist": "Berg, högland och grottor",
@@ -6291,7 +6291,7 @@
     },
     {
       "id": "58",
-      "img": "DODbestiarium/images/skelett.png",
+      "img": "/images/skelett.png",
       "art": "Skelett",
       "urstam": "Sergurontjos",
       "hemvist": "Varierar",
@@ -6398,7 +6398,7 @@
     },
     {
       "id": "59",
-      "img": "DODbestiarium/images/skjuld.png",
+      "img": "/images/skjuld.png",
       "art": "Skjuld",
       "urstam": "Sergurontjos",
       "hemvist": "Skog",
@@ -6514,7 +6514,7 @@
     },
     {
       "id": "60",
-      "img": "DODbestiarium/images/skogsjätte.png",
+      "img": "/images/skogsjätte.png",
       "art": "Skogsjätte",
       "urstam": "Bastjurs",
       "hemvist": "Skog",
@@ -6637,7 +6637,7 @@
     },
     {
       "id": "61",
-      "img": "DODbestiarium/images/skogsrå.png",
+      "img": "/images/skogsrå.png",
       "art": "Skogsrå",
       "urstam": "Yggdrajol",
       "hemvist": "Skog",
@@ -6784,7 +6784,7 @@
     },
     {
       "id": "62",
-      "img": "DODbestiarium/images/skogstroll.png",
+      "img": "/images/skogstroll.png",
       "art": "Skogstroll",
       "urstam": "Bastjurs",
       "hemvist": "Skog",
@@ -6916,7 +6916,7 @@
     },
     {
       "id": "63",
-      "img": "DODbestiarium/images/skuugadrake.png",
+      "img": "/images/skuugadrake.png",
       "art": "Skuugadrake",
       "urstam": "Drakfjord",
       "hemvist": "Skog",
@@ -7065,7 +7065,7 @@
     },
     {
       "id": "64",
-      "img": "DODbestiarium/images/snösvin.png",
+      "img": "/images/snösvin.png",
       "art": "Snösvin",
       "urstam": "Forfaris",
       "hemvist": "Frusna ödemarker",
@@ -7147,7 +7147,7 @@
     },
     {
       "id": "65",
-      "img": "DODbestiarium/images/stenhinje.png",
+      "img": "/images/stenhinje.png",
       "art": "Stenhinje",
       "urstam": "Bastjurs",
       "hemvist": "Varierar",
@@ -7250,7 +7250,7 @@
     },
     {
       "id": "66",
-      "img": "DODbestiarium/images/stentroll.png",
+      "img": "/images/stentroll.png",
       "art": "Stentroll",
       "urstam": "Bastjurs",
       "hemvist": "Berg, högland och grottor",
@@ -7369,7 +7369,7 @@
     },
     {
       "id": "67",
-      "img": "DODbestiarium/images/stormdrake.png",
+      "img": "/images/stormdrake.png",
       "art": "Stormdrake",
       "urstam": "Drakfjord",
       "hemvist": "Berg",
@@ -7510,7 +7510,7 @@
     },
     {
       "id": "68",
-      "img": "DODbestiarium/images/tornödla.png",
+      "img": "/images/tornödla.png",
       "art": "Tornödla",
       "urstam": "Drakfjord",
       "hemvist": "Berg och högland",
@@ -7600,7 +7600,7 @@
     },
     {
       "id": "69",
-      "img": "DODbestiarium/images/tunnelsvin.png",
+      "img": "/images/tunnelsvin.png",
       "art": "Tunnelsvin",
       "urstam": "Forfaris",
       "hemvist": "Grottor",
@@ -7682,7 +7682,7 @@
     },
     {
       "id": "70",
-      "img": "DODbestiarium/images/varg.png",
+      "img": "/images/varg.png",
       "art": "Varg",
       "urstam": "Forfaris",
       "hemvist": "Varierar",
@@ -7768,7 +7768,7 @@
     },
     {
       "id": "71",
-      "img": "DODbestiarium/images/ulvbest.png",
+      "img": "/images/ulvbest.png",
       "art": "Ulv",
       "urstam": "Forfaris",
       "hemvist": "Varierar",
@@ -7854,7 +7854,7 @@
     },
     {
       "id": "72",
-      "img": "DODbestiarium/images/ulvbest.png",
+      "img": "/images/ulvbest.png",
       "art": "Skoll",
       "urstam": "Forfaris",
       "hemvist": "Varierar",
@@ -7940,7 +7940,7 @@
     },
     {
       "id": "73",
-      "img": "DODbestiarium/images/garm.png",
+      "img": "/images/garm.png",
       "art": "Garm",
       "urstam": "Forfaris",
       "hemvist": "Varierar",
@@ -8026,7 +8026,7 @@
     },
     {
       "id": "74",
-      "img": "DODbestiarium/images/nattulm.png",
+      "img": "/images/nattulm.png",
       "art": "Manulv",
       "urstam": "Forfaris",
       "hemvist": "Varierar",
@@ -8128,7 +8128,7 @@
     },
     {
       "id": "75",
-      "img": "DODbestiarium/images/vätte.png",
+      "img": "/images/vätte.png",
       "art": "Vätte",
       "urstam": "Bastjurs",
       "hemvist": "Skog, berg och grottor",
@@ -8259,7 +8259,7 @@
     },
     {
       "id": "76",
-      "img": "DODbestiarium/images/yggdrase.png",
+      "img": "/images/yggdrase.png",
       "art": "Yggdrase",
       "urstam": "Yggdrajol",
       "hemvist": "Skog",
@@ -8324,7 +8324,7 @@
     },
     {
       "id": "77",
-      "img": "DODbestiarium/images/älva.png",
+      "img": "/images/älva.png",
       "art": "Älva",
       "urstam": "Sergurontjos",
       "hemvist": "Skog",
