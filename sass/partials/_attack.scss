@@ -12,6 +12,10 @@
   @media screen and (min-width: $tablet) {
     width: 33%;
   }
+
+  @media screen and (min-width: $desktop) {
+    width: 33%;
+  }
 }
 
 .attack_table {

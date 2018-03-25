@@ -28,4 +28,7 @@
   @media screen and (min-width: $tablet) {
     width: 45%;
   }
+  @media screen and (min-width: $desktop) {
+    width: 25%;
+  }
 }
