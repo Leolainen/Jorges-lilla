@@ -1,0 +1,77 @@
+.side-bar {
+  position: fixed;
+  background-color: $color-black;
+  top: 0;
+  right: 0;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  transition: .2s ease-out;
+  transform-origin: right;
+  transform: scaleX(0);
+
+  ul {
+    padding: $large;
+    list-style-type: none;
+  }
+
+  figcaption, figure, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    cursor: pointer;
+
+    &:hover {
+      background-color: lighten($color-black, 10%);
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 30%;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 15%;
+  }
+}
+
+.side-bar_active {
+  transform: scaleX(1);
+}
+
+.side-bar_list-container {
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  height: 95%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.side-bar_label {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.side-bar_button {
+  display: block;
+  z-index: 100;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  background: none;
+  border: none;
+  font-size: 2em;
+  color: $color-black;
+  transition: .1s ease-out;
+}
+
+.side-bar_button-active {
+  transform: rotateZ(180deg);
+  color: white;
+}

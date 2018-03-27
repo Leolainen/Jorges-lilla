@@ -7,10 +7,11 @@ const apiRequest = (function() {
                   .then(response => response.json())
                   .then(data => data.monster[id])
                   .catch(error => console.error(error));
+
     return fetcher;
   }
 
-  async function searchData(searchInput) {
+  async function searchName(searchInput) {
     let url = "database/db.json";
 
     let fetcher = await fetch(url)
@@ -24,9 +25,24 @@ const apiRequest = (function() {
     pageBuilder.buildSearchResult(fetcher);
   }
 
+  async function searchRace(searchInput) {
+    let url = "database/db.json";
+
+    let fetcher = await fetch(url)
+                  .then(response => response.json())
+                  .then(data => data.monster)
+                  .catch(error => console.error(error));
+
+    searchInput = searchInput.toUpperCase();
+    fetcher = fetcher.filter(mob => mob.urstam.toUpperCase().includes(searchInput));
+
+    return fetcher;
+  }
+
   return {
     getData: getData,
-    search: searchData
+    search: searchName,
+    searchRace: searchRace
   }
 
 })();
