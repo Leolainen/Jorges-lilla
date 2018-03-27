@@ -249,7 +249,10 @@
           }
         ],
       "förmågor": [
-        {}
+        {
+          "namn": "Inga förmågor",
+          "beskrivning": ""
+        }
       ],
       "beskrivning": "Bergsresen är en opålitlig varelse med ett väldigt instabilt psyke. Bergsresens humör skiftar ständigt mellan två lägen, rabiat och vänlig. Är bergsresen på ett vänligt humör går det t.o.m. att föra ett samtal med den och bergsresen verkar både tillmötesgående och fredlig. Vid dessa tillfällen kan man undra vart alla rykten om bergsresens oerhörda ilska kommer ifrån."
     },
@@ -2717,7 +2720,10 @@
           }
         ],
       "förmågor": [
-        {}
+        {
+          "namn": "Inga förmågor",
+          "beskrivning": ""
+        }
       ],
       "beskrivning": "Detta rovdjur lever på den stora stäppen där gräset är högt och det finns få buskar och träd att gömma sig bakom. De utnyttjar sin flygande förmåga genom att sväva högt upp i luften ovanför sina byten för att på så sätt urskilja det byte som verkar lättast att fånga. träning och ha minst fv 11 i färdigheten Djurträning. Eftersom gripen har stor förkärlek till glänsande föremål, speciellt guld, är det inte ovanligt att man kan finna både delar av rustningar och vapen i gripens jordhåla. Liksom många köttätande rovdjur flyr gripen om det tänkta bytet är starkare och uthålligare än gripen själv. När gripen har förlorat över 2/3 av sin totala kroppspoäng flyr den. Detta gäller även om någon kroppsdel har blivit kritiskt skadad."
     },
@@ -2833,7 +2839,7 @@
           "beskrivning": "Förmågan att se i totalt mörker även utan ljuskälla."
         }, "Smittbärare"
       ],
-      "beskrivning": "GRÅTROLLEN KAN VARA både större än människor men också mindre. Det största gråtrollet kan bli så lång som tre meter, det minsta en och en halv meter. Gråtrollen är parasiter och rövare som lever på det som andra lämnar efter sig eller som de själva kan roffa åt sig. Desto starkare ledare som stammen har desto större sannolikhet är det att gråtrollen lever på att plundra och skövla för att på så sätt få mat och tak över huvudet. Gråtrollen lever i grupper om tio till hundra individer i varje stam. En stam byter ledare hela tiden. Så fort en ledare visar tecken på svaghet utmanas han av ett annat gråtroll i gruppen som vill ta hans plats. Ett gråtroll som har misslyckats med att besegra ledaren men ändå överlevt stöts ut av stammen och får aldrig mer tillträde till den. Gråtrollen hatar mest av allt alver eftersom de ofta blivit besegrade och jagade av alver. När ett gråtroll ser en alv måste han slå ett PSY slag för att inte genast anfalla i blint raseri."
+      "beskrivning": "Gråtrollen kan vara både större än människor men också mindre. Det största gråtrollet kan bli så lång som tre meter, det minsta en och en halv meter. Gråtrollen är parasiter och rövare som lever på det som andra lämnar efter sig eller som de själva kan roffa åt sig. Desto starkare ledare som stammen har desto större sannolikhet är det att gråtrollen lever på att plundra och skövla för att på så sätt få mat och tak över huvudet. Gråtrollen lever i grupper om tio till hundra individer i varje stam. En stam byter ledare hela tiden. Så fort en ledare visar tecken på svaghet utmanas han av ett annat gråtroll i gruppen som vill ta hans plats. Ett gråtroll som har misslyckats med att besegra ledaren men ändå överlevt stöts ut av stammen och får aldrig mer tillträde till den. Gråtrollen hatar mest av allt alver eftersom de ofta blivit besegrade och jagade av alver. När ett gråtroll ser en alv måste han slå ett PSY slag för att inte genast anfalla i blint raseri."
     },
     {
       "id": "25",
@@ -2970,7 +2976,10 @@
         }
       ],
       "förmågor": [
-        {}
+        {
+          "namn": "Inga förmågor",
+          "beskrivning": ""
+        }
       ],
       "beskrivning": "Halvlängdsmännen trivs bäst i områden där jorden är tjock och bördig. De hatar berget eftersom det anses stå för död och ofruktsamhet. När en halvlängdsman dör begravs han alltid under ett tjockt lager av jord. Det är ett fredligt folk som sällan deltar i krig eller oroligheter. Istället för att konfrontera ett annalkande hot beger de sig hellre iväg och söker en ny boplats. Ofta bygger de sina byar på platser som är svåra att hitta eller ligger i en landsände som inte besöks speciellt ofta. Halvlängdsmännen har en speciell relation till alverna. Inte sällan väljer de att bo nära stora alvstäder eftersom de anser att alverna är det enda släkte som kan uppskatta deras vackra trädgårdar."
     },
@@ -3069,7 +3078,10 @@
           }
         ],
       "förmågor": [
-        {}
+        {
+          "namn": "Inga förmågor",
+          "beskrivning": ""
+        }
       ],
       "beskrivning": "Happjan ser ut som en kvinna med ugglevingar. Hon har stora ögon som glimmar med ett starkt vitt ljus när det är mörkt. Hon lever högt upp i träden i stora skafbon som hon tagit över och byggt ut. Happjan är en hermafrodit som sällan får ungar. Det kan gå mellan fem till tio år mellan de tillfällen då hon lägger sina tre till fyra ägg men endast en till två ungar brukar överleva. Happjan är en köttätare som jagar både fåglar och småvilt som lever på marken. Hennes favoritföda är unghjortar, kaniner, rävar och annat småvilt. När happjan är hungrig kan hon även anfalla människor. Happjan är extremt revirtänkande och kan bli mycket aggressiv om någon beträder hennes revir. Speciellt angreppslysten blir hon om någon upptäcker henne där hon sitter och ruvar i sitt bo upp i ett träd. I dessa fall brukar hon genast gå till attack under några rundor för att sedan försvinna om hotet är övermäktigt."
     },
@@ -4610,7 +4622,10 @@
         }
       ],
       "färdigheter": [
-          {}
+          {
+            "namn": "Inga förmågor",
+            "beskrivning": ""
+          }
         ],
       "förmågor": [
         {
@@ -5264,7 +5279,10 @@
           }
         ],
       "förmågor": [
-        {}
+        {
+          "namn": "Inga förmågor",
+          "beskrivning": ""
+        }
       ],
       "beskrivning": "Mankoran lever främst i de södra skogarna men det finns även en mindre variant uppe i norr. Söderns mankoror är storväxta och bär på en rödbrun kort päls medan den nordliga mankoran är mörkare i färgen samt bär något längre päls. Förutom storleken och pälsen är det dock samma varelse. Mankorans intelligens har gett den möjligheten att utveckla ett primitivt språk som den flitigt använder. Deras kropp ser ut som ett mellanting av ett kattdjur och ett hunddjur. Svansklubban är ett vapen som mankoran gärna använder när tillfälle ges. Svansen kan bli upp till två meter lång och på förtjockningen i dess ände sitter något som liknar en spikklubba. Mankoran äter uteslutande kött och jagar gärna stora byten och är mycket aggressiv när den är hungrig.  En flock jagar alltid tillsammans och befinner sig ständigt i rörelse. Språket ger mankorerna möjligheten att kommunicera med varandra under strid. Om en mankora fäller ett byte och flockledaren anser att risken för skador är alltför stor försöker flockledaren att greppa tag i det fällda bytet för att släpa det med sig. Under tiden som flockledaren släpar bort det fällda bytet anfaller de resterande mankorerna på nytt och gör allt i sin makt för att skydda sin flockledare. Först därefter drar sig de andra mankorerna ur striden."
     },
@@ -5435,7 +5453,10 @@
           }
         ],
       "förmågor": [
-        {}
+        {
+          "namn": "Inga förmågor",
+          "beskrivning": ""
+        }
       ],
       "beskrivning": "Mastomanten är en väldig varelse vars främsta vapen är de enorma betarna som skjuter ut ur munnen likt långa spjut. Betarna kan bli så långa som sex meter från tandroten till den sylvassa spetsen. Betarna används främst för att röja undan snön genom att skotta med betarna i sidled. Vissa mastomanter som tränas i strid använder de långa betarna som vapen. I vilt tillstånd flyr mastomanten hellre än slåss. Mankhöjden på en mastomant kan bli så hög som fem meter och den väldiga kroppshyddan kan krossa även mycket stora varelser. Dessa djur lever i stora hjordar om upp till hundra individer. Det är dock inte ovanligt att stöta på djur som kommit ifrån sin hjord och strövar ensamma. Mastomanten lever uteslutande i Jarngandskilen och i det s.k. Vildland. En mastomant som tvingas till strid använder de kraftiga betarna för att försöka oskadliggöra sin fiende. Den som anfaller en mastomant från sidan får +2 på att träffa. Den som anfaller framifrån där de kraftiga betarna skyddar kroppen får -3 på att träffa."
     },
@@ -5571,7 +5592,10 @@
           }
         ],
       "förmågor": [
-        {}
+        {
+          "namn": "Inga förmågor",
+          "beskrivning": ""
+        }
       ],
       "beskrivning": "Minoxen är en storväxt hominid som har en kraftigt utvecklad muskulatur. På sin högresta och hårbeväxta kropp sitter ett imponerande tjurhuvud med kraftiga tjocka horn som inte sällan används i striden. Minoxerna lever vanligtvis ute på de stora slätterna i de västra delarna av Trudvang. De är allätare som föredrar en blandad diet av gräs, as och villebråd som de fångar själva. Inte sällan äter minoxen individer även från sin egen ras men aldrig från samma hjord. Speciellt hjärtat är en eftertraktad munsbit eftersom de tror att detta organ äger övernaturliga krafter. Dessa bestar har inga fasta boplatser utan vandrar säsongvis till nya betes- och jaktmarker. De har ett primitivt utvecklat språk som är en blandning av den enklaste väströnan och brölande läten. Det är ovanligt att stöta på mindre än tio till tjugo individer. Minoxerna är generellt sätt inget krigiskt folk . Däremot är tjurarna i flocken mycket aggressiva och hämndlystna ifall någon beträder deras revir. Oftast slåss minoxerna med kraftiga järnskodda klubbor och sina horn. Minoxen kan attackera med \"Stånga\" i kombination med vanliga attacker och pareringar."
     },

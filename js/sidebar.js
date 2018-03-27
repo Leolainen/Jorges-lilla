@@ -1,20 +1,12 @@
 const sidebar = (function() {
 
-  let races = {
-    0: "drakfjord",
-    1: "bastjurs",
-    2: "vattnajol",
-    3: "yggdrajol",
-    4: "humanjos",
-    5: "forfaris",
-    6: "sergurontjos"
-  };
+  let races = ["drakfjord", "bastjurs", "vattnajol", "yggdrajol", "humanjos", "forfaris", "sergurontjos", "ingen", "okänd"];
 
   let raceList = document.getElementById("race-list");
 
   async function buildList() {
 
-    for (var i = 0; i < 7; i++) {
+    for (var i = 0; i < races.length; i++) {
       let currentMob = await apiRequest.searchRace(races[i]);
       let newLabel = document.createElement("h3");
       newLabel.setAttribute("class", "side-bar_label");
