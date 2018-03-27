@@ -7,7 +7,6 @@ searchBar.addEventListener("keypress", function() {
 });
 
 sideBarBtn.addEventListener("click", function() {
-  console.log("satan");
   sideBarBtn.classList.toggle("side-bar_button-active");
   sideBar.classList.toggle("side-bar_active");
 });

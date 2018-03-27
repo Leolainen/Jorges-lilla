@@ -22,7 +22,7 @@ const pageBuilder = (function() {
 
   function buildImg(imgSrc) {
     let img = document.getElementById("portrait");
-    img.setAttribute("src", "/DODbestiarium" + imgSrc);
+    img.setAttribute("src", "/Jorges-lilla" + imgSrc);
   }
 
 
