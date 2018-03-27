@@ -1,6 +1,6 @@
 const sidebar = (function() {
 
-  let races = ["drakfjord", "bastjurs", "vattnajol", "yggdrajol", "humanjos", "forfaris", "sergurontjos", "ingen", "okänd"];
+  let races = ["drakjord", "bastjurs", "vattnajol", "yggdrajol", "humanjos", "forfaris", "sergurontjos", "ingen", "okänd"];
 
   let raceList = document.getElementById("race-list");
 
