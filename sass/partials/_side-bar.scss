@@ -51,6 +51,10 @@
   height: 95%;
   width: 100%;
   overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 .side-bar_label {
@@ -68,6 +72,7 @@
   border: none;
   color: $color-black;
   transition: .1s ease-out;
+  transform: rotateZ(180deg);
 
   img {
     width: 40px;
@@ -76,6 +81,6 @@
 }
 
 .side-bar_button-active {
-  transform: rotateZ(180deg);
+  transform: rotateZ(0);
   color: white;
 }
