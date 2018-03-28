@@ -1,8 +1,8 @@
 @mixin box() {
-  //background-color: $color-white-transparent;
+  background-color: $color-white-transparent;
   padding: $medium;
   margin-bottom: $medium;
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 1.2rem;
   width: 100%;
 }
