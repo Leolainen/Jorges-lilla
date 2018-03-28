@@ -2,8 +2,8 @@ let searchBar = document.getElementById("search-bar");
 let sideBar = document.getElementById("side-bar");
 let sideBarBtn = document.getElementById("side-bar_button");
 
-searchBar.addEventListener("keypress", function() {
-  apiRequest.search(searchBar.value);
+searchBar.addEventListener("keyup", function() {
+  sidebar.buildList(searchBar.value);
 });
 
 sideBarBtn.addEventListener("click", function() {

@@ -6,6 +6,7 @@
   width: 80%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   color: white;
@@ -83,4 +84,9 @@
 .side-bar_button-active {
   transform: rotateZ(0);
   color: white;
+}
+
+.search-bar {
+  margin: $medium 0;
+
 }
