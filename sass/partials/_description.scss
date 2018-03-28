@@ -1,13 +1,14 @@
 .description_wrapper {
   @include box;
   text-align: center;
+  
 
   h3 {
     margin: $medium 0;
   }
 
   p {
-    @include box;
+    //@include box;
     text-align: justify;
   }
 
