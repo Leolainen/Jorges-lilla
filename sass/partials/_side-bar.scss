@@ -50,9 +50,10 @@
   justify-content: center;
   align-items: space-around;
   height: 80%;
-  width: 100%;
+  width: 90%;
   overflow-y: scroll;
 
+  // hide scrollbar
   &::-webkit-scrollbar {
     display: none;
   }
