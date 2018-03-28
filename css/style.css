@@ -397,7 +397,7 @@ body {
   background-color: #1a1a1a;
   top: 0;
   right: 0;
-  width: 80%;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -413,21 +413,14 @@ body {
 .side-bar ul {
   padding: 2rem;
   list-style-type: none;
-  width: 80%;
 }
 
-/* line 23, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
-.side-bar figcaption, .side-bar figure, .side-bar ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 28, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 25, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar li {
   cursor: pointer;
 }
 
-/* line 31, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 28, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar li:hover {
   background-color: #333333;
 }
@@ -446,33 +439,33 @@ body {
   }
 }
 
-/* line 45, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 42, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar_active {
   transform: scaleX(1);
 }
 
-/* line 49, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 46, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar_list-container {
   display: flex;
   justify-content: center;
   align-items: space-around;
-  height: 80%;
+  height: 70%;
   width: 90%;
   overflow-y: scroll;
 }
 
-/* line 58, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 55, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar_list-container::-webkit-scrollbar {
   display: none;
 }
 
-/* line 63, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 60, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar_label {
   text-decoration: underline;
   text-transform: uppercase;
 }
 
-/* line 68, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 65, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar_button {
   display: block;
   z-index: 100;
@@ -487,21 +480,21 @@ body {
   cursor: pointer;
 }
 
-/* line 81, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 78, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar_button img {
   width: 40px;
   height: 40px;
 }
 
-/* line 87, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 84, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar_button-active {
   transform: rotateZ(0);
   color: white;
 }
 
-/* line 92, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 89, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .search-bar {
-  margin: 6rem 0 2rem 0;
+  margin: 0 0 2rem 0;
 }
 
 /*# sourceMappingURL=../css/style.map */
