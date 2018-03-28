@@ -30,6 +30,10 @@ const sidebar = (function() {
           pageBuilder.buildHTML(mob.id);
           sideBarBtn.classList.toggle("side-bar_button-active");
           sideBar.classList.toggle("side-bar_active");
+          searchBar.value = "";
+          setTimeout(function() {
+            buildList();
+          }, 200);
         }
         raceList.appendChild(newLi);
       });

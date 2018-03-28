@@ -49,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: space-around;
-  height: 95%;
+  height: 80%;
   width: 100%;
   overflow-y: scroll;
 
@@ -74,6 +74,7 @@
   color: $color-black;
   transition: .1s ease-out;
   transform: rotateZ(180deg);
+  cursor: pointer;
 
   img {
     width: 40px;
@@ -87,6 +88,5 @@
 }
 
 .search-bar {
-  margin: $medium 0;
-
+  margin: $large*3 0 $large 0;
 }
