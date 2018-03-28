@@ -7,7 +7,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   color: white;
   transition: .2s ease-out;
@@ -17,6 +17,7 @@
   ul {
     padding: $large;
     list-style-type: none;
+    width: 80%;
   }
 
   figcaption, figure, ul {
