@@ -1,7 +1,6 @@
 .abilities_wrapper {
   @include box;
   text-align: center;
-
   h3 {
     margin: $medium 0;
   }
@@ -12,10 +11,11 @@
 }
 
 .ability {
-  //@include box;
   text-align: justify;
+  margin: $large;
 
   h3 {
     margin: $medium 0;
+    text-align: left;
   }
 }

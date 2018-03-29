@@ -33,7 +33,7 @@ const pageBuilder = (function() {
     let index = 0;
 
     for (let property in stats) {
-      if (index % 4 === 0) {
+      if (index % 2 === 0) {
         newRow = document.createElement("TR");
       }
 

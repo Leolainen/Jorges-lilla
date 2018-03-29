@@ -15,8 +15,8 @@
   transform: scaleX(0);
 
   ul {
-    padding: $large;
     list-style-type: none;
+    font-size: 1.2rem;
   }
 
   figcaption, figure, ul {
@@ -71,13 +71,17 @@
   background: none;
   border: none;
   color: $color-black;
-  transition: .1s ease-out;
+  transition: .2s ease-in-out;
   transform: rotateZ(180deg);
   cursor: pointer;
 
   img {
     width: 40px;
     height: 40px;
+  }
+
+  &:hover {
+    top: calc(2% - 2px);
   }
 }
 

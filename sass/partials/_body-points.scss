@@ -1,7 +1,8 @@
 .body_wrapper {
   @include box;
   text-align: center;
-
+  height: 100%;
+  
   b {
     display: inline-block;
     margin: $medium;
@@ -19,4 +20,14 @@
 .body_table {
   width: 100%;
   text-align: left;
+  text-align: center;
+  border-collapse: collapse;
+
+  tbody tr:nth-child(even) {
+    background-color: $color-black-transparent;
+  }
+
+  td {
+    padding: $small;
+  }
 }

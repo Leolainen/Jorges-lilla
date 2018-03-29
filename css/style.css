@@ -4,10 +4,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 0;
+  outline: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-/* line 10, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_reset.scss */
+/* line 16, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_reset.scss */
 body {
   height: 100vh;
   width: 100%;
@@ -17,6 +23,17 @@ body {
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
+}
+
+/* line 29, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_reset.scss */
+img, button {
+  outline: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_wrapper.scss */
@@ -108,19 +125,18 @@ body {
 @media screen and (min-width: 700px) {
   /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
   .stats_wrapper {
-    width: 49.5%;
+    width: 30%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
   .stats_wrapper {
-    width: 33%;
-    height: 50%;
+    width: 20%;
   }
 }
 
-/* line 25, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
+/* line 24, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
 .stats_table td {
   padding: 4px;
 }
@@ -160,14 +176,14 @@ body {
 @media screen and (min-width: 700px) {
   /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_basic-info.scss */
   .basic-info_wrapper {
-    width: 49.5%;
+    width: 40%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_basic-info.scss */
   .basic-info_wrapper {
-    width: 33%;
+    width: 25%;
   }
 }
 
@@ -180,9 +196,10 @@ body {
   width: 100%;
   box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
   text-align: center;
+  height: 100%;
 }
 
-/* line 5, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_body-points.scss */
+/* line 6, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_body-points.scss */
 .body_wrapper b {
   display: inline-block;
   margin: 1rem;
@@ -202,10 +219,22 @@ body {
   }
 }
 
-/* line 19, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_body-points.scss */
+/* line 20, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_body-points.scss */
 .body_table {
   width: 100%;
   text-align: left;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+/* line 26, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_body-points.scss */
+.body_table tbody tr:nth-child(even) {
+  background-color: rgba(26, 26, 26, 0.3);
+}
+
+/* line 30, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_body-points.scss */
+.body_table td {
+  padding: 0.5rem;
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_attack.scss */
@@ -287,6 +316,17 @@ body {
 .skills_table {
   width: 100%;
   text-align: justify;
+  border-collapse: collapse;
+}
+
+/* line 23, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_skills.scss */
+.skills_table tbody tr:nth-child(even) {
+  background-color: rgba(26, 26, 26, 0.3);
+}
+
+/* line 27, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_skills.scss */
+.skills_table td {
+  padding: 0.5rem;
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_abilities.scss */
@@ -300,7 +340,7 @@ body {
   text-align: center;
 }
 
-/* line 5, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_abilities.scss */
+/* line 4, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_abilities.scss */
 .abilities_wrapper h3 {
   margin: 1rem 0;
 }
@@ -312,14 +352,16 @@ body {
   }
 }
 
-/* line 14, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_abilities.scss */
+/* line 13, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_abilities.scss */
 .ability {
   text-align: justify;
+  margin: 2rem;
 }
 
-/* line 18, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_abilities.scss */
+/* line 17, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_abilities.scss */
 .ability h3 {
   margin: 1rem 0;
+  text-align: left;
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_description.scss */
@@ -340,6 +382,7 @@ body {
 
 /* line 10, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_description.scss */
 .description_wrapper p {
+  margin: 2rem;
   text-align: justify;
 }
 
@@ -348,47 +391,6 @@ body {
   .description_wrapper {
     width: 49.5%;
   }
-}
-
-/* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_search.scss */
-.search_wrapper {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 2rem;
-}
-
-/* line 11, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_search.scss */
-.search_wrapper input {
-  height: 2rem;
-}
-
-/* line 19, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_search.scss */
-.result-bar {
-  position: absolute;
-  display: block;
-  position: relative;
-  background: white;
-}
-
-/* line 25, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_search.scss */
-.result-bar ul {
-  width: 100%;
-  max-height: 30vh;
-  overflow-y: scroll;
-}
-
-/* line 33, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_search.scss */
-.result-bar ul li:hover {
-  cursor: pointer;
-}
-
-/* line 39, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_search.scss */
-.hide-result {
-  display: none;
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
@@ -411,8 +413,8 @@ body {
 
 /* line 17, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar ul {
-  padding: 2rem;
   list-style-type: none;
+  font-size: 1.2rem;
 }
 
 /* line 25, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
@@ -475,7 +477,7 @@ body {
   background: none;
   border: none;
   color: #1a1a1a;
-  transition: .1s ease-out;
+  transition: .2s ease-in-out;
   transform: rotateZ(180deg);
   cursor: pointer;
 }
@@ -486,13 +488,18 @@ body {
   height: 40px;
 }
 
-/* line 84, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 83, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+.side-bar_button:hover {
+  top: calc(2% - 2px);
+}
+
+/* line 88, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .side-bar_button-active {
   transform: rotateZ(0);
   color: white;
 }
 
-/* line 89, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
+/* line 93, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_side-bar.scss */
 .search-bar {
   margin: 0 0 2rem 0;
 }
