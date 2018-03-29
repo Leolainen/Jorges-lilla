@@ -2,7 +2,7 @@
   @include box;
   text-align: center;
   height: 100%;
-  
+
   b {
     display: inline-block;
     margin: $medium;
@@ -24,7 +24,7 @@
   border-collapse: collapse;
 
   tbody tr:nth-child(even) {
-    background-color: $color-black-transparent;
+    background-color: lighten($color-black-transparent, 30%);
   }
 
   td {

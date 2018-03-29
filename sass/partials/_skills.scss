@@ -3,7 +3,7 @@
 
   h3 {
     text-align: center;
-    margin-bottom: $small;
+    margin-bottom: $large;
   }
 
   @media screen and (min-width: $tablet) {
@@ -20,8 +20,12 @@
   text-align: justify;
   border-collapse: collapse;
 
+  tbody tr:first-child {
+    padding: $large 0;
+  }
+
   tbody tr:nth-child(even) {
-    background-color: $color-black-transparent;
+    background-color: lighten($color-black-transparent, 30%);
   }
 
   td {

@@ -36,6 +36,11 @@ img, button {
   user-select: none;
 }
 
+/* line 39, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_reset.scss */
+h3 {
+  margin-bottom: 2rem;
+}
+
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_wrapper.scss */
 .wrapper {
   width: 90%;
@@ -49,6 +54,7 @@ img, button {
 .wrapper h1 {
   text-align: center;
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -229,7 +235,7 @@ img, button {
 
 /* line 26, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_body-points.scss */
 .body_table tbody tr:nth-child(even) {
-  background-color: rgba(26, 26, 26, 0.3);
+  background-color: rgba(102, 102, 102, 0.3);
 }
 
 /* line 30, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_body-points.scss */
@@ -295,7 +301,7 @@ img, button {
 /* line 4, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_skills.scss */
 .skills_wrapper h3 {
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 700px) {
@@ -320,11 +326,16 @@ img, button {
 }
 
 /* line 23, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_skills.scss */
-.skills_table tbody tr:nth-child(even) {
-  background-color: rgba(26, 26, 26, 0.3);
+.skills_table tbody tr:first-child {
+  padding: 2rem 0;
 }
 
 /* line 27, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_skills.scss */
+.skills_table tbody tr:nth-child(even) {
+  background-color: rgba(102, 102, 102, 0.3);
+}
+
+/* line 31, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_skills.scss */
 .skills_table td {
   padding: 0.5rem;
 }
