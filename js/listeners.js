@@ -9,4 +9,11 @@ searchBar.addEventListener("keyup", function() {
 sideBarBtn.addEventListener("click", function() {
   sideBarBtn.classList.toggle("side-bar_button-active");
   sideBar.classList.toggle("side-bar_active");
+  if (sideBar.classList.contains("side-bar_active")) {
+    searchBar.focus();
+  }
+  searchBar.value = "";
+  setTimeout(function() {
+    sidebar.buildList("");
+  }, 200);
 });
