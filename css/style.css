@@ -48,9 +48,10 @@ h3 {
   flex-flow: column wrap;
   justify-content: center;
   padding: 2rem 0;
+  margin-top: 30vh;
 }
 
-/* line 8, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_wrapper.scss */
+/* line 9, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_wrapper.scss */
 .wrapper h1 {
   text-align: center;
   width: 100%;
@@ -72,6 +73,22 @@ h3 {
     justify-content: space-around;
     align-items: space-between;
   }
+}
+
+/* line 27, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_wrapper.scss */
+.background_portrait {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 60vh;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150% 150%;
+  -webkit-filter: blur(2px) grayscale(100%);
+  filter: blur(2px) grayscale(100%);
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_portrait.scss */
@@ -109,7 +126,7 @@ h3 {
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
-.stats_wrapper {
+.stats_basic_wrapper {
   background-color: rgba(255, 255, 255, 0.3);
   padding: 1rem;
   margin-bottom: 1rem;
@@ -118,33 +135,58 @@ h3 {
   box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
   text-align: center;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-/* line 8, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
-.stats_wrapper h3 {
-  display: inline-block;
+  flex-flow: column;
+  align-items: center;
   width: 100%;
 }
 
 @media screen and (min-width: 700px) {
   /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
-  .stats_wrapper {
-    width: 30%;
+  .stats_basic_wrapper {
+    width: 50%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
-  .stats_wrapper {
-    width: 20%;
+  .stats_basic_wrapper {
+    flex-flow: row wrap;
+    justify-content: space-between;
   }
 }
 
-/* line 24, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
-.stats_table td {
-  padding: 4px;
+/* line 20, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
+.stats_wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 20, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
+  .stats_wrapper {
+    margin: 0;
+  }
+}
+
+/* line 34, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
+.basic_wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 34, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
+  .basic_wrapper {
+    margin: 0;
+  }
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_basic-info.scss */

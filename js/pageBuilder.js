@@ -4,6 +4,7 @@ const pageBuilder = (function() {
   let monsterName = document.getElementById("monster_name");
   let description = document.getElementById("description");
 
+
   async function buildHTML(id) {
     let data = await apiRequest.getData(id);
 
@@ -21,8 +22,11 @@ const pageBuilder = (function() {
 
 
   function buildImg(imgSrc) {
+    let backgroundPortrait = document.getElementById("background_portrait");
     let img = document.getElementById("portrait");
-    img.setAttribute("src", "/Jorges-lilla" + imgSrc);
+    //img.setAttribute("src", "/Jorges-lilla" + imgSrc);
+    img.setAttribute("src", imgSrc);
+    backgroundPortrait.style.backgroundImage = 'url('+imgSrc+')';
   }
 
 
