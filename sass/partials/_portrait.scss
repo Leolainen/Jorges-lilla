@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   box-shadow: 2px 2px 4px $color-black-transparent;
+  padding: $small;
 
   @media screen and (min-width: $tablet) {
     display: flex;
@@ -34,7 +35,7 @@
   background: white;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 150% 150%;
+  background-size: 125% 100%;
   -webkit-filter: blur(2px) grayscale(100%);
   filter: blur(2px) grayscale(100%);
 }

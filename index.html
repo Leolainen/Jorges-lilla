@@ -11,7 +11,15 @@
   </head>
   <body>
 
-    <button type="button" id="side-bar_button" class="side-bar_button"><img src="icons/arrow.png" alt="open menu"></button>
+
+    <button type="button" id="side-bar_button" class="side-bar_button"> <!--       <img src="icons/arrow.png" alt="open menu">-->
+      <svg class="icon icon-play3"><use xlink:href="#icon-play3"></use>
+        <symbol id="icon-play3" viewBox="0 0 32 32">
+        <title>play3</title>
+        <path d="M6 4l20 12-20 12z"></path>
+        </symbol>
+      </svg>
+    </button>
 
     <aside class="side-bar" id="side-bar">
       <input type="text" placeholder="Filtrera efter art" class="search-bar" id="search-bar">
