@@ -75,30 +75,14 @@ h3 {
   }
 }
 
-/* line 27, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_wrapper.scss */
-.background_portrait {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 60vh;
-  background: white;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 150% 150%;
-  -webkit-filter: blur(2px) grayscale(100%);
-  filter: blur(2px) grayscale(100%);
-}
-
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_portrait.scss */
 .portrait_wrapper {
   margin-bottom: 1rem;
-  border-radius: 8px;
   background-color: white;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.3);
 }
 
 @media screen and (min-width: 700px) {
@@ -123,6 +107,22 @@ h3 {
 .portrait {
   width: 100%;
   height: 100%;
+}
+
+/* line 27, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_portrait.scss */
+.background_portrait {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 60vh;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150% 150%;
+  -webkit-filter: blur(2px) grayscale(100%);
+  filter: blur(2px) grayscale(100%);
 }
 
 /* line 1, C:/Users/Leo/Desktop/Projekt/Github/Jorges-lilla/sass/partials/_stats.scss */
