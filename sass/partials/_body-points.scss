@@ -1,7 +1,5 @@
-.body_wrapper {
-  @include box;
+.body {
   text-align: center;
-  height: 100%;
 
   b {
     display: inline-block;
@@ -18,10 +16,8 @@
 }
 
 .body_table {
-  width: 100%;
-  text-align: left;
-  text-align: center;
   border-collapse: collapse;
+  margin: 0 auto;
 
   tbody tr:nth-child(even) {
     background-color: lighten($color-black-transparent, 30%);

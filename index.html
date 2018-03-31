@@ -38,9 +38,10 @@
       <h1 id="monster_name"></h1>
 
 
-      <div class="stats_basic_wrapper">
-        <div class="stats_wrapper">
-          <h3>Grundegenskaper</h3>
+        <div class="wrapper_content stats">
+          <div class="wrapper_header">
+            <h3>Grundegenskaper</h3>
+          </div>
           <table class="stats_table">
             <thead>
             </thead>
@@ -48,8 +49,11 @@
             </tbody>
           </table>
         </div>
-        <div class="basic_wrapper">
-          <h3>Grundläggande info</h3>
+
+        <div class="wrapper_content basic-info">
+          <div class="wrapper_header">
+            <h3>Grundläggande info</h3>
+          </div>
           <table>
             <tr>
               <th>Urstam:</th>
@@ -93,10 +97,11 @@
             </tr>
           </table>
         </div>
-      </div>
 
-      <div class="body_wrapper">
-        <h3>Kroppspoäng</h3>
+      <div class="wrapper_content body">
+        <div class="wrapper_header">
+          <h3>Kroppspoäng</h3>
+        </div>
         <b>TKP-sys: <span id="tkp-sys"></span> </b> <b>TKP: <span id="tkp"></span> </b>
         <table class="body_table">
           <thead>
@@ -113,7 +118,9 @@
       </div>
 
       <div class="attack_wrapper">
-        <h3>Strid</h3>
+        <div class="wrapper_header">
+          <h3>Strid</h3>
+        </div>
         <table class="attack_table">
           <thead>
             <tr>
@@ -127,7 +134,9 @@
       </div>
 
       <div class="skills_wrapper">
-        <h3>Färdigheter</h3>
+        <div class="wrapper_header">
+          <h3>Färdigheter</h3>
+        </div>
         <table class="skills_table">
           <thead>
             <tr>
@@ -142,18 +151,23 @@
       </div>
 
       <div class="abilities_wrapper">
-        <h3>Förmågor</h3>
+        <div class="wrapper_header">
+          <h3>Förmågor</h3>
+        </div>
         <div id="abilities_wrapper">
 
         </div>
       </div>
 
       <div class="description_wrapper">
-        <h3>Beskrivning</h3>
+        <div class="wrapper_header">
+          <h3>Beskrivning</h3>
+        </div>
         <p id="description"></p>
       </div>
 
     </div>
+  </div>
 
 
     <script src="database/db.json"></script>

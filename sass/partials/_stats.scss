@@ -1,11 +1,9 @@
-.stats_basic_wrapper {
-  @include box;
+.stats {
   text-align: center;
   display: flex;
   flex-flow: column;
-  align-items: center;
-
   width: 100%;
+
 
   @media screen and (min-width: $tablet) {
     width: 50%;
@@ -17,29 +15,6 @@
   }
 }
 
-.stats_wrapper {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.stats_table {
 
-  margin-bottom: $large;
-
-  @media screen and (min-width: $desktop) {
-    margin: 0;
-  }
-}
-
-.basic_wrapper {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: $large;
-
-  @media screen and (min-width: $desktop) {
-    margin: 0;
-  }
 }

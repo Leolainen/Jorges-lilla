@@ -23,3 +23,16 @@
     align-items: space-between;
   }
 }
+
+.wrapper_content {
+  @include box();
+}
+
+.wrapper_header {
+  text-align: center;
+  width: 100%;
+  background-color: $color-black-transparent;
+  margin: 0;
+  margin-bottom: $small;
+  padding: 1rem;
+}
