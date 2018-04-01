@@ -3,6 +3,7 @@
   p {
     margin: $large auto;
     text-align: justify;
+    width: 80%;
 
     @media screen and (min-width: $tablet) {
       width: 60%;
