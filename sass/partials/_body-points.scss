@@ -7,17 +7,23 @@
   }
 
   @media screen and (min-width: $tablet) {
-    width: 49.5%;
+    width: 49%;
+    //height: 410px;
   }
 
   @media screen and (min-width: $desktop) {
     width: 33%;
+    height: 100%;
   }
 }
 
 .body_table {
   border-collapse: collapse;
   margin: 0 auto;
+
+  thead {
+    border-bottom: 1px solid $color-black-transparent;
+  }
 
   tbody tr:nth-child(even) {
     background-color: lighten($color-black-transparent, 30%);

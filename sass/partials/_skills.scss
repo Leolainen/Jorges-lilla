@@ -1,24 +1,25 @@
-.skills_wrapper {
-  @include box;
-
-  h3 {
-    text-align: center;
-    margin-bottom: $large;
-  }
+.skills {
 
   @media screen and (min-width: $tablet) {
-    width: 66%;
+    width: 54%;
   }
 
   @media screen and (min-width: $desktop) {
-    width: 33%;
+    width: 49.5%;
+    height: 100%;
   }
 }
 
 .skills_table {
-  width: 100%;
-  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
   border-collapse: collapse;
+
+  thead {
+    text-align: center;
+    border-bottom: 1px solid $color-black-transparent;
+  }
 
   tbody tr:first-child {
     padding: $large 0;
@@ -30,5 +31,9 @@
 
   td {
     padding: $small;
+  }
+
+  td:nth-child(even) {
+    border-left: 1px solid $color-black-transparent;
   }
 }

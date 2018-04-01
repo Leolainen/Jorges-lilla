@@ -6,11 +6,6 @@
   padding: 2rem 0;
   margin-top: 30vh;
 
-  h1 {
-    text-align: center;
-    width: 100%;
-    margin-bottom: $large;
-  }
 
   @media screen and (min-width: $tablet) {
     flex-flow: row wrap;
@@ -19,8 +14,6 @@
   }
 
   @media screen and (min-width: $desktop) {
-    justify-content: space-around;
-    align-items: space-between;
   }
 }
 
@@ -35,4 +28,28 @@
   margin: 0;
   margin-bottom: $small;
   padding: 1rem;
+}
+
+
+.monster_name {
+  text-align: center;
+  width: 100%;
+  margin-bottom: $large;
+
+  @media screen and (min-width: $tablet) {
+    position: relative;
+    top: $large*2;
+    left: $large;
+    width: 50%;
+    align-self: center;
+    text-align: left;
+    justify-content: flex-start;
+    text-shadow: 0px 0px 10px $color-white;
+  }
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+  }
 }

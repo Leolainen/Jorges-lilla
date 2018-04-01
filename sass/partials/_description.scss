@@ -1,18 +1,15 @@
-.description_wrapper {
-  @include box;
-  text-align: center;
-
-
-  h3 {
-    margin: $medium 0;
-  }
+.description {
 
   p {
-    margin: $large;
+    margin: $large auto;
     text-align: justify;
+
+    @media screen and (min-width: $tablet) {
+      width: 60%;
+    }
   }
 
   @media screen and (min-width: $desktop) {
-    width: 49.5%;
+    width: 100%;
   }
 }

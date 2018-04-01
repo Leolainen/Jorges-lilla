@@ -31,6 +31,12 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   letter-spacing: 1px; }
+  @media screen and (min-width: 700px) {
+    body {
+      font-size: 1.1rem; } }
+  @media screen and (min-width: 1200px) {
+    body {
+      font-size: 1.2rem; } }
 
 img, button {
   outline: none;
@@ -55,10 +61,6 @@ img, button {
   justify-content: center;
   padding: 2rem 0;
   margin-top: 30vh; }
-  .wrapper h1 {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 2rem; }
   @media screen and (min-width: 700px) {
     .wrapper {
       -webkit-box-orient: horizontal;
@@ -71,21 +73,14 @@ img, button {
       -webkit-box-align: space-between;
       -ms-flex-align: space-between;
       align-items: space-between; } }
-  @media screen and (min-width: 1200px) {
-    .wrapper {
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      -webkit-box-align: space-between;
-      -ms-flex-align: space-between;
-      align-items: space-between; } }
 
 .wrapper_content {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   width: 100%;
-  -webkit-box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
+  -webkit-box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.4);
+  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.4);
   border-top: 2px solid #e6e6e6; }
   @media screen and (min-width: 1200px) {
     .wrapper_content {
@@ -94,10 +89,33 @@ img, button {
 .wrapper_header {
   text-align: center;
   width: 100%;
-  background-color: rgba(26, 26, 26, 0.3);
+  background-color: rgba(26, 26, 26, 0.4);
   margin: 0;
   margin-bottom: 0.5rem;
   padding: 1rem; }
+
+.monster_name {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 700px) {
+    .monster_name {
+      position: relative;
+      top: 4rem;
+      left: 2rem;
+      width: 50%;
+      -ms-flex-item-align: center;
+      align-self: center;
+      text-align: left;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      text-shadow: 0px 0px 10px #e6e6e6; } }
+  @media screen and (min-width: 1200px) {
+    .monster_name {
+      position: absolute;
+      left: 40%;
+      top: 50%; } }
 
 .portrait_wrapper {
   margin-bottom: 1rem;
@@ -105,8 +123,8 @@ img, button {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  -webkit-box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.3);
-  box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.3);
+  -webkit-box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.4);
+  box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.4);
   padding: 0.5rem; }
   @media screen and (min-width: 700px) {
     .portrait_wrapper {
@@ -137,32 +155,56 @@ img, button {
   background: white;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 125% 100%;
+  background-size: 100%;
   -webkit-filter: blur(2px) grayscale(100%);
   filter: blur(2px) grayscale(100%); }
 
 .stats {
-  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-flow: column;
-  flex-flow: column;
-  width: 100%; }
+  flex-flow: column; }
   @media screen and (min-width: 700px) {
     .stats {
-      width: 50%; } }
+      height: 20%;
+      position: relative; } }
   @media screen and (min-width: 1200px) {
     .stats {
+      width: 66%;
+      -ms-flex-item-align: end;
+      align-self: flex-end; } }
+
+.stats_table {
+  margin: 0 auto;
+  text-transform: capitalize;
+  text-align: center; }
+  @media screen and (max-width: 700px) {
+    .stats_table * {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-      -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-      justify-content: space-between; } }
+      flex-flow: row wrap; }
+    .stats_table tr {
+      margin: 0 auto;
+      width: 100%; }
+    .stats_table td {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+      flex-flow: column wrap;
+      width: 50%; } }
+  @media screen and (min-width: 700px) {
+    .stats_table {
+      width: 90%; } }
 
 .basic-info {
   display: -webkit-box;
@@ -177,12 +219,15 @@ img, button {
     text-align: center; }
     .basic-info table td {
       width: 50%; }
+    .basic-info table th {
+      padding-top: 0.5rem; }
   @media screen and (min-width: 700px) {
     .basic-info {
-      width: 40%; } }
+      width: 49%;
+      height: 100%; } }
   @media screen and (min-width: 1200px) {
     .basic-info {
-      width: 25%; } }
+      width: 33%; } }
 
 .body {
   text-align: center; }
@@ -191,134 +236,105 @@ img, button {
     margin: 1rem; }
   @media screen and (min-width: 700px) {
     .body {
-      width: 49.5%; } }
+      width: 49%; } }
   @media screen and (min-width: 1200px) {
     .body {
-      width: 33%; } }
+      width: 33%;
+      height: 100%; } }
 
 .body_table {
   border-collapse: collapse;
   margin: 0 auto; }
+  .body_table thead {
+    border-bottom: 1px solid rgba(26, 26, 26, 0.4); }
   .body_table tbody tr:nth-child(even) {
-    background-color: rgba(102, 102, 102, 0.3); }
+    background-color: rgba(102, 102, 102, 0.4); }
   .body_table td {
     padding: 0.5rem; }
 
-.attack_wrapper {
-  background-color: rgba(255, 255, 255, 0.3);
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  width: 100%;
-  -webkit-box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  border-top: 2px solid #e6e6e6;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  @media screen and (min-width: 1200px) {
-    .attack_wrapper {
-      font-size: 1.2rem; } }
-  .attack_wrapper h3 {
-    width: 100%; }
-  @media screen and (min-width: 700px) {
-    .attack_wrapper {
-      width: 33%;
-      height: 30%; } }
-  @media screen and (min-width: 1200px) {
-    .attack_wrapper {
-      width: 33%; } }
+@media screen and (min-width: 700px) {
+  .attack {
+    width: 45%;
+    height: 30%;
+    position: relative; } }
+
+@media screen and (min-width: 1200px) {
+  .attack {
+    width: 33%;
+    height: 100%; } }
 
 .attack_table {
-  width: 100%;
-  text-align: center; }
-  .attack_table td {
-    width: 50%; }
-
-.skills_wrapper {
-  background-color: rgba(255, 255, 255, 0.3);
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  width: 100%;
-  -webkit-box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  border-top: 2px solid #e6e6e6; }
-  @media screen and (min-width: 1200px) {
-    .skills_wrapper {
-      font-size: 1.2rem; } }
-  .skills_wrapper h3 {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  border-collapse: collapse; }
+  .attack_table thead {
     text-align: center;
-    margin-bottom: 2rem; }
-  @media screen and (min-width: 700px) {
-    .skills_wrapper {
-      width: 66%; } }
-  @media screen and (min-width: 1200px) {
-    .skills_wrapper {
-      width: 33%; } }
+    border-bottom: 1px solid rgba(26, 26, 26, 0.4); }
+  .attack_table tbody tr:first-child {
+    padding: 2rem 0; }
+  .attack_table tbody tr:nth-child(even) {
+    background-color: rgba(102, 102, 102, 0.4); }
+  .attack_table td {
+    padding: 0.5rem; }
+  .attack_table td:nth-child(even) {
+    border-left: 1px solid rgba(26, 26, 26, 0.4); }
+
+@media screen and (min-width: 700px) {
+  .skills {
+    width: 54%; } }
+
+@media screen and (min-width: 1200px) {
+  .skills {
+    width: 49.5%;
+    height: 100%; } }
 
 .skills_table {
-  width: 100%;
-  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
   border-collapse: collapse; }
+  .skills_table thead {
+    text-align: center;
+    border-bottom: 1px solid rgba(26, 26, 26, 0.4); }
   .skills_table tbody tr:first-child {
     padding: 2rem 0; }
   .skills_table tbody tr:nth-child(even) {
-    background-color: rgba(102, 102, 102, 0.3); }
+    background-color: rgba(102, 102, 102, 0.4); }
   .skills_table td {
     padding: 0.5rem; }
+  .skills_table td:nth-child(even) {
+    border-left: 1px solid rgba(26, 26, 26, 0.4); }
 
-.abilities_wrapper {
-  background-color: rgba(255, 255, 255, 0.3);
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  width: 100%;
-  -webkit-box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  border-top: 2px solid #e6e6e6;
-  text-align: center; }
-  @media screen and (min-width: 1200px) {
-    .abilities_wrapper {
-      font-size: 1.2rem; } }
-  .abilities_wrapper h3 {
-    margin: 1rem 0; }
-  @media screen and (min-width: 1200px) {
-    .abilities_wrapper {
-      width: 49.5%; } }
+@media screen and (min-width: 1200px) {
+  .abilities {
+    width: 49.5%; } }
+
+@media screen and (min-width: 1200px) {
+  .abilities {
+    width: 49.5%; } }
 
 .ability {
   text-align: justify;
-  margin: 2rem; }
+  margin: 2rem auto; }
   .ability h3 {
-    margin: 1rem 0;
-    text-align: left; }
+    margin-top: 1rem;
+    text-align: left;
+    text-decoration: underline; }
+  @media screen and (min-width: 700px) {
+    .ability {
+      width: 60%; } }
 
-.description_wrapper {
-  background-color: rgba(255, 255, 255, 0.3);
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  width: 100%;
-  -webkit-box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.3);
-  border-top: 2px solid #e6e6e6;
-  text-align: center; }
-  @media screen and (min-width: 1200px) {
-    .description_wrapper {
-      font-size: 1.2rem; } }
-  .description_wrapper h3 {
-    margin: 1rem 0; }
-  .description_wrapper p {
-    margin: 2rem;
-    text-align: justify; }
-  @media screen and (min-width: 1200px) {
-    .description_wrapper {
-      width: 49.5%; } }
+.description p {
+  margin: 2rem auto;
+  text-align: justify; }
+  @media screen and (min-width: 700px) {
+    .description p {
+      width: 60%; } }
+
+@media screen and (min-width: 1200px) {
+  .description {
+    width: 100%; } }
 
 .side-bar {
   position: fixed;
@@ -349,7 +365,8 @@ img, button {
   transform-origin: right;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
-  transform: scaleX(0); }
+  transform: scaleX(0);
+  z-index: 50; }
   .side-bar h3 {
     margin: 0; }
   .side-bar ul {

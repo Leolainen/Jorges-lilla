@@ -12,13 +12,19 @@
 
     tr:nth-child(even) {
     }
+
+    th {
+      padding-top: $small;
+    }
   }
 
   @media screen and (min-width: $tablet) {
-    width: 40%;
+    width: 49%;
+    height: 100%;
   }
 
   @media screen and (min-width: $desktop) {
-    width: 25%;
+    width: 33%;
+    //align-self: flex-end;
   }
 }
