@@ -119,7 +119,7 @@ img, button {
     .monster_name {
       position: absolute;
       left: 40%;
-      top: 50%; } }
+      top: 35%; } }
 
 .portrait_wrapper {
   margin-bottom: 1rem;
