@@ -24,10 +24,10 @@ const pageBuilder = (function() {
   function buildImg(imgSrc) {
     let backgroundPortrait = document.getElementById("background_portrait");
     let img = document.getElementById("portrait");
-    //img.setAttribute("src", "/Jorges-lilla" + imgSrc);
-    img.setAttribute("src", imgSrc);
-    //backgroundPortrait.style.backgroundImage = 'url('+imgSrc+')';
-    backgroundPortrait.style.backgroundImage = 'url('+ "../"+imgSrc+')';
+    img.setAttribute("src", "/Jorges-lilla" + imgSrc);
+    //img.setAttribute("src", imgSrc);
+    backgroundPortrait.style.backgroundImage = 'url("/Jorges-lilla"' + imgSrc + ')';
+    //backgroundPortrait.style.backgroundImage = 'url('+ "../"+imgSrc+')';
   }
 
 
