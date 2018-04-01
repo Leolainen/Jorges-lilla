@@ -2400,7 +2400,7 @@
       "id": "21",
       "img": "/images/frostdrake.PNG",
       "art": "Frostdrake",
-      "urstam": "Drakfjord",
+      "urstam": "Drakjord",
       "hemvist": "Frusna ödemarker",
       "vanlighet": "Mycket sällsynt",
       "grundegenskaper": {
@@ -2636,7 +2636,7 @@
       "id": "23",
       "img": "/images/grip.PNG",
       "art": "Grip",
-      "urstam": "Drakfjord",
+      "urstam": "Drakjord",
       "hemvist": "Slätter och öppen kuperad terräng",
       "vanlighet": "Ovanlig",
       "grundegenskaper": {
@@ -2837,7 +2837,15 @@
         {
           "namn": "Mörkersyn",
           "beskrivning": "Förmågan att se i totalt mörker även utan ljuskälla."
-        }, "Smittbärare"
+        },
+        {
+          "namn": "Smittbärare",
+          "beskrivning": "Gråtrollen lever ett primitivt och smutsligt liv vilket gör att de bär på många sjukdomar. Den som kommer i nära kontakt med gråtrollen (närmare än två meter), måste slå ett FYS-slag. Lyckas slaget är personen »immun» mot smittan i en månad. Misslyckas slaget drabbas personen av någon av följande effekter, slå på nedanstående tabell (1T20)."
+        },
+        {
+          "namn": "Effekter av stank",
+          "beskrivning": "1-5: Stanken från trollen sätter sig i den drabbades kläder vilket gör att han luktar mycket illa; 6-9: Offret känner sig lite hängig, -1 på allt han företar sig den närmaste timmen; 10-13: Offret drabbas av kraftig hösnuva under resten av dagen och får -1 på alla FYS baserade färdigheter samt alla attacker och pareringar; 14-16: Offret drabbas av en kraftig förkylning och feber som håller i sig i 1T6 dagar. Under tiden förkylningen varar erhåller offret -2 på allt han/hon företar sig. Förflyttningsförmågan halveras; 17-18: Offret drabbas av kraftig klåda under 1T4 dagar. Klådan gör att offret får -3 på allt han/hon företar sig under dessa dagar. Därefter måste han/hon slå ett FYS-slag. Misslyckas slaget förlängs perioden 1T4 dagar med samma effekt; 19-20: Offret får 1T20 stora varbölder på sin kropp. Varje dag spricker 1T4 bölder till dess att alla bölder har spruckit. Varje sprucken böld ger 1T4 i skada. Slå på träfftabellen för närstrid (regelboken sidan 57) för att se på vilken kroppsdel varje böld hamnar."
+        }
       ],
       "beskrivning": "Gråtrollen kan vara både större än människor men också mindre. Det största gråtrollet kan bli så lång som tre meter, det minsta en och en halv meter. Gråtrollen är parasiter och rövare som lever på det som andra lämnar efter sig eller som de själva kan roffa åt sig. Desto starkare ledare som stammen har desto större sannolikhet är det att gråtrollen lever på att plundra och skövla för att på så sätt få mat och tak över huvudet. Gråtrollen lever i grupper om tio till hundra individer i varje stam. En stam byter ledare hela tiden. Så fort en ledare visar tecken på svaghet utmanas han av ett annat gråtroll i gruppen som vill ta hans plats. Ett gråtroll som har misslyckats med att besegra ledaren men ändå överlevt stöts ut av stammen och får aldrig mer tillträde till den. Gråtrollen hatar mest av allt alver eftersom de ofta blivit besegrade och jagade av alver. När ett gråtroll ser en alv måste han slå ett PSY slag för att inte genast anfalla i blint raseri."
     },
@@ -3152,11 +3160,11 @@
           "fv": "10, 1T4"
         },
         {
-          "namn": "2 Havspark fram",
+          "namn": "2 Hovspark fram",
           "fv": "5, 1T8 + SB"
         },
         {
-          "namn": "2 Havspark bak",
+          "namn": "2 Hovspark bak",
           "fv": "8, 2T6 + SB"
         }
       ],
@@ -3171,7 +3179,6 @@
           }
         ],
       "förmågor": [
-        "Försvaga",
         {
           "namn": "Försvaga",
           "beskrivning": "För att säkra skörden av liv som spills och själar som lämnar sina kroppar utstrålar helhästen matthet och håglöshet. För att få maximal skörd av död, visar den sig dock enbart för ena sidan av ett slagfält. Den väljer oftast den sida som har flest själar. Alla intelligenta varelser (INT 5 eller mer) som ser helhästen får -10 på allt de gör under 3T4 timmar. Lyckas offret med ett PSY/2-slag erhålles endast -5 på allt det han gör under 3T4 timmar."
@@ -4212,14 +4219,14 @@
         },
         {
           "namn": "Attacknät (Nätspindel)",
-          "beskrivning": "Nätspindeln anfaller, förutom med bettet, med sitt klibbiga nät. Alla som befinner sig inom ett område som är sju meter långt och två meter brettträffas av nätet om spindeln lyckas med sin attack. Den som träffas av nätet måste möta nätets STY (18) med sin egen STY på motståndstabellen för att inte sitta fast. Nätspindeln kan bara använda denna attack fyra gånger per dag."
+          "beskrivning": "Nätspindeln anfaller, förutom med bettet, med sitt klibbiga nät. Alla som befinner sig inom ett område som är sju meter långt och två meter brett träffas av nätet om spindeln lyckas med sin attack. Den som träffas av nätet måste möta nätets STY (18) med sin egen STY på motståndstabellen för att inte sitta fast. Nätspindeln kan bara använda denna attack fyra gånger per dag."
         },
         {
           "namn": "Spinna kokong",
           "beskrivning": "Både ögonspindeln och nätspindeln har förmågan att linda in sina oskadliggjorda offer i kokonger av spindelväv och hänga upp dem i skogen. Så fort jättespindeln antingen har paralyserat sitt offer med sin blick (ögonspindeln) eller fångat den i sitt nät (nätspindeln) påbörjar den jobbet med att kapsla in sitt byte. Kokongen tar 1T10+10SR att göra och den som vill bryta sig loss måste övervinna kokongens STY(25) med sin egen STY på motståndstabellen. Misslyckas offret att bryta sig loss har det hamnat i en dödlig fälla där svältdöden snart kommer att vara ett faktum."
         }
       ],
-      "beskrivning": "Det finns två typer av jättespindlar. De som går under benämningen nätspindlar och de som kallas för ögonspindlar. Båda arterna av jättespindeln är mycket farliga och kan med sina speciella förmågor nedlägga även mycket stora byten. Nätspindeln har specialiserat sig på att skjuta ut ett kraftfullt nät mot sitt offer. Ogonspindeln använder sin hypnotiska blick för att paralysera sina offer. Jättespindelns skal tål både eld och stål och är en av de främsta anledningarna till att jättespindlarna lyckades hävda sin rätt så bra gentemot logedrakarna en gång i tiden. Jättespindeln utsätter sig sällan för livsfara utan flyr ut i skogens mörker om den blir alltför hårt trängd eller skadad. Jättespindlarna, speciellt ögonspindeln, har en hög karisma. Detta är inte för att spindeln på något sätt är vacker utan därför att hela dess väsen är paralyserande och förlamande. Jättespindlarna anfaller i nio gånger av tio helt oförberett genom att attackera från träden. Under de första 1T6 spelrundorna har spindeln plus 3 på fv på alla sina attacker eftersom den hänger ovanför sitt byte och anfaller (förutsatt att spindeln anfaller från träden)."
+      "beskrivning": "Det finns två typer av jättespindlar. De som går under benämningen nätspindlar och de som kallas för ögonspindlar. Båda arterna av jättespindeln är mycket farliga och kan med sina speciella förmågor nedlägga även mycket stora byten. Nätspindeln har specialiserat sig på att skjuta ut ett kraftfullt nät mot sitt offer. Ögonspindeln använder sin hypnotiska blick för att paralysera sina offer. Jättespindelns skal tål både eld och stål och är en av de främsta anledningarna till att jättespindlarna lyckades hävda sin rätt så bra gentemot logedrakarna en gång i tiden. Jättespindeln utsätter sig sällan för livsfara utan flyr ut i skogens mörker om den blir alltför hårt trängd eller skadad. Jättespindlarna, speciellt ögonspindeln, har en hög karisma. Detta är inte för att spindeln på något sätt är vacker utan därför att hela dess väsen är paralyserande och förlamande. Jättespindlarna anfaller i nio gånger av tio helt oförberett genom att attackera från träden. Under de första 1T6 spelrundorna har spindeln plus 3 på fv på alla sina attacker eftersom den hänger ovanför sitt byte och anfaller (förutsatt att spindeln anfaller från träden)."
     },
     {
       "id": "38",
@@ -5914,14 +5921,14 @@
       "hemvist": "Varierar",
       "vanlighet": "Mycket sällsynt",
       "grundegenskaper": {
-        "styrka": "*2",
-        "fysik": "*2",
-        "smidighet": "*2",
-        "storlek": "*1",
-        "intelligens": "*1",
-        "psyke": "*1,5",
-        "spiritus": "*1",
-        "karisma": "/3"
+        "styrka": "x2",
+        "fysik": "x2",
+        "smidighet": "x2",
+        "storlek": "x1",
+        "intelligens": "x1",
+        "psyke": "x1,5",
+        "spiritus": "x1",
+        "karisma": "1/3"
       },
       "kroppspoäng": {
         "tkp_sys": "Räknas ut",
@@ -6204,7 +6211,7 @@
           "beskrivning": "Rotvältan har inga ben och kan därför inte gå. Istället fäller den in sina tentakler och rullar iväg. Det tar en SR för rotvältan att resa sig upp på sina tentakler."
         }
       ],
-      "beskrivning": "ROTVÄLTAN ÄR EN parasit som livnär sig på trädens sav och kådor. Rotvältan finns i alla möjliga storlekar. Det enda som begränsar dess dimension är storleken på de träd som finns i dess närhet. Rotvältan börjar sitt liv som en knytnävsstor kula med några få korta tentakler. Den gräver snabbt ned sig under första bästa träd och lägger sig till ro under rötterna. Detta är inte farligt för trädet utan det kan fortsätta leva och växa vilket också rotvältan gör. När rotvältan vuxit sig så stor att skogens träd inte kan ge någon föda söker den upp en plats för att dö på. Det sista rotvältan gör innan den dör är att förlösa tre nya rotvältor. Rotvältan är egentligen inte farlig, sin stora käft till trots, så länge trädet den lever under är tillräckligt stort för att försörja den. Det är när rotvältan befinner sig ovan mark som den är farlig. Rotvältan är ett stort men dumt djur som tror att allt levande den möter är en annan rotvälta som kommit för att ta dennes plats under det största trädet. Den går besinningslöst till anfall så fort en levande varelse, stor som liten, är i närheten."
+      "beskrivning": "Rotvältan är en parasit som livnär sig på trädens sav och kådor. Rotvältan finns i alla möjliga storlekar. Det enda som begränsar dess dimension är storleken på de träd som finns i dess närhet. Rotvältan börjar sitt liv som en knytnävsstor kula med några få korta tentakler. Den gräver snabbt ned sig under första bästa träd och lägger sig till ro under rötterna. Detta är inte farligt för trädet utan det kan fortsätta leva och växa vilket också rotvältan gör. När rotvältan vuxit sig så stor att skogens träd inte kan ge någon föda söker den upp en plats för att dö på. Det sista rotvältan gör innan den dör är att förlösa tre nya rotvältor. Rotvältan är egentligen inte farlig, sin stora käft till trots, så länge trädet den lever under är tillräckligt stort för att försörja den. Det är när rotvältan befinner sig ovan mark som den är farlig. Rotvältan är ett stort men dumt djur som tror att allt levande den möter är en annan rotvälta som kommit för att ta dennes plats under det största trädet. Den går besinningslöst till anfall så fort en levande varelse, stor som liten, är i närheten."
     },
     {
       "id": "57",
@@ -6804,7 +6811,7 @@
           "beskrivning": "1-8: Offret känner sig omtöcknad och får -1 på allt den företar sig under resten av dagen; 9-14: Offret känner berusningen och kraften från skogsrået. Förtrollningen fungerar på samma sätt som besvärjelsen Kontrollera person fast utan nytt PSY slag. Effekten drar inte SPI från skogsrået; 15-16: Offret hamnar helt i skogsråets våld och tycker att alla befallningar är helt självklara. Offret kommer att utföra minsta befallning under de närmaste 1T4 dagarna, dock inte något som skadar en själv. Effekten bryts om offret kommer längre bort än fem hundra meter; 17-18: Offret hamnar helt i skogsråets våld. Offret utför alla typer av handlingar inklusive sådant som direkt kan skada offret. Effekten har obegränsad räckvidd och varar i 3T10 dagar. Aven om skogsrået dör kommer hennes ord och befallningar att påverka den som är förtrollad under varaktigheten; 19-20: Offret är för evigt en slav under skogsråets makt. Offret lyder blint minsta vink och befallning under resten av sitt liv. Förtrollningen kan endast brytas om skogsrået dödas. Till dess att detta är gjort lyder offret skogsråets befallningar."
         }
       ],
-      "beskrivning": "Skogsrået ser ut som en mycket vacker kvinna på framsidan av kroppen och oftast bär hon inga kläder, Det enda sättet att skilja ett skogsrå från en mycket vacker människokvinna är att hon bär kosvans och ibland är ryggen som en ihålig och rutten trädstam. Skogsrået lever i skogen och omger sig ofta av olika typer av bastjurs som hon lyckats kontrollera med sina magiska förmågor. Skogsrået är mycket vaksam över sitt eget revir som brukar ha sin kärna vid ett litet vattenfall långt in i skogen. Ibland låter skogsrået gräva ut en liten håla under ett stort klippblock där hon samlar sina ägodelar. Skogsråets enda chans att föröka sig är att få barn med en människa. Det är därför vanligt förekommande att hon genom sina förmågor och krafter i första hand kontrollerar människor och i andra hand andra raser. Skogsrået attackerar mycket sällan eftersom hennes arsenal för strid är ytters begränsad. Däremot är det inte ovanligt att skogsrået genom sin samling av följeslagare och undersåtar brutalt anfaller och tillfångatar alla som hon anser sig ha nytta av. I ovanliga fall kan skogsrået lära sig magi."
+      "beskrivning": "Skogsrået ser ut som en mycket vacker kvinna på framsidan av kroppen och oftast bär hon inga kläder. Det enda sättet att skilja ett skogsrå från en mycket vacker människokvinna är att hon bär kosvans och ibland är ryggen som en ihålig och rutten trädstam. Skogsrået lever i skogen och omger sig ofta av olika typer av bastjurs som hon lyckats kontrollera med sina magiska förmågor. Skogsrået är mycket vaksam över sitt eget revir som brukar ha sin kärna vid ett litet vattenfall långt in i skogen. Ibland låter skogsrået gräva ut en liten håla under ett stort klippblock där hon samlar sina ägodelar. Skogsråets enda chans att föröka sig är att få barn med en människa. Det är därför vanligt förekommande att hon genom sina förmågor och krafter i första hand kontrollerar människor och i andra hand andra raser. Skogsrået attackerar mycket sällan eftersom hennes arsenal för strid är ytters begränsad. Däremot är det inte ovanligt att skogsrået genom sin samling av följeslagare och undersåtar brutalt anfaller och tillfångatar alla som hon anser sig ha nytta av. I ovanliga fall kan skogsrået lära sig magi."
     },
     {
       "id": "62",
@@ -6933,7 +6940,7 @@
         },
         {
           "namn": "Orädd",
-          "beskrivning": "Skogstrollen kan inte känna rädsla, De mekanismer och kroppsliga funktioner som finns hos i stort sett alla levande varelser i Trudvang saknar skogstrollen helt. Detta i kombination med sin starka tro på hamingjes gör att skogstrollen är en farlig fiende att möta. När du som spelledare använder dig av skogstroll i dina kampanjer bör du framhäva detta som ett särskiljande drag gentemot andra raser och varelser. Skogstrollen dör hellre än flyr från en strid eftersom de då anser sig ha förlorat sin själ till sin motståndare."
+          "beskrivning": "Skogstrollen kan inte känna rädsla. De mekanismer och kroppsliga funktioner som finns hos i stort sett alla levande varelser i Trudvang saknar skogstrollen helt. Detta i kombination med sin starka tro på hamingjes gör att skogstrollen är en farlig fiende att möta. När du som spelledare använder dig av skogstroll i dina kampanjer bör du framhäva detta som ett särskiljande drag gentemot andra raser och varelser. Skogstrollen dör hellre än flyr från en strid eftersom de då anser sig ha förlorat sin själ till sin motståndare."
         }
       ],
       "beskrivning": "Trots sin lilla storlek har skogstrollen på ett övertygande sätt lyckats få fotfäste över i stort sätt hela Trudvang. Skogstrollen lever i stort överflöd i Trudvangs skogar. Det är ett ivrigt och ihärdigt släkte som i numerärt överläge inte räds någonting. Vanligtvis lever skogstrollen i naturliga eller uttjänade grottor i de djupa skogarna. Här lever de på jakt och plundring. Ett normal stort skogstroll blir inte längre än nittio centimeter och väger runt trettio kilo. En stam av skogstroll består vanligtvis av cirka femtio till hundra individer där flertalet är vapenföra jägare och krigare. De samlas alltid under en stark ledare som styr stammen med järnvilja . Skogstrollen är ivriga anhängare till hamingjes - den mörka tron. Skogstrollen är av naturen samlare och sparar på många nyttiga och onyttiga saker. Skogstrollens begär är också deras största svaghet eftersom de alltid bråkar sinsemellan om vem som är den rättmätiga ägaren till de olika föremålen. Ett skogstroll behöver aldrig slå på skräcktabellen vare sig det gäller ett naturligt eller magiskt fenomen som framkallar rädsla. De slåss helst i numerärt överläge men har ingen som leder eller för befäl över striden. Varje individ väljer sin egen motståndare - oftast den starkaste - och slåss tills dess fienden är oskadliggjord. I striden försöker skogstrollen genast plundra sitt byte innan de anfaller nästa fiende."
@@ -6942,7 +6949,7 @@
       "id": "63",
       "img": "/images/skuugadrake.PNG",
       "art": "Skuugadrake",
-      "urstam": "Drakfjord",
+      "urstam": "Drakjord",
       "hemvist": "Skog",
       "vanlighet": "Mycket sällsynt",
       "grundegenskaper": {
@@ -7389,13 +7396,13 @@
           "beskrivning": "Förmågan att se i totalt mörker även utan ljuskälla."
         }
       ],
-      "beskrivning": "Stentrollen har fått sitt namn efter sin granitliknande hud. De utövar den mörka religionen hamingjes och lever i små enkla grottsystem lite här och var i Trudvang. Deras favoritföda är små vältar som de fångar och ibland avlar likt boskap längst inne i sina grottor. Stentrollen är ett skyggt släkte som sällan visar sig. De lever i primitiva stammar om cirka trettio individer. Varje stam har en hövding och en andebesvärjare. Under sina själsjakter proppar de sig fulla av den speciella argmurklan som växer i de fuktiga grottorna. Efter många år av svampätande börjar det så småningom att växa svampar på stentrollens hud något som anses vara både vackert och ärofullt. Argmurklan ger dem +2 på alla sina attacker och -3 på deras pareringar under 2T4+2 SR varefter de genast måste stoppa i sig en ny svamp för att inte erhålla -2 på resterande handlingar under 2T6 SR.  Stentroll som befinner sig i starkt ljus eller dagsljus erhåller -7 på alla sina handlingar. Stentrollen sover i cykler om tio till femtio år. När de vaknar ur sin dvala söker de genast upp en ny stam som de ansluter sig till. Under sitt vakna tillstånd (vanligtvis tio till tjugo år) behöver de aldrig sova."
+      "beskrivning": "Stentrollen har fått sitt namn efter sin granitliknande hud. De utövar den mörka religionen hamingjes och lever i små enkla grottsystem lite här och var i Trudvang. Deras favoritföda är små vättar som de fångar och ibland avlar likt boskap längst inne i sina grottor. Stentrollen är ett skyggt släkte som sällan visar sig. De lever i primitiva stammar om cirka trettio individer. Varje stam har en hövding och en andebesvärjare. Under sina själsjakter proppar de sig fulla av den speciella argmurklan som växer i de fuktiga grottorna. Efter många år av svampätande börjar det så småningom att växa svampar på stentrollens hud något som anses vara både vackert och ärofullt. Argmurklan ger dem +2 på alla sina attacker och -3 på deras pareringar under 2T4+2 SR varefter de genast måste stoppa i sig en ny svamp för att inte erhålla -2 på resterande handlingar under 2T6 SR.  Stentroll som befinner sig i starkt ljus eller dagsljus erhåller -7 på alla sina handlingar. Stentrollen sover i cykler om tio till femtio år. När de vaknar ur sin dvala söker de genast upp en ny stam som de ansluter sig till. Under sitt vakna tillstånd (vanligtvis tio till tjugo år) behöver de aldrig sova."
     },
     {
       "id": "67",
       "img": "/images/stormdrake.PNG",
       "art": "Stormdrake",
-      "urstam": "Drakfjord",
+      "urstam": "Drakjord",
       "hemvist": "Berg",
       "vanlighet": "Mycket sällsynt",
       "grundegenskaper": {
@@ -7536,7 +7543,7 @@
       "id": "68",
       "img": "/images/tornödla.PNG",
       "art": "Tornödla",
-      "urstam": "Drakfjord",
+      "urstam": "Drakjord",
       "hemvist": "Berg och högland",
       "vanlighet": "Mycket sällsynt",
       "grundegenskaper": {
@@ -8340,7 +8347,7 @@
           "beskrivning": "Förmågan att se i totalt mörker även utan ljuskälla."
         },
         {
-          "namn": "Talla med djur",
+          "namn": "Tala med djur",
           "beskrivning": "Yggdrasen har genom tiden fått förmågan att tala med djur. Detta har lett till att djuren i skogen skyddar yggdrasen från illasinnade inkräktare."
         }
       ],

@@ -158,6 +158,7 @@ const pageBuilder = (function() {
 
 
   function buildAbilities(abilities) {
+    console.log(abilities);
     let abilitiesWrapper = document.getElementById("abilities_wrapper");
     abilitiesWrapper.innerHTML = "";
     abilities.forEach(function(ability) {

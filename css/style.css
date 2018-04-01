@@ -79,21 +79,23 @@ img, button {
       width: 70%; } }
 
 .wrapper_content {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.5);
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   width: 100%;
-  -webkit-box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.4);
-  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.4);
+  -webkit-box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.5);
+  box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.5);
   border-top: 2px solid #e6e6e6; }
   @media screen and (min-width: 1200px) {
     .wrapper_content {
-      font-size: 1.2rem; } }
+      font-size: 1.2rem;
+      border-top: 1px solid #e6e6e6; } }
 
 .wrapper_header {
   text-align: center;
   width: 100%;
-  background-color: rgba(26, 26, 26, 0.4);
+  background-color: rgba(26, 26, 26, 0.5);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
   margin: 0;
   margin-bottom: 0.5rem;
   padding: 1rem; }
@@ -127,8 +129,8 @@ img, button {
   overflow: hidden;
   width: 100%;
   height: 100%;
-  -webkit-box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.4);
-  box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.4);
+  -webkit-box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.5);
+  box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.5);
   padding: 0.5rem; }
   @media screen and (min-width: 700px) {
     .portrait_wrapper {
@@ -250,9 +252,9 @@ img, button {
   border-collapse: collapse;
   margin: 0 auto; }
   .body_table thead {
-    border-bottom: 1px solid rgba(26, 26, 26, 0.4); }
+    border-bottom: 1px solid rgba(26, 26, 26, 0.5); }
   .body_table tbody tr:nth-child(even) {
-    background-color: rgba(102, 102, 102, 0.4); }
+    background-color: rgba(102, 102, 102, 0.5); }
   .body_table td {
     padding: 0.5rem; }
 
@@ -274,15 +276,15 @@ img, button {
   border-collapse: collapse; }
   .attack_table thead {
     text-align: center;
-    border-bottom: 1px solid rgba(26, 26, 26, 0.4); }
+    border-bottom: 1px solid rgba(26, 26, 26, 0.5); }
   .attack_table tbody tr:first-child {
     padding: 2rem 0; }
   .attack_table tbody tr:nth-child(even) {
-    background-color: rgba(102, 102, 102, 0.4); }
+    background-color: rgba(102, 102, 102, 0.5); }
   .attack_table td {
     padding: 0.5rem; }
   .attack_table td:nth-child(even) {
-    border-left: 1px solid rgba(26, 26, 26, 0.4); }
+    border-left: 1px solid rgba(26, 26, 26, 0.5); }
 
 @media screen and (min-width: 700px) {
   .skills {
@@ -300,15 +302,15 @@ img, button {
   border-collapse: collapse; }
   .skills_table thead {
     text-align: center;
-    border-bottom: 1px solid rgba(26, 26, 26, 0.4); }
+    border-bottom: 1px solid rgba(26, 26, 26, 0.5); }
   .skills_table tbody tr:first-child {
     padding: 2rem 0; }
   .skills_table tbody tr:nth-child(even) {
-    background-color: rgba(102, 102, 102, 0.4); }
+    background-color: rgba(102, 102, 102, 0.5); }
   .skills_table td {
     padding: 0.5rem; }
   .skills_table td:nth-child(even) {
-    border-left: 1px solid rgba(26, 26, 26, 0.4); }
+    border-left: 1px solid rgba(26, 26, 26, 0.5); }
   @media screen and (min-width: 1200px) {
     .skills_table {
       width: 50%; } }
