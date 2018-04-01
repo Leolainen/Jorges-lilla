@@ -26,7 +26,7 @@ const pageBuilder = (function() {
     let img = document.getElementById("portrait");
     img.setAttribute("src", "/Jorges-lilla" + imgSrc);
     //img.setAttribute("src", imgSrc);
-    backgroundPortrait.style.backgroundImage = 'url("/Jorges-lilla"' + imgSrc + ')';
+    backgroundPortrait.style.backgroundImage = 'url(' + "/Jorges-lilla" + imgSrc + ')';
     //backgroundPortrait.style.backgroundImage = 'url('+ "../"+imgSrc+')';
   }
 
