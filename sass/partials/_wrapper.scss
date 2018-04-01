@@ -8,12 +8,14 @@
 
 
   @media screen and (min-width: $tablet) {
+    width: 80%;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: space-between;
   }
 
   @media screen and (min-width: $desktop) {
+    width: 70%;
   }
 }
 

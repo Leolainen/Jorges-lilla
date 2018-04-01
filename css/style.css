@@ -63,6 +63,7 @@ img, button {
   margin-top: 30vh; }
   @media screen and (min-width: 700px) {
     .wrapper {
+      width: 80%;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
@@ -73,6 +74,9 @@ img, button {
       -webkit-box-align: space-between;
       -ms-flex-align: space-between;
       align-items: space-between; } }
+  @media screen and (min-width: 1200px) {
+    .wrapper {
+      width: 70%; } }
 
 .wrapper_content {
   background-color: rgba(255, 255, 255, 0.4);
@@ -286,7 +290,7 @@ img, button {
 
 @media screen and (min-width: 1200px) {
   .skills {
-    width: 49.5%;
+    width: 100%;
     height: 100%; } }
 
 .skills_table {
@@ -305,6 +309,9 @@ img, button {
     padding: 0.5rem; }
   .skills_table td:nth-child(even) {
     border-left: 1px solid rgba(26, 26, 26, 0.4); }
+  @media screen and (min-width: 1200px) {
+    .skills_table {
+      width: 50%; } }
 
 @media screen and (min-width: 1200px) {
   .abilities {
@@ -312,7 +319,8 @@ img, button {
 
 @media screen and (min-width: 1200px) {
   .abilities {
-    width: 49.5%; } }
+    width: 49.5%;
+    height: 100%; } }
 
 .ability {
   text-align: justify;
@@ -334,7 +342,7 @@ img, button {
 
 @media screen and (min-width: 1200px) {
   .description {
-    width: 100%; } }
+    width: 49%; } }
 
 .side-bar {
   position: fixed;
