@@ -13,6 +13,11 @@
   transition: .2s ease-out;
   transform-origin: right;
   transform: scaleX(0);
+  z-index: 50;
+
+  h3 {
+    margin: 0;
+  }
 
   ul {
     list-style-type: none;
@@ -79,10 +84,6 @@
     width: 40px;
     height: 40px;
   }
-
-  &:hover {
-    top: calc(2% - 2px);
-  }
 }
 
 .side-bar_button-active {
@@ -92,4 +93,13 @@
 
 .search-bar {
   margin:0 0 $large 0;
+}
+
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }

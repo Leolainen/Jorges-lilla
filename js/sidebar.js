@@ -23,10 +23,13 @@ const sidebar = (function() {
         newLabel.appendChild(label);
         raceList.appendChild(newLabel);
 
+        // writes all mobs from db to side-bar list
         currentMob.forEach(function(mob) {
           let newLi = document.createElement("LI");
           let liText = document.createTextNode(mob.art);
           newLi.appendChild(liText);
+
+          // adds onclick event on all list items
           newLi.onclick = function() {
             pageBuilder.buildHTML(mob.id);
             sideBarBtn.classList.toggle("side-bar_button-active");
@@ -35,10 +38,12 @@ const sidebar = (function() {
             setTimeout(function() {
               buildList();
             }, 200);
-          }
+          };
+
           raceList.appendChild(newLi);
         });
 
+        // linebreak after every type of ancestry
         let lineBreak = document.createElement("br");
         raceList.appendChild(lineBreak);
       }

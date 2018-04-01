@@ -4,6 +4,7 @@ const pageBuilder = (function() {
   let monsterName = document.getElementById("monster_name");
   let description = document.getElementById("description");
 
+
   async function buildHTML(id) {
     let data = await apiRequest.getData(id);
 
@@ -21,8 +22,12 @@ const pageBuilder = (function() {
 
 
   function buildImg(imgSrc) {
+    let backgroundPortrait = document.getElementById("background_portrait");
     let img = document.getElementById("portrait");
-    img.setAttribute("src", "/Jorges-lilla" + imgSrc);
+    //img.setAttribute("src", "/Jorges-lilla" + imgSrc);
+    img.setAttribute("src", imgSrc);
+    //backgroundPortrait.style.backgroundImage = 'url('+imgSrc+')';
+    backgroundPortrait.style.backgroundImage = 'url('+ "../"+imgSrc+')';
   }
 
 
@@ -33,7 +38,7 @@ const pageBuilder = (function() {
     let index = 0;
 
     for (let property in stats) {
-      if (index % 2 === 0) {
+      if (index % 4 === 0) {
         newRow = document.createElement("TR");
       }
 

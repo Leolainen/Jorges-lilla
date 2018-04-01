@@ -1,32 +1,41 @@
-.attack_wrapper {
-  @include box();
-  text-align: center;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-
-  h3 {
-    width: 100%;
-  }
+.attack {
 
   @media screen and (min-width: $tablet) {
-    width: 33%;
+    width: 45%;
     height: 30%;
+    position: relative;
   }
 
   @media screen and (min-width: $desktop) {
     width: 33%;
+    height: 100%;
   }
 }
 
 .attack_table {
-  width: 100%;
-  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  border-collapse: collapse;
 
-  table {
+  thead {
+    text-align: center;
+    border-bottom: 1px solid $color-black-transparent;
+  }
+
+  tbody tr:first-child {
+    padding: $large 0;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: lighten($color-black-transparent, 30%);
   }
 
   td {
-    width: 50%;
+    padding: $small;
+  }
+
+  td:nth-child(even) {
+    border-left: 1px solid $color-black-transparent;
   }
 }

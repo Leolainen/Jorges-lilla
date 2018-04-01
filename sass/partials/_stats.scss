@@ -1,27 +1,43 @@
-.stats_wrapper {
-  @include box;
-  text-align: center;
-  display: flex;
-  flex-flow: row wrap;
+.stats {
   justify-content: center;
+  display: flex;
+  flex-flow: column;
 
-  h3 {
-    display: inline-block;
-    width: 100%;
-  }
 
   @media screen and (min-width: $tablet) {
-    width: 30%;
+    height: 20%;
+    position: relative;
   }
 
   @media screen and (min-width: $desktop) {
-    width: 20%;
+    width: 66%;
+    align-self: flex-end;
   }
 }
 
 .stats_table {
+  margin: 0 auto;
+  text-transform: capitalize;
+  text-align: center;
 
-  td {
-    padding: 4px;
+  @media screen and (max-width: $tablet) {
+    * {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    tr {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    td {
+      flex-flow: column wrap;
+      width: 50%;
+    }
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 90%;
   }
 }
