@@ -31,12 +31,6 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   letter-spacing: 1px; }
-  @media screen and (min-width: 700px) {
-    body {
-      font-size: 1.1rem; } }
-  @media screen and (min-width: 1200px) {
-    body {
-      font-size: 1.2rem; } }
 
 img, button {
   outline: none;
@@ -63,7 +57,7 @@ img, button {
   margin-top: 30vh; }
   @media screen and (min-width: 700px) {
     .wrapper {
-      width: 80%;
+      width: 70%;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
@@ -76,7 +70,7 @@ img, button {
       align-items: space-between; } }
   @media screen and (min-width: 1200px) {
     .wrapper {
-      width: 70%; } }
+      width: 50%; } }
 
 .wrapper_content {
   background-color: rgba(255, 255, 255, 0.5);
@@ -119,9 +113,7 @@ img, button {
       text-shadow: 0px 0px 10px #e6e6e6; } }
   @media screen and (min-width: 1200px) {
     .monster_name {
-      position: absolute;
-      left: 40%;
-      top: 35%; } }
+      top: 0; } }
 
 .portrait_wrapper {
   margin-bottom: 1rem;
@@ -131,7 +123,12 @@ img, button {
   height: 100%;
   -webkit-box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.5);
   box-shadow: 2px 2px 4px rgba(26, 26, 26, 0.5);
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  /*
+  @media screen and (min-width: $desktop) {
+    width: 33%;
+    height: 33%;
+  }*/ }
   @media screen and (min-width: 700px) {
     .portrait_wrapper {
       display: -webkit-box;
@@ -142,10 +139,6 @@ img, button {
       justify-content: center;
       width: 49.5%;
       height: 50%; } }
-  @media screen and (min-width: 1200px) {
-    .portrait_wrapper {
-      width: 33%;
-      height: 33%; } }
 
 .portrait {
   width: 100%;
@@ -175,16 +168,16 @@ img, button {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-flow: column;
-  flex-flow: column; }
+  flex-flow: column;
+  /*
+  @media screen and (min-width: $desktop) {
+    width: 66%;
+    align-self: flex-end;
+  }*/ }
   @media screen and (min-width: 700px) {
     .stats {
       height: 20%;
       position: relative; } }
-  @media screen and (min-width: 1200px) {
-    .stats {
-      width: 66%;
-      -ms-flex-item-align: end;
-      align-self: flex-end; } }
 
 .stats_table {
   margin: 0 auto;
@@ -219,7 +212,12 @@ img, button {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
-  flex-flow: row wrap; }
+  flex-flow: row wrap;
+  /*
+  @media screen and (min-width: $desktop) {
+    width: 33%;
+  }
+  */ }
   .basic-info table {
     width: 100%;
     text-align: center; }
@@ -231,22 +229,21 @@ img, button {
     .basic-info {
       width: 49%;
       height: 100%; } }
-  @media screen and (min-width: 1200px) {
-    .basic-info {
-      width: 33%; } }
 
 .body {
-  text-align: center; }
+  text-align: center;
+  /*
+  @media screen and (min-width: $desktop) {
+    width: 33%;
+    height: 100%;
+  }
+  */ }
   .body b {
     display: inline-block;
     margin: 1rem; }
   @media screen and (min-width: 700px) {
     .body {
       width: 49%; } }
-  @media screen and (min-width: 1200px) {
-    .body {
-      width: 33%;
-      height: 100%; } }
 
 .body_table {
   border-collapse: collapse;
@@ -258,16 +255,18 @@ img, button {
   .body_table td {
     padding: 0.5rem; }
 
-@media screen and (min-width: 700px) {
-  .attack {
-    width: 45%;
-    height: 30%;
-    position: relative; } }
-
-@media screen and (min-width: 1200px) {
-  .attack {
+.attack {
+  /*
+  @media screen and (min-width: $desktop) {
     width: 33%;
-    height: 100%; } }
+    height: 100%;
+  }
+  */ }
+  @media screen and (min-width: 700px) {
+    .attack {
+      width: 45%;
+      height: 30%;
+      position: relative; } }
 
 .attack_table {
   width: 90%;
@@ -286,14 +285,15 @@ img, button {
   .attack_table td:nth-child(even) {
     border-left: 1px solid rgba(26, 26, 26, 0.5); }
 
-@media screen and (min-width: 700px) {
-  .skills {
-    width: 54%; } }
-
-@media screen and (min-width: 1200px) {
-  .skills {
+.skills {
+  /*
+  @media screen and (min-width: $desktop) {
     width: 100%;
-    height: 100%; } }
+    height: 100%;
+  }*/ }
+  @media screen and (min-width: 700px) {
+    .skills {
+      width: 54%; } }
 
 .skills_table {
   width: 90%;
@@ -311,9 +311,6 @@ img, button {
     padding: 0.5rem; }
   .skills_table td:nth-child(even) {
     border-left: 1px solid rgba(26, 26, 26, 0.5); }
-  @media screen and (min-width: 1200px) {
-    .skills_table {
-      width: 50%; } }
 
 @media screen and (min-width: 1200px) {
   .abilities {

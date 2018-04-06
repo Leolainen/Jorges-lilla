@@ -25,11 +25,9 @@ body {
   letter-spacing: 1px;
 
   @media screen and (min-width: $tablet) {
-    font-size: 1.1rem;
   }
 
   @media screen and (min-width: $desktop) {
-    font-size: 1.2rem;
   }
 }
 
