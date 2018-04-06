@@ -36,6 +36,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  -webkit-filter: blur(2px) grayscale(100%);
-  filter: blur(2px) grayscale(100%);
+  -webkit-filter: blur(3px) grayscale(100%);
+  filter: blur(3px) grayscale(100%);
+
+  @media screen and (min-width: $desktop) {
+    background-size: 100% 300%;
+    background-position: 100% 10%;
+  }
 }
