@@ -1,1 +1,1 @@
-export { default } from '@material-ui/core/Container';
+export { Container } from '@material-ui/core';
