@@ -14,32 +14,33 @@ import Container from '../../components/Container';
 const useStyles = makeStyles((theme) => ({
 	root: {},
 	hamburger: {
-		position: 'absolute',
+		position: 'fixed',
 		top: 0,
 		right: 0,
-		margin: theme.spacing(2)
+		margin: '2rem'
 	}
 }));
 
 const Page = React.forwardRef(function Page(props, ref) {
 	const { className, children, ...other } = props;
-	const [ { sidebarIsOpen }, dispatch ] = useAppContext();
+	/* const [ { sidebarIsOpen }, dispatch ] = useAppContext();
 
-	const handleMenuClick = () =>
+	const handleMenuClick = () => {
 		dispatch({
 			type: TOGGLE_SIDEBAR
 		});
-
+	};
+ */
 	const classes = useStyles();
 
 	return (
-		<div ref={ref} className={classnames(classes.root, className)} {...other}>
-			<Button onClick={handleMenuClick}>
-				<MenuIcon className={classes.hamburger} />
+		<main ref={ref} className={classnames(classes.root, className)} {...other}>
+			<Button className={classes.hamburger}>
+				<MenuIcon />
 			</Button>
-			<Sidebar />
+			<Sidebar /*open={sidebarIsOpen} onClose={handleMenuClick} */ />
 			<Container maxWidth="lg">{children}</Container>
-		</div>
+		</main>
 	);
 });
 

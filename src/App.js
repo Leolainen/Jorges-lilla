@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 
-import { AppContextProvider, useAppContext } from './containers/AppContext';
-import { INITIAL_STATE, SET_CURRENT_CHARACTER } from './containers/AppContext/constants';
+import { useAppContext } from './containers/AppContext';
+import { SET_CURRENT_CHARACTER } from './containers/AppContext/constants';
 import appContextReducer from './containers/AppContext/reducer';
 import Page from './containers/Page';
 
-import bestiaryData from './data/bestiary.json';
+import bestiaryData from './data/bestiary';
 
-const App = React.forwardRef(function App(props, ref) {
+const App = (props) => {
 	const { children } = props;
 
 	const [ { currentCharacter }, dispatch ] = useAppContext();
@@ -16,16 +16,18 @@ const App = React.forwardRef(function App(props, ref) {
 	useEffect(() => {
 		dispatch({
 			type: SET_CURRENT_CHARACTER,
-			payload: bestiaryData.bestiary[0]
+			payload: bestiaryData[0]
 		});
 	}, []);
 
 	return (
-		<AppContextProvider initialState={INITIAL_STATE} reducer={appContextReducer}>
-			<Page>{children}</Page>
-		</AppContextProvider>
+		<Page>
+			<p>hej</p>
+			<pre>{JSON.stringify(currentCharacter)}</pre>
+			{/** chidren */}
+		</Page>
 	);
-});
+};
 
 App.uiName = 'App';
 
