@@ -21,10 +21,11 @@ const App = (props) => {
 		});
 	}, []);
 
+	console.log('currentEntry, App.js:', currentEntry);
+
 	return (
 		<Page>
-			<p>hej</p>
-			<pre>{JSON.stringify(currentEntry)}</pre>
+			<pre>hello</pre>
 			{/** chidren */}
 		</Page>
 	);
