@@ -10,6 +10,8 @@ import Sidebar from '../Sidebar';
 
 import IconButton from '../../components/IconButton';
 import Container from '../../components/Container';
+import AppBar from '../../components/AppBar';
+import Toolbar from '../../components/Toolbar';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -18,11 +20,11 @@ const useStyles = makeStyles((theme) => ({
 		minHeight: '100vh'
 	},
 	hamburger: {
-		position: 'fixed',
-		top: 0,
-		right: 0,
-		margin: theme.spacing(2),
-		marginRight: theme.spacing(6)
+		marginLeft: 'auto'
+	},
+	header: {
+		background: 'none',
+		boxShadow: 'none'
 	}
 }));
 
@@ -39,9 +41,13 @@ const Page = React.forwardRef(function Page(props, ref) {
 
 	return (
 		<main ref={ref} className={classnames(classes.root, className)} {...other}>
-			<IconButton aria-label="menu" className={classes.hamburger} onClick={handleMenuClick}>
-				<MenuIcon />
-			</IconButton>
+			<AppBar className={classes.header}>
+				<Toolbar variant="dense">
+					<IconButton aria-label="menu" className={classes.hamburger} onClick={handleMenuClick}>
+						<MenuIcon />
+					</IconButton>
+				</Toolbar>
+			</AppBar>
 			<Sidebar open={sidebarIsOpen} onClose={handleMenuClick} />
 			<Container maxWidth="lg">{children}</Container>
 		</main>
