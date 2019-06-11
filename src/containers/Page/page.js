@@ -12,7 +12,11 @@ import IconButton from '../../components/IconButton';
 import Container from '../../components/Container';
 
 const useStyles = makeStyles((theme) => ({
-	root: {},
+	root: {
+		backgroundColor: '#78909c',
+		minWidth: '100vw',
+		minHeight: '100vh'
+	},
 	hamburger: {
 		position: 'fixed',
 		top: 0,
