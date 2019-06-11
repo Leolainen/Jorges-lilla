@@ -10,6 +10,7 @@ import { TOGGLE_SIDEBAR, SET_CURRENT_ENTRY } from '../AppContext/constants';
 
 import { getEntryBySpecies } from '../../api/bestiary';
 
+import Typography from '../../components/Typography';
 import AppBar from '../../components/AppBar';
 import Drawer from '../../components/Drawer';
 import IconButton from '../../components/IconButton';
@@ -21,17 +22,17 @@ import ListSubHeader from '../../components/ListSubHeader';
 import Toolbar from '../../components/Toolbar';
 
 const useStyles = makeStyles((theme) => ({
-	root: {
-		overflowY: 'auto'
-	},
+	root: {},
 	container: {
 		marginTop: theme.spacing(8),
-		overflowY: 'auto'
+		overflowY: 'scroll',
+		height: '100%'
 	},
 	list: {
 		width: 250
 	},
 	divider: {
+		margin: `${theme.spacing(2)}px 0`,
 		opacity: 0.6
 	},
 	searchBar: {}
@@ -40,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
 const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 	const { className, children, ...other } = props;
 
-	const [ { entries }, dispatch ] = useAppContext();
+	const [ { entries, sidebarIsOpen }, dispatch ] = useAppContext();
 
 	const classes = useStyles();
 	const [ bestiary, setBestiary ] = useState([]);
@@ -50,7 +51,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 		() => {
 			setBestiary(entries);
 		},
-		[ entries ]
+		[ entries, sidebarIsOpen ]
 	);
 
 	useEffect(
@@ -87,7 +88,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 	return (
 		<Drawer anchor="right" ref={ref} className={classnames(classes.root, className)} {...other}>
 			<div role="presentation" className={classes.container}>
-				<AppBar color="default" position="fixed" className={classes.searchBar}>
+				<AppBar color="inherit" position="fixed" className={classes.searchBar}>
 					<Toolbar variant="dense">
 						<Input
 							placeholder="Sök efter art..."
@@ -102,7 +103,9 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 				<List className={classes.list}>
 					{ancestry.map((ancestor) => (
 						<React.Fragment key={ancestor}>
-							<ListSubHeader disableSticky>{ancestor}</ListSubHeader>
+							<ListSubHeader disableSticky>
+								<Typography variant="overline">{ancestor}</Typography>
+							</ListSubHeader>
 							{bestiary.map(
 								(beast) =>
 									beast.ancestry === ancestor && (
