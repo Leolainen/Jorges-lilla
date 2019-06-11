@@ -8,7 +8,7 @@ import InputBase from '../InputBase';
 const useStyles = makeStyles((theme) => ({
 	root: {
 		padding: `0 ${theme.spacing(1)}px`,
-		backgroundColor: theme.palette.primary.light,
+		backgroundColor: 'inherit',
 		borderRadius: 2
 	}
 }));
