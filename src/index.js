@@ -15,6 +15,11 @@ import { INITIAL_STATE } from './containers/AppContext/constants';
 const theme = createMuiTheme({
 	palette: {
 		type: 'dark'
+	},
+	props: {
+		MuiAppBar: {
+			elevation: 0
+		}
 	}
 });
 
