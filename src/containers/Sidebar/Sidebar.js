@@ -5,7 +5,10 @@ import { makeStyles } from '@material-ui/styles';
 
 import { useAppContext } from '../AppContext';
 
+import AppBar from '../../components/AppBar';
+import Toolbar from '../../components/Toolbar';
 import Drawer from '../../components/Drawer';
+import InputBase from '../../components/InputBase';
 import List from '../../components/List';
 import ListItem from '../../components/ListItem';
 import ListItemText from '../../components/ListItemText';
@@ -35,16 +38,18 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 	useEffect(
 		() => {
 			setAncestry([ ...new Set(bestiary.map((beast) => beast.ancestry)) ]);
-			/* setAncestry([ ...new Set(bestiary.map((beast) => beast.ancestry)) ]); */
 		},
 		[ bestiary ]
 	);
 
-	console.log('ancestry', ancestry);
-
 	return (
 		<Drawer anchor="right" ref={ref} className={classnames(classes.root, className)} {...other}>
 			<div role="presentation" className={classes.list}>
+				<AppBar>
+					<Toolbar>
+						<InputBase placeholder="Sök efter art..." inputProps={{ 'aria-label': 'Search' }} />
+					</Toolbar>
+				</AppBar>
 				<List>
 					{ancestry.map((ancestor) => (
 						<React.Fragment key={ancestor}>

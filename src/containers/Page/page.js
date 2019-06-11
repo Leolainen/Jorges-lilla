@@ -8,7 +8,7 @@ import { useAppContext } from '../AppContext';
 import { TOGGLE_SIDEBAR } from '../AppContext/constants';
 import Sidebar from '../Sidebar';
 
-import Button from '../../components/Button';
+import IconButton from '../../components/IconButton';
 import Container from '../../components/Container';
 
 const useStyles = makeStyles((theme) => ({
@@ -17,7 +17,8 @@ const useStyles = makeStyles((theme) => ({
 		position: 'fixed',
 		top: 0,
 		right: 0,
-		margin: '2rem'
+		margin: theme.spacing(2),
+		marginRight: theme.spacing(6)
 	}
 }));
 
@@ -34,9 +35,9 @@ const Page = React.forwardRef(function Page(props, ref) {
 
 	return (
 		<main ref={ref} className={classnames(classes.root, className)} {...other}>
-			<Button className={classes.hamburger} onClick={handleMenuClick}>
+			<IconButton aria-label="menu" className={classes.hamburger} onClick={handleMenuClick}>
 				<MenuIcon />
-			</Button>
+			</IconButton>
 			<Sidebar open={sidebarIsOpen} onClose={handleMenuClick} />
 			<Container maxWidth="lg">{children}</Container>
 		</main>
