@@ -10,7 +10,11 @@ import appContextReducer from './containers/AppContext/reducer';
 import { AppContextProvider } from './containers/AppContext';
 import { INITIAL_STATE } from './containers/AppContext/constants';
 
-const theme = createMuiTheme({});
+const theme = createMuiTheme({
+	palette: {
+		type: 'dark'
+	}
+});
 
 ReactDOM.render(
 	<ThemeProvider theme={theme}>
