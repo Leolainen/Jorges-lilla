@@ -1,21 +1,22 @@
 import React, { useEffect } from 'react';
 
 import { useAppContext } from './containers/AppContext';
-import { SET_CURRENT_CHARACTER } from './containers/AppContext/constants';
-import appContextReducer from './containers/AppContext/reducer';
+import { SET_CURRENT_ENTRY, SET_ENTRIES } from './containers/AppContext/constants';
 import Page from './containers/Page';
 
 import bestiaryData from './data/bestiary';
 
 const App = (props) => {
-	const { children } = props;
-
-	const [ { currentCharacter }, dispatch ] = useAppContext();
+	const [ { currentEntry }, dispatch ] = useAppContext();
 
 	/* Initialize bestiary */
 	useEffect(() => {
 		dispatch({
-			type: SET_CURRENT_CHARACTER,
+			type: SET_ENTRIES,
+			payload: bestiaryData
+		});
+		dispatch({
+			type: SET_CURRENT_ENTRY,
 			payload: bestiaryData[0]
 		});
 	}, []);
@@ -23,7 +24,7 @@ const App = (props) => {
 	return (
 		<Page>
 			<p>hej</p>
-			<pre>{JSON.stringify(currentCharacter)}</pre>
+			<pre>{JSON.stringify(currentEntry)}</pre>
 			{/** chidren */}
 		</Page>
 	);

@@ -1,7 +1,9 @@
 export const INITIAL_STATE = {
 	sidebarIsOpen: false,
-	currentCharacter: {}
+	currentEntry: {},
+	entries: []
 };
 
 export const TOGGLE_SIDEBAR = 'toggleSidebar';
-export const SET_CURRENT_CHARACTER = 'setCurrentCharacter';
+export const SET_CURRENT_ENTRY = 'setCurrentEntry';
+export const SET_ENTRIES = 'setEntries';

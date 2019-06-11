@@ -10,10 +10,15 @@ const reducer = (state, action) => {
 				...state,
 				sidebarIsOpen: !state.sidebarIsOpen
 			};
-		case 'setCurrentCharacter':
+		case 'setCurrentEntry':
 			return {
 				...state,
-				currentCharacter: action.payload
+				currentEntry: action.payload
+			};
+		case 'setEntries':
+			return {
+				...state,
+				entries: action.payload
 			};
 
 		default:
