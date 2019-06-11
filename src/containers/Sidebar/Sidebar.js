@@ -8,7 +8,7 @@ import { useAppContext } from '../AppContext';
 import AppBar from '../../components/AppBar';
 import Toolbar from '../../components/Toolbar';
 import Drawer from '../../components/Drawer';
-import InputBase from '../../components/InputBase';
+import Input from '../../components/Input';
 import List from '../../components/List';
 import ListItem from '../../components/ListItem';
 import ListItemText from '../../components/ListItemText';
@@ -47,7 +47,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 			<div role="presentation" className={classes.list}>
 				<AppBar>
 					<Toolbar>
-						<InputBase placeholder="Sök efter art..." inputProps={{ 'aria-label': 'Search' }} />
+						<Input placeholder="Sök efter art..." inputProps={{ 'aria-label': 'Search' }} />
 					</Toolbar>
 				</AppBar>
 				<List>
