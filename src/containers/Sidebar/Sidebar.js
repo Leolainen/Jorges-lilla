@@ -1,39 +1,57 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
+
 import { makeStyles } from '@material-ui/styles';
+import CloseIcon from '@material-ui/icons/Close';
 
 import { useAppContext } from '../AppContext';
+import { TOGGLE_SIDEBAR, SET_CURRENT_ENTRY } from '../AppContext/constants';
+
+import { getEntryBySpecies } from '../../api/bestiary';
 
 import AppBar from '../../components/AppBar';
-import Toolbar from '../../components/Toolbar';
 import Drawer from '../../components/Drawer';
+import IconButton from '../../components/IconButton';
 import Input from '../../components/Input';
 import List from '../../components/List';
 import ListItem from '../../components/ListItem';
 import ListItemText from '../../components/ListItemText';
 import ListSubHeader from '../../components/ListSubHeader';
-
-import { getAllEntries } from '../../api/bestiary';
+import Toolbar from '../../components/Toolbar';
 
 const useStyles = makeStyles((theme) => ({
-	root: {},
+	root: {
+		overflowY: 'auto'
+	},
+	container: {
+		marginTop: theme.spacing(8),
+		overflowY: 'auto'
+	},
 	list: {
-		minWidth: 250
+		width: 250
 	},
 	divider: {
-		opacity: 0.6,
-		marginTop: theme.spacing(4)
-	}
+		opacity: 0.6
+	},
+	searchBar: {}
 }));
 
 const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 	const { className, children, ...other } = props;
 
-	const [ { entries: bestiary }, dispatch ] = useAppContext();
+	const [ { entries }, dispatch ] = useAppContext();
 
 	const classes = useStyles();
+	const [ bestiary, setBestiary ] = useState([]);
 	const [ ancestry, setAncestry ] = useState([]);
+
+	useEffect(
+		() => {
+			setBestiary(entries);
+		},
+		[ entries ]
+	);
 
 	useEffect(
 		() => {
@@ -42,22 +60,57 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 		[ bestiary ]
 	);
 
+	const handleFilter = (e) => {
+		const filteredBestiary = entries.filter((beast) =>
+			beast.species.toLowerCase().includes(e.target.value.toLowerCase())
+		);
+
+		setBestiary(filteredBestiary);
+	};
+
+	const toggleSidebar = () => {
+		dispatch({
+			type: TOGGLE_SIDEBAR
+		});
+	};
+
+	const handleSelection = (specie) => {
+		const selectedSpecie = getEntryBySpecies(specie);
+		dispatch({
+			type: SET_CURRENT_ENTRY,
+			payload: selectedSpecie
+		});
+
+		toggleSidebar();
+	};
+
 	return (
 		<Drawer anchor="right" ref={ref} className={classnames(classes.root, className)} {...other}>
-			<div role="presentation" className={classes.list}>
-				<AppBar>
-					<Toolbar>
-						<Input placeholder="Sök efter art..." inputProps={{ 'aria-label': 'Search' }} />
+			<div role="presentation" className={classes.container}>
+				<AppBar color="default" position="fixed" className={classes.searchBar}>
+					<Toolbar variant="dense">
+						<Input
+							placeholder="Sök efter art..."
+							inputProps={{ 'aria-label': 'Search' }}
+							onChange={handleFilter}
+						/>
+						<IconButton onClick={toggleSidebar}>
+							<CloseIcon />
+						</IconButton>
 					</Toolbar>
 				</AppBar>
-				<List>
+				<List className={classes.list}>
 					{ancestry.map((ancestor) => (
 						<React.Fragment key={ancestor}>
 							<ListSubHeader disableSticky>{ancestor}</ListSubHeader>
 							{bestiary.map(
 								(beast) =>
 									beast.ancestry === ancestor && (
-										<ListItem button key={beast.species}>
+										<ListItem
+											button
+											key={beast.species}
+											onClick={() => handleSelection(beast.species)}
+										>
 											<ListItemText primary={beast.species} />
 										</ListItem>
 									)
@@ -82,13 +135,3 @@ Sidebar.defaultProps = {
 Sidebar.uiName = 'Sidebar';
 
 export default Sidebar;
-/* {ancestry.map(ancestor => {
-	b
-	return (
-
-	<ListItem>
-
-		<ListItemText primary={beast.species}
-	</ListItem>
-	)
-})} */
