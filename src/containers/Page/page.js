@@ -23,22 +23,21 @@ const useStyles = makeStyles((theme) => ({
 
 const Page = React.forwardRef(function Page(props, ref) {
 	const { className, children, ...other } = props;
-	/* const [ { sidebarIsOpen }, dispatch ] = useAppContext();
+	const [ { sidebarIsOpen }, dispatch ] = useAppContext();
 
 	const handleMenuClick = () => {
 		dispatch({
 			type: TOGGLE_SIDEBAR
 		});
 	};
- */
 	const classes = useStyles();
 
 	return (
 		<main ref={ref} className={classnames(classes.root, className)} {...other}>
-			<Button className={classes.hamburger}>
+			<Button className={classes.hamburger} onClick={handleMenuClick}>
 				<MenuIcon />
 			</Button>
-			<Sidebar /*open={sidebarIsOpen} onClose={handleMenuClick} */ />
+			<Sidebar open={sidebarIsOpen} onClose={handleMenuClick} />
 			<Container maxWidth="lg">{children}</Container>
 		</main>
 	);
