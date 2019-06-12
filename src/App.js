@@ -6,6 +6,10 @@ import Page from './containers/Page';
 
 import bestiaryData from './data/bestiary';
 
+import Card from './components/Card';
+import CardMedia from './components/CardMedia';
+import CardContent from './components/CardContent';
+
 const App = (props) => {
 	const [ { currentEntry }, dispatch ] = useAppContext();
 
@@ -21,12 +25,37 @@ const App = (props) => {
 		});
 	}, []);
 
-	console.log('currentEntry, App.js:', currentEntry);
+	/* 
+    Dynamically imports all image assets
+    https://webpack.js.org/guides/dependency-management/#require-context
+  */
+	function importAll(r) {
+		let parsedImages = {};
+		r.keys().map((image) => {
+			parsedImages[image.replace('./', '')] = r(image);
+		});
+
+		return parsedImages;
+	}
+
+	const images = importAll(require.context('./assets/images/', false, /\.(png|PNG)$/));
+
+	/* const dynamicImportImage = (imgName) => require.context(`../assets/images/${imgName}.PNG`, false, /\.(png|PNG)$/); */
+
+	// const image = images.find((img) => img === `${currentEntry.img_name}.PNG`);
+	console.log('images', images, images[`${currentEntry.img_name}.PNG`]);
 
 	return (
 		<Page>
-			<pre>hello</pre>
-			{/** chidren */}
+			<Card>
+				<CardMedia
+					component="img"
+					alt={currentEntry.species}
+					height="140"
+					image={images[`${currentEntry.img_name}.PNG`]}
+					title={currentEntry.species}
+				/>
+			</Card>
 		</Page>
 	);
 };
