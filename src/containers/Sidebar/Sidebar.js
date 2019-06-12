@@ -20,6 +20,7 @@ import ListItem from '../../components/ListItem';
 import ListItemText from '../../components/ListItemText';
 import ListSubHeader from '../../components/ListSubHeader';
 import Toolbar from '../../components/Toolbar';
+import Hidden from '../../components/Hidden';
 
 const useStyles = makeStyles((theme) => ({
 	root: {},
@@ -35,11 +36,13 @@ const useStyles = makeStyles((theme) => ({
 		margin: `${theme.spacing(2)}px 0`,
 		opacity: 0.6
 	},
-	searchBar: {}
+	searchBar: {
+		marginLeft: 'auto'
+	}
 }));
 
 const Sidebar = React.forwardRef(function Sidebar(props, ref) {
-	const { className, children, ...other } = props;
+	const { className, children, variant, ...other } = props;
 
 	const [ { entries, sidebarIsOpen }, dispatch ] = useAppContext();
 
@@ -86,18 +89,21 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 	};
 
 	return (
-		<Drawer anchor="right" ref={ref} className={classnames(classes.root, className)} {...other}>
+		<Drawer anchor="right" ref={ref} className={classnames(classes.root, className)} variant={variant} {...other}>
 			<div role="presentation" className={classes.container}>
-				<AppBar color="inherit" position="fixed" className={classes.searchBar}>
+				<AppBar color="inherit" position="fixed">
 					<Toolbar variant="dense">
 						<Input
 							placeholder="Sök efter art..."
 							inputProps={{ 'aria-label': 'Search' }}
 							onChange={handleFilter}
+							className={classes.searchBar}
 						/>
-						<IconButton onClick={toggleSidebar}>
-							<CloseIcon />
-						</IconButton>
+						{variant === 'temporary' && (
+							<IconButton onClick={toggleSidebar}>
+								<CloseIcon />
+							</IconButton>
+						)}
 					</Toolbar>
 				</AppBar>
 				<List className={classes.list}>
@@ -128,11 +134,13 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 });
 
 Sidebar.propTypes = {
-	className: PropTypes.string
+	className: PropTypes.string,
+	variant: PropTypes.string
 };
 
 Sidebar.defaultProps = {
-	className: ''
+	className: '',
+	variant: 'temporary'
 };
 
 Sidebar.uiName = 'Sidebar';
