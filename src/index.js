@@ -12,6 +12,14 @@ import appContextReducer from './containers/AppContext/reducer';
 import { AppContextProvider } from './containers/AppContext';
 import { INITIAL_STATE } from './containers/AppContext/constants';
 
+import { styles as CardMediaStyles } from './components/CardMedia/CardMedia';
+import { styles as ExpansionPanelStyles } from './components/ExpansionPanel/ExpansionPanel';
+
+const createOverrides = (theme) => ({
+	MuiCardMedia: CardMediaStyles(theme),
+	MuiExpansionPanel: ExpansionPanelStyles(theme)
+});
+
 const theme = createMuiTheme({
 	palette: {
 		type: 'dark'
@@ -22,6 +30,8 @@ const theme = createMuiTheme({
 		}
 	}
 });
+
+theme.overrides = createOverrides(theme);
 
 ReactDOM.render(
 	<ThemeProvider theme={theme}>
