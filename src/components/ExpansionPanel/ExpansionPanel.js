@@ -1,1 +1,9 @@
-export { ExpansionPanel } from '@material-ui/core';
+export { default } from '@material-ui/core/ExpansionPanel';
+
+export const styles = (theme) => ({
+	root: {
+		'&:before': {
+			display: 'none'
+		}
+	}
+});
