@@ -20,7 +20,6 @@ import ListItem from '../../components/ListItem';
 import ListItemText from '../../components/ListItemText';
 import ListSubHeader from '../../components/ListSubHeader';
 import Toolbar from '../../components/Toolbar';
-import Hidden from '../../components/Hidden';
 
 const useStyles = makeStyles((theme) => ({
 	root: {},
@@ -42,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Sidebar = React.forwardRef(function Sidebar(props, ref) {
-	const { className, children, variant, ...other } = props;
+	const { className, children, isMobile, ...other } = props;
 
 	const [ { entries, sidebarIsOpen }, dispatch ] = useAppContext();
 
@@ -89,7 +88,13 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 	};
 
 	return (
-		<Drawer anchor="right" ref={ref} className={classnames(classes.root, className)} variant={variant} {...other}>
+		<Drawer
+			anchor="right"
+			ref={ref}
+			className={classnames(classes.root, className)}
+			variant={isMobile ? 'temporary' : 'permanent'}
+			{...other}
+		>
 			<div role="presentation" className={classes.container}>
 				<AppBar color="inherit" position="fixed">
 					<Toolbar variant="dense">
@@ -99,7 +104,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 							onChange={handleFilter}
 							className={classes.searchBar}
 						/>
-						{variant === 'temporary' && (
+						{isMobile && (
 							<IconButton onClick={toggleSidebar}>
 								<CloseIcon />
 							</IconButton>
@@ -135,12 +140,11 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 
 Sidebar.propTypes = {
 	className: PropTypes.string,
-	variant: PropTypes.string
+	isMobile: PropTypes.bool.isRequired
 };
 
 Sidebar.defaultProps = {
-	className: '',
-	variant: 'temporary'
+	className: ''
 };
 
 Sidebar.uiName = 'Sidebar';
