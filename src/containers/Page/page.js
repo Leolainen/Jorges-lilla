@@ -63,7 +63,7 @@ const Page = React.forwardRef(function Page(props, ref) {
 			<Container maxWidth="md">
 				<Box mt={16}>{children}</Box>
 			</Container>
-			<Sidebar open={sidebarIsOpen} onClose={handleMenuClick} variant={isMobile ? 'temporary' : 'permanent'} />
+			<Sidebar open={sidebarIsOpen} onClose={handleMenuClick} isMobile={isMobile} />
 		</main>
 	);
 });
