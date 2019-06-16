@@ -26,8 +26,12 @@ const useStyles = makeStyles((theme) => ({
 	root: {},
 	wrapper: {
 		display: 'grid',
-		gridTemplateColumns: '1fr 1fr',
-		gridTemplateRows: 'auto'
+		gridTemplateColumns: '1fr',
+		gridTemplateRows: 'auto',
+
+		[theme.breakpoints.up('md')]: {
+			gridTemplateColumns: '1fr 1fr'
+		}
 	}
 	/* .grid-container {
     display: grid;
