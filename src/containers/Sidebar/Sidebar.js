@@ -27,9 +27,6 @@ const useStyles = makeStyles((theme) => ({
 		overflowY: 'scroll',
 		height: '100%'
 	},
-	list: {
-		width: 250
-	},
 	divider: {
 		margin: `${theme.spacing(2)}px 0`,
 		opacity: 0.6
@@ -114,7 +111,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 						)}
 					</Toolbar>
 				</AppBar>
-				<List className={classes.list}>
+				<List>
 					{ancestry.map((ancestor) => (
 						<React.Fragment key={ancestor}>
 							<ListSubHeader disableSticky>
