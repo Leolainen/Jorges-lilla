@@ -15,6 +15,16 @@ const theme = (type = 'dark') =>
 			},
 			MuiExpansionPanelSummary: {
 				expandIcon: <ExpandMoreIcon />
+			},
+			MuiButton: {
+				disableRipple: true,
+				disableFocusRipple: true,
+				disableTouchRipple: true
+			},
+			MuiListItem: {
+				disableRipple: true,
+				disableFocusRipple: true,
+				disableTouchRipple: true
 			}
 		}
 	});
