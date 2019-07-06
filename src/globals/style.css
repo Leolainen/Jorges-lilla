@@ -6,4 +6,5 @@
 
 body {
 	background-color: #a1887f;
+	background: center / cover no-repeat fixed url("../assets/images/papertexture.jpg"), #a1887f 35%;
 }
