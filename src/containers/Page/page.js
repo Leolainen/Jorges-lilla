@@ -28,11 +28,15 @@ const useStyles = makeStyles((theme) => ({
 		}
 	},
 	hamburger: {
-		marginLeft: 'auto'
+		marginLeft: 'auto',
+		backgroundColor: theme.palette.background.paper
 	},
 	header: {
 		background: 'none',
 		boxShadow: 'none'
+	},
+	container: {
+		marginTop: theme.spacing(8)
 	}
 }));
 
@@ -50,21 +54,21 @@ const Page = React.forwardRef(function Page(props, ref) {
 	const classes = useStyles();
 
 	return (
-		<main ref={ref} className={classnames(classes.root, className)} {...other}>
+		<section ref={ref} className={classnames(classes.root, className)} {...other}>
 			<Hidden mdUp>
 				<AppBar className={classes.header}>
-					<Toolbar variant="dense">
+					<Toolbar>
 						<IconButton aria-label="menu" className={classes.hamburger} onClick={handleMenuClick}>
 							<MenuIcon />
 						</IconButton>
 					</Toolbar>
 				</AppBar>
 			</Hidden>
-			<Container maxWidth="md">
-				<Box mt={16}>{children}</Box>
+			<Container className={classes.container} maxWidth="lg">
+				{children}
 			</Container>
 			<Sidebar open={sidebarIsOpen} onClose={handleMenuClick} isMobile={isMobile} />
-		</main>
+		</section>
 	);
 });
 
