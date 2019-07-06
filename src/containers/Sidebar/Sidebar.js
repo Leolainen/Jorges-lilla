@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
 import { makeStyles } from '@material-ui/styles';
-import CloseIcon from '@material-ui/icons/Close';
+import MenuIcon from '@material-ui/icons/Menu';
 
 import { useAppContext } from '../AppContext';
 import { TOGGLE_SIDEBAR, SET_CURRENT_ENTRY } from '../AppContext/constants';
@@ -24,7 +24,6 @@ import Toolbar from '../../components/Toolbar';
 const useStyles = makeStyles((theme) => ({
 	root: {},
 	container: {
-		marginTop: theme.spacing(8),
 		overflowY: 'scroll',
 		height: '100%'
 	},
@@ -48,6 +47,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 	const classes = useStyles();
 	const [ bestiary, setBestiary ] = useState([]);
 	const [ ancestry, setAncestry ] = useState([]);
+	const inputRef = useRef(null);
 
 	useEffect(
 		() => {
@@ -84,7 +84,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 			payload: selectedSpecie
 		});
 
-		toggleSidebar();
+		isMobile && toggleSidebar();
 	};
 
 	return (
@@ -96,9 +96,12 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 			{...other}
 		>
 			<div role="presentation" className={classes.container}>
-				<AppBar color="inherit" position="fixed">
-					<Toolbar variant="dense">
+				<AppBar color="inherit" position="relative">
+					<Toolbar>
 						<Input
+							fullWidth
+							inputRef={inputRef}
+							type="search"
 							placeholder="Sök efter art..."
 							inputProps={{ 'aria-label': 'Search' }}
 							onChange={handleFilter}
@@ -106,7 +109,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 						/>
 						{isMobile && (
 							<IconButton onClick={toggleSidebar}>
-								<CloseIcon />
+								<MenuIcon />
 							</IconButton>
 						)}
 					</Toolbar>
