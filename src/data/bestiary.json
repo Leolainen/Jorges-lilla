@@ -7,14 +7,46 @@
 		"residence": "Skog",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "11",
-			"physique": "12",
-			"agility": "13",
-			"size": "10",
-			"intelligence": "12",
-			"psyche": "12",
-			"spiritus": "13",
-			"charisma": "13"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "11"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "12"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "10"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "12"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "12"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "13"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "13"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "26",
@@ -57,14 +89,40 @@
 				"hp": "17 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Ingen",
-		"initiative_mod": "-1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 12m",
-		"reach": "varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Ingen"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 12m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "attack 1",
@@ -149,14 +207,46 @@
 		"residence": "Berg och Högland",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "23",
-			"physique": "19",
-			"agility": "9",
-			"size": "21",
-			"intelligence": "8",
-			"psyche": "5",
-			"spiritus": "10",
-			"charisma": "6"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "23"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "19"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "9"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "21"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "8"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "5"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "6"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "34",
@@ -199,14 +289,40 @@
 				"hp": "23 (KP/3)"
 			}
 		],
-		"avg_age": "30 år",
-		"max_age": "70 år",
-		"initiative_mod": "+1",
-		"fear_factor": "+1",
-		"damage_bonus": "2T6",
-		"movement": "Land 13m",
-		"reach": "varierar",
-		"natural_armour": "RV 1 (Hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "30 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "70 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+1"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 13m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 1 (Hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "attack 1",
@@ -263,14 +379,46 @@
 		"residence": "Skog",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "36",
-			"physique": "22",
-			"agility": "2",
-			"size": "51",
-			"intelligence": "4",
-			"psyche": "18",
-			"spiritus": "2",
-			"charisma": "1"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "36"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "22"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "2"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "51"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "4"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "18"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "2"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "1"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "69",
@@ -308,14 +456,40 @@
 				"hp": "34 (KP/4)"
 			}
 		],
-		"avg_age": "300 år",
-		"max_age": "700 år",
-		"initiative_mod": "+3",
-		"fear_factor": "+3",
-		"damage_bonus": "6T6",
-		"movement": "Land 2m",
-		"reach": "7m",
-		"natural_armour": "RV 3 (Bark)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "300 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "700 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+3"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "6T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 2m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "7m"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (Bark)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Gren",
@@ -352,14 +526,46 @@
 		"residence": "Varierar, vanligtvis skog",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "20",
-			"physique": "14",
-			"agility": "10",
-			"size": "25",
-			"intelligence": "1",
-			"psyche": "1",
-			"spiritus": "1",
-			"charisma": "1"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "20"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "14"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "10"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "25"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "1"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "1"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "1"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "1"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "30",
@@ -402,14 +608,40 @@
 				"hp": "20 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "+1",
-		"fear_factor": "+4",
-		"damage_bonus": "2T6",
-		"movement": "Land 18m",
-		"reach": "Varierar",
-		"natural_armour": "RV 4",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+4"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 18m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 4"
+      }
+		},
 		"combat": [
 			{
 				"name": "2 Klohänder",
@@ -450,14 +682,46 @@
 		"residence": "Skog",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "8",
-			"physique": "10",
-			"agility": "17",
-			"size": "6",
-			"intelligence": "10",
-			"psyche": "18",
-			"spiritus": "9",
-			"charisma": "6"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "8"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "10"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "17"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "6"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "18"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "9"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "6"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "26",
@@ -500,14 +764,40 @@
 				"hp": "10 (KP/5)"
 			}
 		],
-		"avg_age": "100 år",
-		"max_age": "250 år",
-		"initiative_mod": "-4",
-		"fear_factor": "+2",
-		"damage_bonus": "Ingen",
-		"movement": "Land 12m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "100 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "250 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-4"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 12m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -552,14 +842,46 @@
 		"residence": "Berg och stenlandskap",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "45",
-			"physique": "40",
-			"agility": "12",
-			"size": "55",
-			"intelligence": "8",
-			"psyche": "18",
-			"spiritus": "6",
-			"charisma": "2"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "45"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "40"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "12"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "55"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "8"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "18"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "6"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "2"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "85",
@@ -597,14 +919,40 @@
 				"hp": "57 (KP/3)"
 			}
 		],
-		"avg_age": "350 år",
-		"max_age": "750 år",
-		"initiative_mod": "0",
-		"fear_factor": "+4",
-		"damage_bonus": "7T6",
-		"movement": "Land 24m",
-		"reach": "Varierar",
-		"natural_armour": "RV 6",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "350 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "750 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+4"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 24m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 6"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -645,14 +993,46 @@
 		"residence": "Varierar",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "60",
-			"physique": "25",
-			"agility": "18",
-			"size": "40",
-			"intelligence": "25",
-			"psyche": "30",
-			"spiritus": "85",
-			"charisma": "7"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "60"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "25"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "18"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "40"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "25"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "30"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "85"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "7"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints": "71",
@@ -695,14 +1075,40 @@
 				"hp": "48 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "-5",
-		"fear_factor": "+15",
-		"damage_bonus": "7T6",
-		"movement": "Land 30m, Flyga 45m (om vingar)",
-		"reach": "Varierar",
-		"natural_armour": "Varierar",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-5"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+15"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 30m, Flyga 45m (om vingar)"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Varierar"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -751,14 +1157,46 @@
 		"residence": "Varierar",
 		"prevalence": "Unik",
 		"attributes": {
-			"strength": "-",
-			"physique": "-",
-			"agility": "-",
-			"size": "-",
-			"intelligence": "25",
-			"psyche": "30",
-			"spiritus": "100",
-			"charisma": "-"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "-"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "-"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "-"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "-"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "25"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "30"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "100"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "-"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "-",
@@ -771,14 +1209,40 @@
 				"hp": "-"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "Ingen",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Varierar",
-		"reach": "Ingen",
-		"natural_armour": "Ingen",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "Ingen"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Varierar"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Ingen"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Ingen"
+      }
+		},
 		"combat": [
 			{
 				"name": "Ingen",
@@ -807,14 +1271,46 @@
 		"residence": "Varierar",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "-",
-			"physique": "-",
-			"agility": "16",
-			"size": "12",
-			"intelligence": "13",
-			"psyche": "12",
-			"spiritus": "32",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "-"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "-"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "12"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "13"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "12"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "32"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "32 (SPI)",
@@ -827,14 +1323,40 @@
 				"hp": "-"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "-3",
-		"fear_factor": "+6",
-		"damage_bonus": "Ingen",
-		"movement": "Flyga 14m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+6"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Flyga 14m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Livsuttömning",
@@ -875,14 +1397,46 @@
 		"residence": "Berg och högland",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "16",
-			"physique": "16",
-			"agility": "11",
-			"size": "16",
-			"intelligence": "10",
-			"psyche": "13",
-			"spiritus": "10",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "16"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "11"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "16"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "34",
@@ -935,14 +1489,40 @@
 				"hp": "23 (KP/3)"
 			}
 		],
-		"avg_age": "75 år",
-		"max_age": "165 år",
-		"initiative_mod": "-1",
-		"fear_factor": "0",
-		"damage_bonus": "1T6",
-		"movement": "Land 16m, Flyga ca 10m",
-		"reach": "Varierar",
-		"natural_armour": "RV 3 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "75 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "165 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "0"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 16m, Flyga ca 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -1035,14 +1615,46 @@
 		"residence": "Berg och högland",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "16 + 1T6",
-			"physique": "16 + 1T6",
-			"agility": "11",
-			"size": "16 + 1T6",
-			"intelligence": "10",
-			"psyche": "13",
-			"spiritus": "10",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "16 + 1T6"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16 + 1T6"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "11"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "16 + 1T6"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "34",
@@ -1095,14 +1707,40 @@
 				"hp": "23 (KP/3)"
 			}
 		],
-		"avg_age": "75 år",
-		"max_age": "165 år",
-		"initiative_mod": "-1",
-		"fear_factor": "0",
-		"damage_bonus": "1T6",
-		"movement": "Land 16m, Flyga ca 10m",
-		"reach": "Varierar",
-		"natural_armour": "RV 3 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "75 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "165 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "0"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 16m, Flyga ca 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -1195,14 +1833,46 @@
 		"residence": "Berg och högland",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "16 - 1T6",
-			"physique": "16 - 1T6",
-			"agility": "11",
-			"size": "16 - 1T6",
-			"intelligence": "10",
-			"psyche": "13",
-			"spiritus": "10",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "16 - 1T6"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16 - 1T6"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "11"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "16 - 1T6"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "34",
@@ -1255,14 +1925,40 @@
 				"hp": "23 (KP/3)"
 			}
 		],
-		"avg_age": "75 år",
-		"max_age": "165 år",
-		"initiative_mod": "-1",
-		"fear_factor": "0",
-		"damage_bonus": "1T6",
-		"movement": "Land 16m, Flyga ca 10m",
-		"reach": "Varierar",
-		"natural_armour": "RV 3 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "75 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "165 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "0"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 16m, Flyga ca 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -1355,14 +2051,46 @@
 		"residence": "Berg och högland",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "16",
-			"physique": "16",
-			"agility": "11",
-			"size": "16",
-			"intelligence": "10 + 1T6",
-			"psyche": "13 + 1T6",
-			"spiritus": "10 + 1T6",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "16"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "11"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "16"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10 + 1T6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13 + 1T6"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10 + 1T6"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "34",
@@ -1415,14 +2143,40 @@
 				"hp": "23 (KP/3)"
 			}
 		],
-		"avg_age": "75 år",
-		"max_age": "165 år",
-		"initiative_mod": "-1",
-		"fear_factor": "0",
-		"damage_bonus": "1T6",
-		"movement": "Land 16m, Flyga ca 10m",
-		"reach": "Varierar",
-		"natural_armour": "RV 3 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "75 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "165 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "0"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 16m, Flyga ca 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -1515,14 +2269,46 @@
 		"residence": "Varierar",
 		"prevalence": "Unik",
 		"attributes": {
-			"strength": "16",
-			"physique": "16",
-			"agility": "7",
-			"size": "19",
-			"intelligence": "21",
-			"psyche": "18",
-			"spiritus": "62",
-			"charisma": "6"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "16"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "7"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "19"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "21"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "18"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "62"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "6"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "40",
@@ -1565,14 +2351,40 @@
 				"hp": "27 (KP/3)"
 			}
 		],
-		"avg_age": "200 år",
-		"max_age": "500 år",
-		"initiative_mod": "+2",
-		"fear_factor": "+1",
-		"damage_bonus": "1T6",
-		"movement": "Land 13m",
-		"reach": "Varierar",
-		"natural_armour": "RV 1 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "200 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "500 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+1"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 13m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 1 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -1693,14 +2505,46 @@
 		"residence": "Gamla slagfält",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "17",
-			"physique": "12",
-			"agility": "9",
-			"size": "15",
-			"intelligence": "7",
-			"psyche": "3",
-			"spiritus": "33",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "17"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "12"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "9"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "15"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "7"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "3"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "33"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "33",
@@ -1743,14 +2587,40 @@
 				"hp": "22 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "+1",
-		"fear_factor": "+1",
-		"damage_bonus": "1T6",
-		"movement": "Land 12m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+1"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 12m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -1807,14 +2677,46 @@
 		"residence": "Skog och grottor",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "10",
-			"physique": "8",
-			"agility": "17",
-			"size": "4",
-			"intelligence": "6",
-			"psyche": "6",
-			"spiritus": "12",
-			"charisma": "5"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "10"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "8"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "17"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "4"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "6"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "12"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "5"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "14",
@@ -1867,14 +2769,40 @@
 				"hp": "9 (KP/3)"
 			}
 		],
-		"avg_age": "25 år",
-		"max_age": "60 år",
-		"initiative_mod": "-4",
-		"fear_factor": "-5",
-		"damage_bonus": "Ingen",
-		"movement": "Land 11m",
-		"reach": "Varierar",
-		"natural_armour": "Ingen",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "25 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "60 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-4"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "-5"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 11m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Ingen"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -1907,14 +2835,46 @@
 		"residence": "Grottor",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "13",
-			"physique": "14",
-			"agility": "9",
-			"size": "7",
-			"intelligence": "12",
-			"psyche": "13",
-			"spiritus": "12",
-			"charisma": "12"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "13"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "14"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "9"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "7"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "12"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "12"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "12"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "26",
@@ -1957,14 +2917,40 @@
 				"hp": "17 (KP/3)"
 			}
 		],
-		"avg_age": "110 år",
-		"max_age": "600 år",
-		"initiative_mod": "+1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 10m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "110 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "600 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -2033,14 +3019,46 @@
 		"residence": "Varierar",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "26",
-			"physique": "16",
-			"agility": "11",
-			"size": "12",
-			"intelligence": "12",
-			"psyche": "10",
-			"spiritus": "62",
-			"charisma": "1"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "26"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "11"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "12"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "12"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "10"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "62"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "1"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "62",
@@ -2083,14 +3101,40 @@
 				"hp": "41 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "0",
-		"fear_factor": "+8",
-		"damage_bonus": "1T6",
-		"movement": "Land 12m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+8"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 12m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -2199,14 +3243,46 @@
 		"residence": "Skog",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "15",
-			"physique": "16",
-			"agility": "8",
-			"size": "19",
-			"intelligence": "6",
-			"psyche": "14",
-			"spiritus": "3",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "15"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "8"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "19"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "14"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "3"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "37",
@@ -2249,14 +3325,40 @@
 				"hp": "25 (KP/3)"
 			}
 		],
-		"avg_age": "60 år",
-		"max_age": "200 år",
-		"initiative_mod": "+2",
-		"fear_factor": "-2",
-		"damage_bonus": "1T6",
-		"movement": "Land 6m",
-		"reach": "Varierar",
-		"natural_armour": "RV 3 (bark)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "60 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "200 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "-2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 6m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (bark)"
+      }
+		},
 		"combat": [
 			{
 				"name": "2 Klor",
@@ -2297,14 +3399,46 @@
 		"residence": "Varierar",
 		"prevalence": "Unik",
 		"attributes": {
-			"strength": "22",
-			"physique": "10",
-			"agility": "8",
-			"size": "20",
-			"intelligence": "24",
-			"psyche": "16",
-			"spiritus": "79",
-			"charisma": "15"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "22"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "10"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "8"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "20"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "24"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "16"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "79"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "15"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "35",
@@ -2347,14 +3481,40 @@
 				"hp": "23 (KP/3)"
 			}
 		],
-		"avg_age": "150 år",
-		"max_age": "Varierar",
-		"initiative_mod": "+2",
-		"fear_factor": "Ingen",
-		"damage_bonus": "2T6",
-		"movement": "Land 10m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "150 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Parering 1",
@@ -2403,14 +3563,46 @@
 		"residence": "Frusna ödemarker",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "90",
-			"physique": "38",
-			"agility": "10",
-			"size": "81",
-			"intelligence": "16",
-			"psyche": "32",
-			"spiritus": "19",
-			"charisma": "6"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "90"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "38"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "10"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "81"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "16"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "32"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "19"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "6"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "114",
@@ -2463,14 +3655,40 @@
 				"hp": "76 (KP/3)"
 			}
 		],
-		"avg_age": "350 år",
-		"max_age": "800 år",
-		"initiative_mod": "+1",
-		"fear_factor": "+8",
-		"damage_bonus": "7T6",
-		"movement": "Land 27m, Flyga 38m",
-		"reach": "Varierar",
-		"natural_armour": "RV 8 (Mage: RV 10, Vingar: RV 4)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "350 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "800 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+8"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 27m, Flyga 38m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 8 (Mage: RV 10, Vingar: RV 4)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -2559,14 +3777,46 @@
 		"residence": "Varierar",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "-",
-			"physique": "-",
-			"agility": "16",
-			"size": "15",
-			"intelligence": "18",
-			"psyche": "15",
-			"spiritus": "19",
-			"charisma": "9"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "-"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "-"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "15"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "18"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "15"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "19"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "9"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "26",
@@ -2599,14 +3849,40 @@
 				"hp": "13 (KP/4)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "-5",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Flyga 25m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-5"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Flyga 25m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Eldkast",
@@ -2639,14 +3915,46 @@
 		"residence": "Slätter och öppen kuperad terräng",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "21",
-			"physique": "19",
-			"agility": "17",
-			"size": "20",
-			"intelligence": "8",
-			"psyche": "10",
-			"spiritus": "9",
-			"charisma": "6"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "21"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "19"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "17"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "20"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "8"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "10"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "9"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "6"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "37",
@@ -2694,14 +4002,40 @@
 				"hp": "19 (KP/4)"
 			}
 		],
-		"avg_age": "25 år",
-		"max_age": "40 år",
-		"initiative_mod": "-4",
-		"fear_factor": "0",
-		"damage_bonus": "2T6",
-		"movement": "Land 18m, Flyga 30m",
-		"reach": "Varierar",
-		"natural_armour": "RV 4 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "25 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "40 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-4"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "0"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 18m, Flyga 30m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 4 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -2734,14 +4068,46 @@
 		"residence": "Varierar",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "18",
-			"physique": "17",
-			"agility": "10",
-			"size": "16",
-			"intelligence": "8",
-			"psyche": "9",
-			"spiritus": "9",
-			"charisma": "9"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "18"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "17"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "10"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "16"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "8"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "9"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "9"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "9"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "32",
@@ -2784,14 +4150,40 @@
 				"hp": "21 (KP/3)"
 			}
 		],
-		"avg_age": "25 år",
-		"max_age": "60 år",
-		"initiative_mod": "+1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "1T6",
-		"movement": "Land 13m",
-		"reach": "Varierar",
-		"natural_armour": "RV 2 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "25 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "60 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 13m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 2 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -2849,14 +4241,46 @@
 		"residence": "Skog och kuperad terräng",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "10",
-			"physique": "11",
-			"agility": "14",
-			"size": "6",
-			"intelligence": "13",
-			"psyche": "12",
-			"spiritus": "12",
-			"charisma": "12"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "10"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "11"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "14"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "6"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "13"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "12"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "12"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "12"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "22",
@@ -2899,14 +4323,40 @@
 				"hp": "15 (KP/3)"
 			}
 		],
-		"avg_age": "30 år",
-		"max_age": "80 år",
-		"initiative_mod": "-1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 10m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "30 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "80 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -2991,14 +4441,46 @@
 		"residence": "Skog",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "8",
-			"physique": "12",
-			"agility": "16",
-			"size": "10",
-			"intelligence": "10",
-			"psyche": "8",
-			"spiritus": "12",
-			"charisma": "9"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "8"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "12"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "10"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "8"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "12"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "9"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "23",
@@ -3041,14 +4523,40 @@
 				"hp": "23 (KP/3)"
 			}
 		],
-		"avg_age": "15 år",
-		"max_age": "35 år",
-		"initiative_mod": "-3",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 13m, Flyga 20m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "15 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "35 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 13m, Flyga 20m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -3093,14 +4601,46 @@
 		"residence": "Varierar",
 		"prevalence": "Unik",
 		"attributes": {
-			"strength": "25",
-			"physique": "18",
-			"agility": "16",
-			"size": "40",
-			"intelligence": "6",
-			"psyche": "16",
-			"spiritus": "51",
-			"charisma": "1"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "25"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "18"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "40"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "16"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "51"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "1"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "51",
@@ -3138,14 +4678,40 @@
 				"hp": "26 (KP/4)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "-3",
-		"fear_factor": "+7",
-		"damage_bonus": "4T6",
-		"movement": "Land 23m",
-		"reach": "Varierar",
-		"natural_armour": "RV 1 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+7"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "4T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 23m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 1 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -3191,14 +4757,46 @@
 		"residence": "Frusna ödemarker",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "45",
-			"physique": "34",
-			"agility": "13",
-			"size": "40",
-			"intelligence": "11",
-			"psyche": "14",
-			"spiritus": "8",
-			"charisma": "7"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "45"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "34"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "40"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "11"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "14"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "8"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "7"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "66",
@@ -3241,14 +4839,40 @@
 				"hp": "45 (KP/3)"
 			}
 		],
-		"avg_age": "100 år",
-		"max_age": "175 år",
-		"initiative_mod": "-1",
-		"fear_factor": "+6",
-		"damage_bonus": "6T6",
-		"movement": "Land 27m",
-		"reach": "Varierar",
-		"natural_armour": "RV 2 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "100 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "175 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+6"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "6T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 27m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 2 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -3313,14 +4937,46 @@
 		"residence": "Träsk och sumpmarker",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "35",
-			"physique": "25",
-			"agility": "10",
-			"size": "45",
-			"intelligence": "6",
-			"psyche": "13",
-			"spiritus": "15",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "35"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "25"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "10"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "45"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "15"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "62",
@@ -3363,14 +5019,40 @@
 				"hp": "25 (KP/5)"
 			}
 		],
-		"avg_age": "200 år",
-		"max_age": "375 år",
-		"initiative_mod": "+2",
-		"fear_factor": "+8",
-		"damage_bonus": "5T6",
-		"movement": "Land 10m",
-		"reach": "6m",
-		"natural_armour": "RV 3 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "200 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "375 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+8"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "5T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "6m"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "(Huvuden/3) bett",
@@ -3407,14 +5089,46 @@
 		"residence": "Frusna ödemarker",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "34",
-			"physique": "28",
-			"agility": "10",
-			"size": "29",
-			"intelligence": "12",
-			"psyche": "15",
-			"spiritus": "7",
-			"charisma": "7"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "34"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "28"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "10"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "29"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "12"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "15"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "7"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "7"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "54",
@@ -3457,14 +5171,40 @@
 				"hp": "36 (KP/3)"
 			}
 		],
-		"avg_age": "60 år",
-		"max_age": "140 år",
-		"initiative_mod": "+1",
-		"fear_factor": "+2",
-		"damage_bonus": "4T6",
-		"movement": "Land 20m",
-		"reach": "Varierar",
-		"natural_armour": "RV 2 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "60 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "140 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "4T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 20m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 2 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -3529,14 +5269,46 @@
 		"residence": "Varierar",
 		"prevalence": "Unik",
 		"attributes": {
-			"strength": "35",
-			"physique": "25",
-			"agility": "5",
-			"size": "60",
-			"intelligence": "6",
-			"psyche": "10",
-			"spiritus": "6",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "35"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "25"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "5"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "60"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "10"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "6"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "72",
@@ -3569,14 +5341,40 @@
 				"hp": "20 (KP/4)"
 			}
 		],
-		"avg_age": "500 år",
-		"max_age": "2000 år",
-		"initiative_mod": "+3",
-		"fear_factor": "+6",
-		"damage_bonus": "7T6",
-		"movement": "Land 18m, Gräva 2m",
-		"reach": "Varierar",
-		"natural_armour": "RV 12 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "500 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "2000 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+6"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 18m, Gräva 2m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 12 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -3609,14 +5407,46 @@
 		"residence": "Berg och grottor",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "120",
-			"physique": "42",
-			"agility": "12",
-			"size": "102",
-			"intelligence": "22",
-			"psyche": "28",
-			"spiritus": "19",
-			"charisma": "10"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "120"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "42"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "12"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "102"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "22"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "28"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "19"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "10"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "129",
@@ -3669,14 +5499,40 @@
 				"hp": "86 (KP/3)"
 			}
 		],
-		"avg_age": "500 år",
-		"max_age": "1000 år",
-		"initiative_mod": "0",
-		"fear_factor": "+9",
-		"damage_bonus": "7T6",
-		"movement": "Land 22m, Flyga 28m",
-		"reach": "Varierar",
-		"natural_armour": "RV 16 (Mage: RV 20, Vingar: RV 8)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "500 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "1000 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+9"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 22m, Flyga 28m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 16 (Mage: RV 20, Vingar: RV 8)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -3789,14 +5645,46 @@
 		"residence": "Varierar",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "22",
-			"physique": "15",
-			"agility": "16",
-			"size": "26",
-			"intelligence": "5",
-			"psyche": "13",
-			"spiritus": "2",
-			"charisma": "5"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "22"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "15"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "26"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "5"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "2"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "5"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "41",
@@ -3829,14 +5717,40 @@
 				"hp": "20 (KP/4)"
 			}
 		],
-		"avg_age": "30 år",
-		"max_age": "60 år",
-		"initiative_mod": "-3",
-		"fear_factor": "+3",
-		"damage_bonus": "2T6",
-		"movement": "Vatten 25m",
-		"reach": "Varierar",
-		"natural_armour": "RV 5 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "30 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "60 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+3"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Vatten 25m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 5 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -3869,14 +5783,46 @@
 		"residence": "Varierar",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "30",
-			"physique": "20",
-			"agility": "14",
-			"size": "35",
-			"intelligence": "6",
-			"psyche": "13",
-			"spiritus": "4",
-			"charisma": "4"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "30"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "20"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "14"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "35"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "4"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "4"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "51",
@@ -3909,14 +5855,40 @@
 				"hp": "26 (KP/4)"
 			}
 		],
-		"avg_age": "30 år",
-		"max_age": "60 år",
-		"initiative_mod": "-1",
-		"fear_factor": "+2",
-		"damage_bonus": "4T6",
-		"movement": "Land 24m",
-		"reach": "Varierar",
-		"natural_armour": "RV 7 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "30 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "60 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "4T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 24m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 7 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -3949,14 +5921,46 @@
 		"residence": "Varierar",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "20",
-			"physique": "14",
-			"agility": "12",
-			"size": "22",
-			"intelligence": "7",
-			"psyche": "10",
-			"spiritus": "2",
-			"charisma": "2"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "20"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "14"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "12"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "22"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "7"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "10"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "2"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "2"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "35",
@@ -3989,14 +5993,40 @@
 				"hp": "17 (KP/4)"
 			}
 		],
-		"avg_age": "30 år",
-		"max_age": "60 år",
-		"initiative_mod": "0",
-		"fear_factor": "+1",
-		"damage_bonus": "2T6",
-		"movement": "Land 18m",
-		"reach": "Varierar",
-		"natural_armour": "RV 4 (päls)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "30 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "60 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+1"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 18m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 4 (päls)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -4029,14 +6059,46 @@
 		"residence": "Varierar",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "26",
-			"physique": "17",
-			"agility": "13",
-			"size": "31",
-			"intelligence": "6",
-			"psyche": "12",
-			"spiritus": "3",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "26"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "17"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "31"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "12"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "3"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "45",
@@ -4069,14 +6131,40 @@
 				"hp": "23 (KP/4)"
 			}
 		],
-		"avg_age": "30 år",
-		"max_age": "60 år",
-		"initiative_mod": "-1",
-		"fear_factor": "+4",
-		"damage_bonus": "3T6",
-		"movement": "Land 20m, Vatten 18m",
-		"reach": "Varierar",
-		"natural_armour": "RV 6 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "30 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "60 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+4"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "3T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 20m, Vatten 18m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 6 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -4113,14 +6201,46 @@
 		"residence": "Skog",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "30",
-			"physique": "23",
-			"agility": "21",
-			"size": "32",
-			"intelligence": "19",
-			"psyche": "23",
-			"spiritus": "19",
-			"charisma": "5 (18)"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "30"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "23"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "21"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "32"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "19"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "23"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "19"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "5 (18)"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "59",
@@ -4178,14 +6298,40 @@
 				"hp": "23 (KP/5)"
 			}
 		],
-		"avg_age": "3500 år",
-		"max_age": "5000 år",
-		"initiative_mod": "-8",
-		"fear_factor": "+5",
-		"damage_bonus": "4T6",
-		"movement": "Land 27m",
-		"reach": "Varierar",
-		"natural_armour": "RV 10 (skal)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "3500 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "5000 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-8"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+5"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "4T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 27m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 10 (skal)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -4230,14 +6376,46 @@
 		"residence": "Gravplatser",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "22",
-			"physique": "12",
-			"agility": "13",
-			"size": "15",
-			"intelligence": "8",
-			"psyche": "7",
-			"spiritus": "45",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "22"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "12"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "15"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "8"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "7"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "45"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "45",
@@ -4280,14 +6458,40 @@
 				"hp": "30 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "-1",
-		"fear_factor": "+4",
-		"damage_bonus": "1T6",
-		"movement": "Land 14m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+4"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 14m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -4328,14 +6532,46 @@
 		"residence": "Varierar, Skog",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "14",
-			"physique": "16",
-			"agility": "14",
-			"size": "19",
-			"intelligence": "9",
-			"psyche": "15",
-			"spiritus": "16",
-			"charisma": "12"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "14"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "14"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "19"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "9"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "15"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "16"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "12"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "38",
@@ -4378,14 +6614,40 @@
 				"hp": "25 (KP/3)"
 			}
 		],
-		"avg_age": "75 år",
-		"max_age": "200 år",
-		"initiative_mod": "-1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "1T6",
-		"movement": "Land 17m",
-		"reach": "Varierar",
-		"natural_armour": "RV 1 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "75 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "200 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 17m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 1 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -4462,14 +6724,46 @@
 		"residence": "Skog",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "35",
-			"physique": "19",
-			"agility": "13",
-			"size": "55",
-			"intelligence": "10",
-			"psyche": "13",
-			"spiritus": "13",
-			"charisma": "9"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "35"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "19"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "55"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "13"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "9"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "65",
@@ -4502,14 +6796,40 @@
 				"hp": "33 (KP/3)"
 			}
 		],
-		"avg_age": "100 år",
-		"max_age": "175 år",
-		"initiative_mod": "-1",
-		"fear_factor": "+7",
-		"damage_bonus": "6T6",
-		"movement": "Land 34m",
-		"reach": "Varierar",
-		"natural_armour": "RV 4 (Fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "100 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "175 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+7"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "6T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 34m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 4 (Fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -4554,14 +6874,46 @@
 		"residence": "Grottor",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "16",
-			"physique": "16",
-			"agility": "15",
-			"size": "13",
-			"intelligence": "10",
-			"psyche": "18",
-			"spiritus": "10",
-			"charisma": "7"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "16"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "15"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "13"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "18"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "7"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "47",
@@ -4604,14 +6956,40 @@
 				"hp": "31 (KP/3)"
 			}
 		],
-		"avg_age": "650 år",
-		"max_age": "1500 år",
-		"initiative_mod": "-2",
-		"fear_factor": "0",
-		"damage_bonus": "1T3",
-		"movement": "Land 14m",
-		"reach": "Varierar",
-		"natural_armour": "RV 3 (Lavaskal)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "650 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "1500 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "0"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T3"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 14m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (Lavaskal)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -4648,14 +7026,46 @@
 		"residence": "Varierar",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "150",
-			"physique": "49",
-			"agility": "14",
-			"size": "150",
-			"intelligence": "25",
-			"psyche": "27",
-			"spiritus": "105",
-			"charisma": "12"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "150"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "49"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "14"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "150"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "25"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "27"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "105"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "12"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "170",
@@ -4708,14 +7118,40 @@
 				"hp": "113 (KP/3)"
 			}
 		],
-		"avg_age": "1000 år",
-		"max_age": "5000 år",
-		"initiative_mod": "-1",
-		"fear_factor": "+11",
-		"damage_bonus": "7T6",
-		"movement": "Land 29m, Flyga 65m",
-		"reach": "Varierar",
-		"natural_armour": "RV 10 (Mage RV 7, Vingar RV 5)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "1000 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "5000 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+11"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 29m, Flyga 65m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 10 (Mage RV 7, Vingar RV 5)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -4832,14 +7268,46 @@
 		"residence": "Berg och skog",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "15",
-			"physique": "16",
-			"agility": "20",
-			"size": "12",
-			"intelligence": "10",
-			"psyche": "12",
-			"spiritus": "10",
-			"charisma": "11"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "15"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "20"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "12"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "12"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "11"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "30",
@@ -4882,14 +7350,40 @@
 				"hp": "20 (KP/3)"
 			}
 		],
-		"avg_age": "35 år",
-		"max_age": "65 år",
-		"initiative_mod": "-7",
-		"fear_factor": "Ingen",
-		"damage_bonus": "1T3",
-		"movement": "Land 16m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "35 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "65 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-7"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T3"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 16m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -4978,14 +7472,46 @@
 		"residence": "Träsk och sumpmark",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "15",
-			"physique": "11",
-			"agility": "7",
-			"size": "15",
-			"intelligence": "4",
-			"psyche": "9",
-			"spiritus": "23",
-			"charisma": "5"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "15"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "11"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "7"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "15"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "4"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "9"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "23"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "5"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "23",
@@ -5028,14 +7554,40 @@
 				"hp": "15 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "+2",
-		"fear_factor": "+3",
-		"damage_bonus": "1T3",
-		"movement": "Vatten/Vada 5m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+3"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T3"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Vatten/Vada 5m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Brottning",
@@ -5076,14 +7628,46 @@
 		"residence": "Grottsjöar",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "15",
-			"physique": "12",
-			"agility": "15",
-			"size": "15",
-			"intelligence": "7",
-			"psyche": "9",
-			"spiritus": "8",
-			"charisma": "7"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "15"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "12"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "15"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "15"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "7"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "9"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "8"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "7"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "26",
@@ -5126,14 +7710,40 @@
 				"hp": "18 (KP/3)"
 			}
 		],
-		"avg_age": "25 år",
-		"max_age": "55 år",
-		"initiative_mod": "-2",
-		"fear_factor": "Ingen",
-		"damage_bonus": "1T3",
-		"movement": "Land 8m, Vatten 29m",
-		"reach": "Varierar",
-		"natural_armour": "RV 1 (fjäll)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "25 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "55 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T3"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 8m, Vatten 29m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 1 (fjäll)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Skalla",
@@ -5186,14 +7796,46 @@
 		"residence": "Skog, slättland och kuperad terräng",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "24",
-			"physique": "16",
-			"agility": "18",
-			"size": "15",
-			"intelligence": "6",
-			"psyche": "14",
-			"spiritus": "5",
-			"charisma": "0"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "24"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "18"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "15"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "14"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "5"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "0"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "45",
@@ -5236,14 +7878,40 @@
 				"hp": "18 (KP/5)"
 			}
 		],
-		"avg_age": "10 år",
-		"max_age": "30 år",
-		"initiative_mod": "-5",
-		"fear_factor": "Ingen",
-		"damage_bonus": "1T6",
-		"movement": "Land 22m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "10 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "30 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-5"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 22m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -5288,14 +7956,46 @@
 		"residence": "Skog",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "6",
-			"physique": "7",
-			"agility": "13",
-			"size": "8",
-			"intelligence": "11",
-			"psyche": "10",
-			"spiritus": "24",
-			"charisma": "14"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "6"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "7"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "8"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "11"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "10"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "24"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "14"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "19",
@@ -5338,14 +8038,40 @@
 				"hp": "13 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "-1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 11m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 11m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Inget",
@@ -5378,14 +8104,46 @@
 		"residence": "Frusna ödemarker",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "27",
-			"physique": "13",
-			"agility": "8",
-			"size": "29",
-			"intelligence": "4",
-			"psyche": "6",
-			"spiritus": "1",
-			"charisma": "9"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "27"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "13"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "8"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "29"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "4"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "6"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "1"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "9"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "36",
@@ -5423,14 +8181,40 @@
 				"hp": "24 (KP/3)"
 			}
 		],
-		"avg_age": "45 år",
-		"max_age": "100 år",
-		"initiative_mod": "+2",
-		"fear_factor": "Ingen",
-		"damage_bonus": "4T6",
-		"movement": "Land 10m",
-		"reach": "Varierar",
-		"natural_armour": "RV 4 (ull)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "45 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "100 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "4T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 4 (ull)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Betar",
@@ -5459,14 +8243,46 @@
 		"residence": "Slätter och öppen kuperad terräng",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "26",
-			"physique": "20",
-			"agility": "12",
-			"size": "19",
-			"intelligence": "10",
-			"psyche": "13",
-			"spiritus": "13",
-			"charisma": "9"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "26"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "20"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "12"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "19"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "13"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "9"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "39",
@@ -5509,14 +8325,40 @@
 				"hp": "26 (KP/3)"
 			}
 		],
-		"avg_age": "40 år",
-		"max_age": "75 år",
-		"initiative_mod": "0",
-		"fear_factor": "Ingen",
-		"damage_bonus": "2T6",
-		"movement": "Land 16m",
-		"reach": "Varierar",
-		"natural_armour": "RV 2 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "40 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "75 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 16m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 2 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Stånga",
@@ -5597,14 +8439,46 @@
 		"residence": "Berg, högland och grottor",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "41",
-			"physique": "26",
-			"agility": "9",
-			"size": "52",
-			"intelligence": "9",
-			"psyche": "13",
-			"spiritus": "12",
-			"charisma": "12"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "41"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "26"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "9"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "52"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "9"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "13"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "12"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "12"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "68",
@@ -5647,14 +8521,40 @@
 				"hp": "45 (KP/3)"
 			}
 		],
-		"avg_age": "100 år",
-		"max_age": "175 år",
-		"initiative_mod": "+1",
-		"fear_factor": "+2",
-		"damage_bonus": "7T6",
-		"movement": "Land 22m",
-		"reach": "Varierar",
-		"natural_armour": "RV 6 (stanhud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "100 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "175 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 22m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 6 (stanhud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -5731,14 +8631,46 @@
 		"residence": "Vattendrag, träsk och sumpmark",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "5",
-			"physique": "5",
-			"agility": "19",
-			"size": "3",
-			"intelligence": "1",
-			"psyche": "5",
-			"spiritus": "10",
-			"charisma": "6"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "5"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "5"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "19"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "3"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "1"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "5"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "6"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "10",
@@ -5751,14 +8683,40 @@
 				"hp": "10"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "+3",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 11m, Vatten 11m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 11m, Vatten 11m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -5807,14 +8765,46 @@
 		"residence": "Grottor",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "14",
-			"physique": "12",
-			"agility": "17",
-			"size": "9",
-			"intelligence": "7",
-			"psyche": "10",
-			"spiritus": "8",
-			"charisma": "7"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "14"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "12"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "17"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "9"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "7"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "10"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "8"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "7"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "24",
@@ -5857,14 +8847,40 @@
 				"hp": "16 (KP/3)"
 			}
 		],
-		"avg_age": "15 år",
-		"max_age": "25 år",
-		"initiative_mod": "-4",
-		"fear_factor": "0",
-		"damage_bonus": "Ingen",
-		"movement": "Land 10m, Flyga 18m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "15 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "25 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-4"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "0"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m, Flyga 18m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -5901,14 +8917,46 @@
 		"residence": "Varierar",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "*2",
-			"physique": "*2",
-			"agility": "*2",
-			"size": "*1",
-			"intelligence": "*1",
-			"psyche": "*1,5",
-			"spiritus": "*1",
-			"charisma": "/3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "*2"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "*2"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "*2"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "*1"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "*1"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "*1,5"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "*1"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "/3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "Räknas ut",
@@ -5951,14 +8999,40 @@
 				"hp": "(KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "0",
-		"fear_factor": "+2",
-		"damage_bonus": "Ingen",
-		"movement": "Varierar",
-		"reach": "Varierar",
-		"natural_armour": "RV 1 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Varierar"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 1 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Samma som innan förvandlingen",
@@ -5987,14 +9061,46 @@
 		"residence": "Skog",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "8",
-			"physique": "16",
-			"agility": "12",
-			"size": "7",
-			"intelligence": "4",
-			"psyche": "4",
-			"spiritus": "20",
-			"charisma": "20"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "8"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "16"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "12"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "7"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "4"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "4"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "20"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "20"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "29",
@@ -6032,14 +9138,40 @@
 				"hp": "14 (KP/3)"
 			}
 		],
-		"avg_age": "10 år",
-		"max_age": "30 år",
-		"initiative_mod": "0",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 10m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "10 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "30 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -6072,14 +9204,46 @@
 		"residence": "Varierar",
 		"prevalence": "Unik",
 		"attributes": {
-			"strength": "1",
-			"physique": "3",
-			"agility": "13",
-			"size": "1",
-			"intelligence": "30",
-			"psyche": "30",
-			"spiritus": "19",
-			"charisma": "19"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "1"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "3"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "1"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "30"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "30"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "19"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "19"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "26",
@@ -6092,14 +9256,40 @@
 				"hp": "26"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "-1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Flyga 20m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Flyga 20m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Inget",
@@ -6132,14 +9322,46 @@
 		"residence": "Skog",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "36",
-			"physique": "19",
-			"agility": "5",
-			"size": "25",
-			"intelligence": "1",
-			"psyche": "19",
-			"spiritus": "3",
-			"charisma": "2"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "36"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "19"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "5"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "25"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "1"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "19"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "3"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "2"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "48",
@@ -6157,14 +9379,40 @@
 				"hp": "24 (KP/4)"
 			}
 		],
-		"avg_age": "400 år",
-		"max_age": "2000 år",
-		"initiative_mod": "+3",
-		"fear_factor": "+4",
-		"damage_bonus": "4T6",
-		"movement": "Land 15m",
-		"reach": "Varierar",
-		"natural_armour": "RV 4 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "400 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "2000 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+4"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "4T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 15m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 4 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -6197,14 +9445,46 @@
 		"residence": "Berg, högland och grottor",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "29",
-			"physique": "22",
-			"agility": "9",
-			"size": "18",
-			"intelligence": "9",
-			"psyche": "8",
-			"spiritus": "15",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "29"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "22"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "9"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "18"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "9"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "8"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "15"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "35",
@@ -6247,14 +9527,40 @@
 				"hp": "23 (KP/3)"
 			}
 		],
-		"avg_age": "200 år",
-		"max_age": "300 år",
-		"initiative_mod": "+1",
-		"fear_factor": "+1",
-		"damage_bonus": "2T6",
-		"movement": "Land 11m",
-		"reach": "Varierar",
-		"natural_armour": "RV 7 (stenhud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "200 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "300 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+1"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 11m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 7 (stenhud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -6303,14 +9609,46 @@
 		"residence": "Varierar",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "15",
-			"physique": "3",
-			"agility": "7",
-			"size": "11",
-			"intelligence": "2",
-			"psyche": "6",
-			"spiritus": "21",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "15"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "3"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "7"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "11"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "2"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "6"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "21"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "21",
@@ -6353,14 +9691,40 @@
 				"hp": "14 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "+2",
-		"fear_factor": "+2",
-		"damage_bonus": "1T3",
-		"movement": "Land 5m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T3"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 5m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -6409,14 +9773,46 @@
 		"residence": "Skog",
 		"prevalence": "Mycket ovanlig",
 		"attributes": {
-			"strength": "16",
-			"physique": "15",
-			"agility": "18",
-			"size": "16",
-			"intelligence": "19",
-			"psyche": "20",
-			"spiritus": "45",
-			"charisma": "15"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "16"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "15"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "18"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "16"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "19"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "20"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "45"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "15"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "39",
@@ -6464,14 +9860,40 @@
 				"hp": "19 (KP/3)"
 			}
 		],
-		"avg_age": "5000 år",
-		"max_age": "Odödlig",
-		"initiative_mod": "-5",
-		"fear_factor": "Ingen",
-		"damage_bonus": "1T6",
-		"movement": "Land 18m, Flyga 30m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "5000 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Odödlig"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-5"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 18m, Flyga 30m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -6524,14 +9946,46 @@
 		"residence": "Skog",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "37",
-			"physique": "29",
-			"agility": "12",
-			"size": "62",
-			"intelligence": "8",
-			"psyche": "15",
-			"spiritus": "10",
-			"charisma": "10"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "37"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "29"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "12"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "62"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "8"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "15"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "10"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "10"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "95",
@@ -6574,14 +10028,40 @@
 				"hp": "63 (KP/3)"
 			}
 		],
-		"avg_age": "350 år",
-		"max_age": "600 år",
-		"initiative_mod": "0",
-		"fear_factor": "Ingen",
-		"damage_bonus": "7T6",
-		"movement": "Land 37m",
-		"reach": "Varierar",
-		"natural_armour": "RV 2 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "350 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "600 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 37m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 2 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Kasta stenblock",
@@ -6646,14 +10126,46 @@
 		"residence": "Skog",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "7",
-			"physique": "14",
-			"agility": "15",
-			"size": "10",
-			"intelligence": "13",
-			"psyche": "17",
-			"spiritus": "15",
-			"charisma": "20"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "7"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "14"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "15"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "10"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "13"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "17"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "15"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "20"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "31",
@@ -6696,14 +10208,40 @@
 				"hp": "21 (KP/3)"
 			}
 		],
-		"avg_age": "75 år",
-		"max_age": "120 år",
-		"initiative_mod": "-2",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 13m",
-		"reach": "Varierar",
-		"natural_armour": "Ingen",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "75 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "120 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 13m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Ingen"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -6792,14 +10330,46 @@
 		"residence": "Skog",
 		"prevalence": "Vanlig",
 		"attributes": {
-			"strength": "10",
-			"physique": "14",
-			"agility": "15",
-			"size": "6",
-			"intelligence": "7",
-			"psyche": "7",
-			"spiritus": "11",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "10"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "14"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "15"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "6"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "7"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "7"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "11"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "21",
@@ -6842,14 +10412,40 @@
 				"hp": "14 (KP/3)"
 			}
 		],
-		"avg_age": "20 år",
-		"max_age": "50 år",
-		"initiative_mod": "-2",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 11m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "20 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "50 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 11m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -6922,14 +10518,46 @@
 		"residence": "Skog",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "40",
-			"physique": "26",
-			"agility": "16",
-			"size": "65",
-			"intelligence": "19",
-			"psyche": "18",
-			"spiritus": "83",
-			"charisma": "14"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "40"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "26"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "65"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "19"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "18"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "83"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "14"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "82",
@@ -6982,14 +10610,40 @@
 				"hp": "55 (KP/2)"
 			}
 		],
-		"avg_age": "300 år",
-		"max_age": "700 år",
-		"initiative_mod": "-3",
-		"fear_factor": "+5",
-		"damage_bonus": "7T6",
-		"movement": "Land 41m, Flyga 35m",
-		"reach": "Varierar",
-		"natural_armour": "RV 7 (Mage RV 3, Vingar RV 3)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "300 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "700 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+5"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 41m, Flyga 35m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 7 (Mage RV 3, Vingar RV 3)"
+      }
+		},
 		"combat": [
 			{
 				"name": "2 Bett",
@@ -7070,14 +10724,46 @@
 		"residence": "Frusna ödemarker",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "15",
-			"physique": "15",
-			"agility": "10",
-			"size": "11",
-			"intelligence": "3",
-			"psyche": "6",
-			"spiritus": "5",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "15"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "15"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "10"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "11"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "3"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "6"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "5"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "24",
@@ -7115,14 +10801,40 @@
 				"hp": "12 (KP/4)"
 			}
 		],
-		"avg_age": "10 år",
-		"max_age": "22 år",
-		"initiative_mod": "+1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "1T3",
-		"movement": "Land 11m",
-		"reach": "Varierar",
-		"natural_armour": "RV 3 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "10 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "22 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T3"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 11m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Betar",
@@ -7151,14 +10863,46 @@
 		"residence": "Varierar",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "34",
-			"physique": "26",
-			"agility": "7",
-			"size": "25",
-			"intelligence": "7",
-			"psyche": "16",
-			"spiritus": "14",
-			"charisma": "9"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "34"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "26"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "7"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "25"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "7"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "16"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "14"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "9"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "50",
@@ -7201,14 +10945,40 @@
 				"hp": "33 (KP/3)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "+2",
-		"fear_factor": "Ingen",
-		"damage_bonus": "3T6",
-		"movement": "Land 16m",
-		"reach": "Varierar",
-		"natural_armour": "RV 10 (sten)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "3T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 16m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 10 (sten)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -7253,14 +11023,46 @@
 		"residence": "Berg, högland och grottor",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "26",
-			"physique": "25",
-			"agility": "8",
-			"size": "16",
-			"intelligence": "10",
-			"psyche": "8",
-			"spiritus": "6",
-			"charisma": "5"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "26"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "25"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "8"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "16"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "10"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "8"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "6"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "5"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "54",
@@ -7303,14 +11105,40 @@
 				"hp": "36 (KP/3)"
 			}
 		],
-		"avg_age": "200 år",
-		"max_age": "500 år",
-		"initiative_mod": "+2",
-		"fear_factor": "Ingen",
-		"damage_bonus": "2T6",
-		"movement": "Land 12m",
-		"reach": "Varierar",
-		"natural_armour": "RV 2 (stenhud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "200 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "500 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "2T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 12m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 2 (stenhud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -7371,14 +11199,46 @@
 		"residence": "Berg",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "60",
-			"physique": "45",
-			"agility": "6",
-			"size": "113",
-			"intelligence": "29",
-			"psyche": "30",
-			"spiritus": "290",
-			"charisma": "16"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "60"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "45"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "6"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "113"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "29"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "30"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "290"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "16"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "141",
@@ -7431,14 +11291,40 @@
 				"hp": "94 (KP/3)"
 			}
 		],
-		"avg_age": "5000 år",
-		"max_age": "10000 år",
-		"initiative_mod": "+2",
-		"fear_factor": "+5",
-		"damage_bonus": "7T6",
-		"movement": "Flyga 82m",
-		"reach": "Varierar",
-		"natural_armour": "RV 7 (Mage RV 4, Vingar RV 2)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "5000 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "10000 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+2"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+5"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "7T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Flyga 82m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 7 (Mage RV 4, Vingar RV 2)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -7511,14 +11397,46 @@
 		"residence": "Berg och högland",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "35",
-			"physique": "20",
-			"agility": "13",
-			"size": "42",
-			"intelligence": "9",
-			"psyche": "14",
-			"spiritus": "6",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "35"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "20"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "42"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "9"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "14"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "6"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "57",
@@ -7556,14 +11474,40 @@
 				"hp": "38 (KP/3)"
 			}
 		],
-		"avg_age": "70 år",
-		"max_age": "150 år",
-		"initiative_mod": "-1",
-		"fear_factor": "+2",
-		"damage_bonus": "5T6",
-		"movement": "Land 10m, Flyga 23m",
-		"reach": "Varierar",
-		"natural_armour": "RV 4 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "70 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "150 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "5T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m, Flyga 23m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 4 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -7600,14 +11544,46 @@
 		"residence": "Grottor",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "18",
-			"physique": "17",
-			"agility": "11",
-			"size": "22",
-			"intelligence": "4",
-			"psyche": "5",
-			"spiritus": "2",
-			"charisma": "2 - 8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "18"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "17"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "11"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "22"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "4"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "5"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "2"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "2 - 8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "33",
@@ -7645,14 +11621,40 @@
 				"hp": "17 (KP/4)"
 			}
 		],
-		"avg_age": "20 år",
-		"max_age": "35 år",
-		"initiative_mod": "0",
-		"fear_factor": "Ingen",
-		"damage_bonus": "1T6",
-		"movement": "Land 16m",
-		"reach": "Varierar",
-		"natural_armour": "RV 4 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "20 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "35 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "0"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "1T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 16m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 4 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Betar",
@@ -7681,14 +11683,46 @@
 		"residence": "Varierar",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "11",
-			"physique": "10",
-			"agility": "16",
-			"size": "6",
-			"intelligence": "3",
-			"psyche": "7",
-			"spiritus": "5",
-			"charisma": "8"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "11"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "10"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "6"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "3"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "7"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "5"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "8"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "18",
@@ -7726,14 +11760,40 @@
 				"hp": "7 (KP/5)"
 			}
 		],
-		"avg_age": "15 år",
-		"max_age": "25 år",
-		"initiative_mod": "-3",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 25m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "15 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "25 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 25m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -7766,14 +11826,46 @@
 		"residence": "Varierar",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "13",
-			"physique": "14",
-			"agility": "16",
-			"size": "11",
-			"intelligence": "3",
-			"psyche": "9",
-			"spiritus": "6",
-			"charisma": "3"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "13"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "14"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "11"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "3"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "9"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "6"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "3"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "26",
@@ -7811,14 +11903,40 @@
 				"hp": "10 (KP/5)"
 			}
 		],
-		"avg_age": "20 år",
-		"max_age": "30 år",
-		"initiative_mod": "-3",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 25m",
-		"reach": "Varierar",
-		"natural_armour": "RV 1 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "20 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "30 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 25m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 1 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -7851,14 +11969,46 @@
 		"residence": "Varierar",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "18",
-			"physique": "18",
-			"agility": "17",
-			"size": "16",
-			"intelligence": "5",
-			"psyche": "14",
-			"spiritus": "11",
-			"charisma": "2"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "18"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "18"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "17"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "16"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "5"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "14"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "11"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "2"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "36",
@@ -7896,14 +12046,40 @@
 				"hp": "14 (KP/5)"
 			}
 		],
-		"avg_age": "25 år",
-		"max_age": "35 år",
-		"initiative_mod": "-4",
-		"fear_factor": "+1",
-		"damage_bonus": "Ingen",
-		"movement": "Land 20m",
-		"reach": "Varierar",
-		"natural_armour": "RV 2 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "25 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "35 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-4"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+1"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 20m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 2 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -7936,14 +12112,46 @@
 		"residence": "Varierar",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "28",
-			"physique": "25",
-			"agility": "16",
-			"size": "26",
-			"intelligence": "7",
-			"psyche": "15",
-			"spiritus": "14",
-			"charisma": "1"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "28"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "25"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "16"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "26"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "7"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "15"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "14"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "1"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "50",
@@ -7981,14 +12189,40 @@
 				"hp": "20 (KP/5)"
 			}
 		],
-		"avg_age": "35 år",
-		"max_age": "60 år",
-		"initiative_mod": "-3",
-		"fear_factor": "+2",
-		"damage_bonus": "3T6",
-		"movement": "Land 18m",
-		"reach": "Varierar",
-		"natural_armour": "RV 5 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "35 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "60 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "+2"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "3T6"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 18m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 5 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -8021,14 +12255,46 @@
 		"residence": "Varierar",
 		"prevalence": "Mycket sällsynt",
 		"attributes": {
-			"strength": "x2",
-			"physique": "x2",
-			"agility": "x2",
-			"size": "x1",
-			"intelligence": "x0.25",
-			"psyche": "x1.5",
-			"spiritus": "x0.33",
-			"charisma": "x0.33"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "x2"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "x2"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "x2"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "x1"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "x0.25"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "x1.5"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "x0.33"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "x0.33"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "räknas ut",
@@ -8066,14 +12332,40 @@
 				"hp": "(KP/5)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "-4",
-		"fear_factor": "Varierar",
-		"damage_bonus": "Varierar",
-		"movement": "Varierar",
-		"reach": "Varierar",
-		"natural_armour": "RV 1 (hud)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-4"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Varierar"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Varierar"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Varierar"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 1 (hud)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Bett",
@@ -8122,14 +12414,46 @@
 		"residence": "Skog, berg och grottor",
 		"prevalence": "Ovanlig",
 		"attributes": {
-			"strength": "8",
-			"physique": "10",
-			"agility": "13",
-			"size": "6",
-			"intelligence": "6",
-			"psyche": "15",
-			"spiritus": "7",
-			"charisma": "10"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "8"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "10"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "13"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "6"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "6"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "15"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "7"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "10"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "23",
@@ -8172,14 +12496,40 @@
 				"hp": "16 (KP/3)"
 			}
 		],
-		"avg_age": "15 år",
-		"max_age": "30 år",
-		"initiative_mod": "-1",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 10m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "15 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "30 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-1"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 10m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Attack 1",
@@ -8252,14 +12602,46 @@
 		"residence": "Skog",
 		"prevalence": "Unik",
 		"attributes": {
-			"strength": "24",
-			"physique": "27",
-			"agility": "3",
-			"size": "8",
-			"intelligence": "30",
-			"psyche": "30",
-			"spiritus": "80",
-			"charisma": "18"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "24"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "27"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "3"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "8"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "30"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "30"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "80"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "18"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "49",
@@ -8272,14 +12654,40 @@
 				"hp": "49 (KP/1)"
 			}
 		],
-		"avg_age": "Varierar",
-		"max_age": "Varierar",
-		"initiative_mod": "+3",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Land 5m",
-		"reach": "Varierar",
-		"natural_armour": "RV 3 (bark)",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "Varierar"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "Varierar"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "+3"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Land 5m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "RV 3 (bark)"
+      }
+		},
 		"combat": [
 			{
 				"name": "Inget",
@@ -8316,14 +12724,46 @@
 		"residence": "Skog",
 		"prevalence": "Sällsynt",
 		"attributes": {
-			"strength": "1",
-			"physique": "4",
-			"agility": "17",
-			"size": "1",
-			"intelligence": "14",
-			"psyche": "16",
-			"spiritus": "34",
-			"charisma": "19"
+			"strength": {
+				"label": "Styrka",
+				"label_abbr": "STY",
+				"value": "1"
+			},
+			"physique": {
+				"label": "Fysik",
+				"label_abbr": "FYS",
+				"value": "4"
+			},
+			"agility": {
+				"label": "Smidighet",
+				"label_abbr": "SMI",
+				"value": "17"
+			},
+			"size": {
+				"label": "Storlek",
+				"label_abbr": "STO",
+				"value": "1"
+			},
+			"intelligence": {
+				"label": "intelligens",
+				"label_abbr": "INT",
+				"value": "14"
+			},
+			"psyche": {
+				"label": "Psyke",
+				"label_abbr": "PSY",
+				"value": "16"
+			},
+			"spiritus": {
+				"label": "Spritus",
+				"label_abbr": "SPI",
+				"value": "34"
+			},
+			"charisma": {
+				"label": "Karisma",
+				"label_abbr": "KAR",
+				"value": "19"
+			}
 		},
 		"hitpoints": {
 			"total_hitpoints_system": "16",
@@ -8336,14 +12776,40 @@
 				"hp": "16 (KP/1)"
 			}
 		],
-		"avg_age": "150 år",
-		"max_age": "350 år",
-		"initiative_mod": "-4",
-		"fear_factor": "Ingen",
-		"damage_bonus": "Ingen",
-		"movement": "Flyga 25m",
-		"reach": "Varierar",
-		"natural_armour": "Inget",
+		"basic_info": {
+			"avg_age": {
+				"label": "typålder",
+				"value": "150 år"
+			},
+			"max_age": {
+				"label": "maxålder",
+				"value": "350 år"
+			},
+			"initiative_mod": {
+				"label": "initiativmod",
+				"value": "-4"
+			},
+			"fear_factor": {
+				"label": "Skräckfaktor",
+				"value": "Ingen"
+			},
+			"damage_bonus": {
+				"label": "Skadebonus",
+				"value": "Ingen"
+			},
+			"movement": {
+				"label": "Förflyttning",
+				"value": "Flyga 25m"
+			},
+			"reach": {
+				"label": "Räckvidd",
+				"value": "Varierar"
+			},
+			"natural_armour": {
+        "label": "Naturligt skydd",
+        "value": "Inget"
+      }
+		},
 		"combat": [
 			{
 				"name": "Inget",
