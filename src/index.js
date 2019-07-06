@@ -4,7 +4,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
 
 import appContextReducer from './containers/AppContext/reducer';
@@ -12,29 +11,12 @@ import appContextReducer from './containers/AppContext/reducer';
 import { AppContextProvider } from './containers/AppContext';
 import { INITIAL_STATE } from './containers/AppContext/constants';
 
-import { styles as CardMediaStyles } from './components/CardMedia/CardMedia';
-import { styles as ExpansionPanelStyles } from './components/ExpansionPanel/ExpansionPanel';
+import theme from './components/styles/createTheme';
 
-const createOverrides = (theme) => ({
-	MuiCardMedia: CardMediaStyles(theme),
-	MuiExpansionPanel: ExpansionPanelStyles(theme)
-});
-
-const theme = createMuiTheme({
-	palette: {
-		type: 'dark'
-	},
-	props: {
-		MuiAppBar: {
-			elevation: 0
-		}
-	}
-});
-
-theme.overrides = createOverrides(theme);
+const appTheme = theme('dark');
 
 ReactDOM.render(
-	<ThemeProvider theme={theme}>
+	<ThemeProvider theme={appTheme}>
 		<AppContextProvider initialState={INITIAL_STATE} reducer={appContextReducer}>
 			<App />
 		</AppContextProvider>
