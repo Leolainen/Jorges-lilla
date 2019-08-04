@@ -10,8 +10,6 @@ const createOverrides = (theme) => {
 
 	return Object.entries(overrides).reduce((acc, [ muiName, makeStyles ]) => {
 		acc[muiName] = makeStyles(theme);
-		console.log('acc[muiName]', acc[muiName]);
-		console.log('theme', theme);
 		return acc;
 	}, {});
 };
