@@ -18,7 +18,7 @@ const AbilitiesBlock = (props) => {
 	return (
 		<div className={className}>
 			{abilities.map((ability) => (
-				<div className={classes.content}>
+				<div key={ability.name} className={classes.content}>
 					<Typography gutterBottom variant="h5" component="h2">
 						{ability.name}
 					</Typography>
