@@ -52,7 +52,7 @@ const BodypartsBlock = React.forwardRef(function BodypartsBlock(props, ref) {
 });
 
 BodypartsBlock.propTypes = {
-	bodyparts: PropTypes.object.isRequired,
+	bodyparts: PropTypes.arrayOf(PropTypes.object).isRequired,
 	className: PropTypes.string
 };
 
