@@ -1,32 +1,14 @@
-import React from 'react';
 import { createMuiTheme } from '@material-ui/core/styles';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 import createOverrides from './createOverrides';
+import props from './props';
 
 const theme = (type = 'dark') =>
 	createMuiTheme({
 		palette: {
 			type
 		},
-		props: {
-			MuiAppBar: {
-				elevation: 0
-			},
-			MuiExpansionPanelSummary: {
-				expandIcon: <ExpandMoreIcon />
-			},
-			MuiButton: {
-				disableRipple: true,
-				disableFocusRipple: true,
-				disableTouchRipple: true
-			},
-			MuiListItem: {
-				disableRipple: true,
-				disableFocusRipple: true,
-				disableTouchRipple: true
-			}
-		}
+		props
 	});
 
 theme.overrides = createOverrides(theme);
