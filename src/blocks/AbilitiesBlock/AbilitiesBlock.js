@@ -1,46 +1,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import classnames from 'classnames';
 import { makeStyles } from '@material-ui/styles';
 
-import Table from '../../components/Table';
-import TableHead from '../../components/TableHead';
-import TableBody from '../../components/TableBody';
-import TableCell from '../../components/TableCell';
-import TableRow from '../../components/TableRow';
+import Typography from '../../components/Typography';
 
 const useStyles = makeStyles((theme) => ({
-	root: {}
+	root: {},
+	content: {
+		margin: theme.spacing(4, 0)
+	}
 }));
 
-const AbilitiesBlock = React.forwardRef(function AbilitiesBlock(props, ref) {
-	const { className, children, abilities, ...other } = props;
-
+const AbilitiesBlock = (props) => {
+	const { className, abilities } = props;
 	const classes = useStyles();
 
 	return (
-		<Table ref={ref} className={classnames(classes.root, className)} {...other}>
-			<TableHead>
-				<TableRow>
-					<TableCell variant="head">Förmågor</TableCell>
-					<TableCell variant="head">FV</TableCell>
-				</TableRow>
-			</TableHead>
-			<TableBody>
-				{abilities.map((ability) => (
-					<TableRow key={ability.name}>
-						<TableCell component="th" scope="row">
-							{ability.name}
-						</TableCell>
-						<TableCell component="th" scope="row">
-							{ability.description}
-						</TableCell>
-					</TableRow>
-				))}
-			</TableBody>
-		</Table>
+		<div className={className}>
+			{abilities.map((ability) => (
+				<div className={classes.content}>
+					<Typography gutterBottom variant="h5" component="h2">
+						{ability.name}
+					</Typography>
+					<Typography variant="body1" dangerouslySetInnerHTML={{ __html: ability.description_html }} />
+				</div>
+			))}
+		</div>
 	);
-});
+};
 
 AbilitiesBlock.propTypes = {
 	className: PropTypes.string,
