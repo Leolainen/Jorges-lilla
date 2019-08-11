@@ -20,6 +20,7 @@ import ListItem from '../../components/ListItem';
 import ListItemText from '../../components/ListItemText';
 import ListSubHeader from '../../components/ListSubHeader';
 import Toolbar from '../../components/Toolbar';
+import FadeGroup from '../../components/FadeGroup';
 
 const useStyles = makeStyles((theme) => ({
 	root: {},
@@ -76,6 +77,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 
 	const handleSelection = (specie) => {
 		const selectedSpecie = getEntryBySpecies(specie);
+
 		dispatch({
 			type: SET_CURRENT_ENTRY,
 			payload: selectedSpecie
@@ -104,6 +106,7 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 							onChange={handleFilter}
 							className={classes.searchBar}
 						/>
+
 						{isMobile && (
 							<IconButton onClick={toggleSidebar}>
 								<MenuIcon />
@@ -117,18 +120,25 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 							<ListSubHeader disableSticky>
 								<Typography variant="overline">{ancestor}</Typography>
 							</ListSubHeader>
-							{bestiary.map(
-								(beast) =>
-									beast.ancestry === ancestor && (
-										<ListItem
-											button
-											key={beast.species}
-											onClick={() => handleSelection(beast.species)}
-										>
-											<ListItemText primary={beast.species} />
-										</ListItem>
-									)
-							)}
+							<FadeGroup
+								in={(isMobile && sidebarIsOpen) || true}
+								style={{ transform: 'translate(20px, 0)' }}
+								delay={10}
+							>
+								{bestiary.map(
+									(beast) =>
+										beast.ancestry === ancestor && (
+											<ListItem
+												button
+												key={beast.species}
+												onClick={() => handleSelection(beast.species)}
+											>
+												<ListItemText primary={beast.species} />
+											</ListItem>
+										)
+								)}
+							</FadeGroup>
+
 							<hr className={classes.divider} />
 						</React.Fragment>
 					))}
