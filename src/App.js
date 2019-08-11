@@ -6,16 +6,12 @@ import { SET_CURRENT_ENTRY, SET_ENTRIES } from './containers/AppContext/constant
 import Page from './containers/Page';
 
 import AvatarCard from './blocks/AvatarCard';
-import AttributesBlock from './blocks/AttributesBlock';
-import BodypartsBlock from './blocks/BodypartsBlock';
-import CombatBlock from './blocks/CombatBlock';
-import AbilitiesBlock from './blocks/AbilitiesBlock';
+import AttributesCard from './blocks/AttributesCard';
+import BodypartsCard from './blocks/BodypartsCard';
+import CombatCard from './blocks/CombatCard';
+import AbilitiesCard from './blocks/AbilitiesCard';
 
 import bestiaryData from './data/bestiary';
-
-import Card from './components/Card';
-import CardContent from './components/CardContent';
-import Typography from './components/Typography';
 
 import Loader from './components/Loader';
 
@@ -50,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
 
 const App = (props) => {
 	const [ { currentEntry }, dispatch ] = useAppContext();
-	const classes = useStyles();
+	const classes = useStyles(props);
 
 	/* Initialize bestiary */
 	useEffect(() => {
@@ -72,74 +68,15 @@ const App = (props) => {
 				<div className={classes.root}>
 					<div className={classes.column}>
 						<AvatarCard entry={currentEntry} />
-
-						<Card>
-							<CardContent>
-								<Typography gutterBottom variant="h6" component="h3">
-									Grundläggande information
-								</Typography>
-								<AttributesBlock attributes={currentEntry.basic_info} />
-							</CardContent>
-						</Card>
-
-						<Card>
-							<CardContent>
-								<Typography gutterBottom variant="h6" component="h3">
-									Strid
-								</Typography>
-								<CombatBlock attacks={currentEntry.combat} />
-							</CardContent>
-						</Card>
-
-						<Card>
-							<CardContent>
-								<Typography gutterBottom variant="h6" component="h3">
-									Förmågor
-								</Typography>
-								<AbilitiesBlock abilities={currentEntry.abilities} />
-							</CardContent>
-						</Card>
+						<AttributesCard title="Grundläggande information" attributes={currentEntry.basic_info} />
+						<CombatCard title="Strid" attacks={currentEntry.combat} />
+						<AbilitiesCard abilities={currentEntry.abilities} />
 					</div>
 
 					<div className={classes.column}>
-						<Card>
-							<CardContent>
-								<Typography gutterBottom variant="h6" component="h3">
-									Grundegenskaper
-								</Typography>
-								<AttributesBlock attributes={currentEntry.attributes} />
-							</CardContent>
-						</Card>
-
-						<Card>
-							<CardContent>
-								<div>
-									<div>
-										<Typography gutterBottom variant="h6" component="h3">
-											Kroppspoäng
-										</Typography>
-									</div>
-									<div>
-										<Typography>
-											TKP-sys: {currentEntry.hitpoints.total_hitpoints_system}
-										</Typography>
-										<Typography>TKP: {currentEntry.hitpoints.tkp}</Typography>
-									</div>
-									<div>
-										<BodypartsBlock bodyparts={currentEntry.bodypart} />
-									</div>
-								</div>
-							</CardContent>
-						</Card>
-
-						<Card>
-							<CardContent>
-								<Typography gutterBottom variant="h6" component="h3">
-									Färdigheter
-								</Typography>
-								<CombatBlock attacks={currentEntry.skills} />
-							</CardContent>
-						</Card>
+						<AttributesCard title="Grundegenskaper" attributes={currentEntry.basic_info} />
+						<BodypartsCard hitpoints={currentEntry.hitpoints} bodyparts={currentEntry.bodypart} />
+						<CombatCard title="Färdigheter" attacks={currentEntry.skills} />
 					</div>
 				</div>
 			)}
