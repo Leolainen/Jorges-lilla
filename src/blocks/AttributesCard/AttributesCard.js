@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 import { makeStyles } from '@material-ui/styles';
-import isEqual from 'lodash/isEqual';
 
 import Table from '../../components/Table';
 import TableHead from '../../components/TableHead';
@@ -13,7 +12,6 @@ import Card from '../../components/Card';
 import CardContent from '../../components/CardContent';
 import Typography from '../../components/Typography';
 import FadeGroup from '../../components/FadeGroup';
-import FadeSlide from '../../components/FadeSlide';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -45,7 +43,11 @@ const AttributesCard = React.forwardRef(function AttributesCard(props, ref) {
 
 	React.useEffect(
 		() => {
-			handleFadeOut();
+			if (fade) {
+				handleFadeOut();
+			} else {
+				handleFadeIn();
+			}
 		},
 		[ attributes ]
 	);
@@ -74,7 +76,8 @@ const AttributesCard = React.forwardRef(function AttributesCard(props, ref) {
 						<FadeGroup
 							onTransitionEnd={handleTransitionEnd}
 							in={fade}
-							style={{ transform: 'translate(-20px, 0)' }}
+							style={{ transform: 'translate(20px, 0)' }}
+							delay={10}
 						>
 							{Object.values(lastAttributes).map((attribute) => (
 								<TableRow key={attribute}>
