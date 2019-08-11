@@ -11,7 +11,6 @@ import { useAppContext } from '../AppContext';
 import { TOGGLE_SIDEBAR } from '../AppContext/constants';
 import Sidebar from '../Sidebar';
 
-import Box from '../../components/Box';
 import IconButton from '../../components/IconButton';
 import Container from '../../components/Container';
 import AppBar from '../../components/AppBar';
@@ -64,9 +63,11 @@ const Page = React.forwardRef(function Page(props, ref) {
 					</Toolbar>
 				</AppBar>
 			</Hidden>
+
 			<Container className={classes.container} maxWidth="lg">
 				{children}
 			</Container>
+
 			<Sidebar open={sidebarIsOpen} onClose={handleMenuClick} isMobile={isMobile} />
 		</section>
 	);
