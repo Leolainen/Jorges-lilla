@@ -1,7 +1,8 @@
 export const INITIAL_STATE = {
 	sidebarIsOpen: false,
 	currentEntry: {},
-	entries: []
+	entries: [],
+	currentTab: 'bestiary'
 };
 
 export const TOGGLE_SIDEBAR = 'toggleSidebar';
