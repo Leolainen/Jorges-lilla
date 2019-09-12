@@ -1,0 +1,27 @@
+[
+	{
+		"id": "33",
+		"name": "extrakt_kunskap",
+		"label": "Dramatik",
+		"baseTypes": [ "INT", "PER" ],
+		"baseLabel": "(int + per) / 2",
+		"cost": {
+			"core": 2,
+			"class": 3,
+			"general": 6
+		},
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"description_html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+		"special": "",
+		"tables": [
+			{
+				"head": [ "1T6", "Resultat" ],
+				"rows": [ [ "1 - 2", "Det går bäst" ], [ "3 - 4", "Det går okej" ], [ "5 - 6", "Det går dåligt" ] ]
+			},
+			{
+				"head": [ "Differensvärde", "Resultat" ],
+				"rows": [ [ "< 0", "Dåligt" ], [ "0 - 1", "Okej" ], [ "> 2", "Bra" ] ]
+			}
+		]
+	}
+]

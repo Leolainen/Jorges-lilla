@@ -1,0 +1,23 @@
+[
+	{
+		"id": "0",
+		"name": "",
+		"label": "",
+		"baseTypes": [],
+		"baseLabel": "",
+		"cost": {
+			"core": 0,
+			"class": 0,
+			"general": 0
+		},
+		"description": "",
+		"description_html": "",
+		"special": "",
+		"tables": [
+			{
+				"head": [],
+				"rows": []
+			}
+		]
+	}
+]
