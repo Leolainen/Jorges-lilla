@@ -7,7 +7,6 @@ import App from './App';
 import { ThemeProvider } from '@material-ui/styles';
 
 import appContextReducer from './containers/AppContext/reducer';
-
 import { AppContextProvider } from './containers/AppContext';
 import { INITIAL_STATE } from './containers/AppContext/constants';
 

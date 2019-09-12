@@ -23,12 +23,14 @@ const AbilitiesCard = (props) => {
 				<Typography gutterBottom variant="h6" component="h3">
 					Förmågor
 				</Typography>
+
 				<div>
 					{abilities.map((ability) => (
 						<div key={ability.name} className={classes.content}>
 							<Typography gutterBottom variant="h5" component="h2">
 								{ability.name}
 							</Typography>
+
 							<Typography
 								variant="body1"
 								dangerouslySetInnerHTML={{ __html: ability.description_html }}
