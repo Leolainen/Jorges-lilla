@@ -19,7 +19,7 @@ import List from '../../components/List';
 import ListItem from '../../components/ListItem';
 import ListItemText from '../../components/ListItemText';
 import ListSubHeader from '../../components/ListSubHeader';
-import Toolbar from '../../components/Toolbar';
+import ToolBar from '../../components/ToolBar';
 import FadeGroup from '../../components/FadeGroup';
 
 const useStyles = makeStyles((theme) => ({
@@ -91,12 +91,15 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 			anchor="right"
 			ref={ref}
 			className={classnames(classes.root, className)}
-			variant={isMobile ? 'temporary' : 'permanent'}
+			variant={isMobile ? 'temporary' : 'persistent'}
+			ModalProps={{
+				keepMounted: true // Better open performance on mobile.
+			}}
 			{...other}
 		>
 			<div role="presentation" className={classes.container}>
 				<AppBar color="inherit" position="relative">
-					<Toolbar>
+					<ToolBar>
 						<Input
 							fullWidth
 							inputRef={inputRef}
@@ -112,14 +115,16 @@ const Sidebar = React.forwardRef(function Sidebar(props, ref) {
 								<MenuIcon />
 							</IconButton>
 						)}
-					</Toolbar>
+					</ToolBar>
 				</AppBar>
+
 				<List>
 					{ancestry.map((ancestor) => (
 						<React.Fragment key={ancestor}>
 							<ListSubHeader disableSticky>
 								<Typography variant="overline">{ancestor}</Typography>
 							</ListSubHeader>
+
 							<FadeGroup
 								in={(isMobile && sidebarIsOpen) || true}
 								style={{ transform: 'translate(20px, 0)' }}

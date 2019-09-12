@@ -1,84 +1,70 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
-
 import { makeStyles } from '@material-ui/styles';
-import { useTheme } from '@material-ui/core/styles';
-import MenuIcon from '@material-ui/icons/Menu';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 
-import { useAppContext } from '../AppContext';
-import { TOGGLE_SIDEBAR } from '../AppContext/constants';
-import Sidebar from '../Sidebar';
-
-import IconButton from '../../components/IconButton';
 import Container from '../../components/Container';
-import AppBar from '../../components/AppBar';
-import Toolbar from '../../components/Toolbar';
-import Hidden from '../../components/Hidden';
+import { useAppContext } from '../AppContext';
+
+import AppHeader from './partials/AppHeader';
+import AppDrawer from './partials/AppDrawer';
+
+const DRAWER_WIDTH = 250;
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		maxWidth: '100vw',
-		height: '100vh',
-		display: 'grid',
+		width: '100%',
+		minHeight: '100vh',
+		backgroundColor: theme.palette.background.default
+	},
+	content: {
+		paddingTop: theme.spacing(10),
+
 		[theme.breakpoints.up('md')]: {
-			grid: 'auto-flow dense / 1fr 250px'
+			transition: theme.transitions.create('padding', {
+				easing: theme.transitions.easing.easeOut,
+				duration: theme.transitions.duration.enteringScreen
+			}),
+			paddingRight: 0
 		}
 	},
-	hamburger: {
-		marginLeft: 'auto',
-		backgroundColor: theme.palette.background.paper
-	},
-	header: {
-		background: 'none',
-		boxShadow: 'none'
-	},
-	container: {
-		marginTop: theme.spacing(8)
+	contentShift: {
+		[theme.breakpoints.up('md')]: {
+			transition: theme.transitions.create('padding', {
+				easing: theme.transitions.easing.easeOut,
+				duration: theme.transitions.duration.enteringScreen
+			}),
+			paddingRight: DRAWER_WIDTH
+		}
 	}
 }));
 
-const Page = React.forwardRef(function Page(props, ref) {
-	const { className, children, ...other } = props;
-	const [ { sidebarIsOpen }, dispatch ] = useAppContext();
-	const theme = useTheme();
-	const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+const Page = (props) => {
+	const { className = '', children } = props;
+	const classes = useStyles(props);
 
-	const handleMenuClick = () => {
-		dispatch({
-			type: TOGGLE_SIDEBAR
-		});
-	};
-	const classes = useStyles();
+	const [ { sidebarIsOpen }, dispatch ] = useAppContext();
 
 	return (
-		<section ref={ref} className={classnames(classes.root, className)} {...other}>
-			<Hidden mdUp>
-				<AppBar className={classes.header}>
-					<Toolbar>
-						<IconButton aria-label="menu" className={classes.hamburger} onClick={handleMenuClick}>
-							<MenuIcon />
-						</IconButton>
-					</Toolbar>
-				</AppBar>
-			</Hidden>
+		<section className={classnames(classes.root, className)}>
+			<AppHeader />
 
-			<Container className={classes.container} maxWidth="lg">
+			<Container
+				className={classnames(classes.content, {
+					[classes.contentShift]: sidebarIsOpen
+				})}
+				maxWidth="md"
+			>
 				{children}
 			</Container>
 
-			<Sidebar open={sidebarIsOpen} onClose={handleMenuClick} isMobile={isMobile} />
+			<AppDrawer />
 		</section>
 	);
-});
+};
 
 Page.propTypes = {
 	className: PropTypes.string
-};
-
-Page.defaultProps = {
-	className: ''
 };
 
 Page.uiName = 'Page';
