@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b24d67777f9327bcc376e50f991d731",
+    "revision": "52427395623cba1bd8aacfb91515c067",
     "url": "/Jorges-lilla/index.html"
   },
   {
-    "revision": "4791101d9d00da40bf40",
-    "url": "/Jorges-lilla/static/css/main.89140adb.chunk.css"
+    "revision": "ac575d9e87a9029dbb85",
+    "url": "/Jorges-lilla/static/css/main.4092f1f8.chunk.css"
   },
   {
-    "revision": "26c1e0a20e57cc20e7de",
-    "url": "/Jorges-lilla/static/js/2.9d2d562c.chunk.js"
+    "revision": "41bc95f774782d3e3e5b",
+    "url": "/Jorges-lilla/static/js/2.76312a81.chunk.js"
   },
   {
-    "revision": "4791101d9d00da40bf40",
-    "url": "/Jorges-lilla/static/js/main.f5b0fe47.chunk.js"
+    "revision": "ac575d9e87a9029dbb85",
+    "url": "/Jorges-lilla/static/js/main.2cf28422.chunk.js"
   },
   {
     "revision": "8e3d685108bcc3b551a8",
@@ -202,10 +202,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bfc0499fd819c738b4e4faf95d8aaebe",
     "url": "/Jorges-lilla/static/media/nymf.bfc0499f.PNG"
-  },
-  {
-    "revision": "ad39f4c8f240e84f611e72ed53c54031",
-    "url": "/Jorges-lilla/static/media/papertexture.ad39f4c8.jpg"
   },
   {
     "revision": "228d41849ffeaa7230b181dd13d2701a",
