@@ -10,6 +10,11 @@ const reducer = (state, action) => {
 				...state,
 				sidebarIsOpen: !state.sidebarIsOpen
 			};
+		case 'setSidebar':
+			return {
+				...state,
+				sidebarIsOpen: action.payload
+			};
 		case 'setCurrentEntry':
 			return {
 				...state,

@@ -6,5 +6,6 @@ export const INITIAL_STATE = {
 };
 
 export const TOGGLE_SIDEBAR = 'toggleSidebar';
+export const SET_SIDEBAR = 'setSidebar';
 export const SET_CURRENT_ENTRY = 'setCurrentEntry';
 export const SET_ENTRIES = 'setEntries';
