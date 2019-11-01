@@ -75,7 +75,7 @@ const Bestiary = (props) => {
 					</div>
 
 					<div className={classes.column}>
-						<AttributesCard title="Grundegenskaper" attributes={currentEntry.basic_info} />
+						<AttributesCard title="Grundegenskaper" attributes={currentEntry.attributes} />
 						<BodypartsCard hitpoints={currentEntry.hitpoints} bodyparts={currentEntry.bodypart} />
 						<CombatCard title="Färdigheter" attacks={currentEntry.skills} />
 					</div>
