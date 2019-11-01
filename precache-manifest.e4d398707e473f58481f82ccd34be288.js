@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52427395623cba1bd8aacfb91515c067",
+    "revision": "1567f8e0daa302863c373bebed736a13",
     "url": "/Jorges-lilla/index.html"
   },
   {
-    "revision": "ac575d9e87a9029dbb85",
+    "revision": "10ca90864d32d9e7a636",
     "url": "/Jorges-lilla/static/css/main.4092f1f8.chunk.css"
   },
   {
-    "revision": "41bc95f774782d3e3e5b",
-    "url": "/Jorges-lilla/static/js/2.76312a81.chunk.js"
+    "revision": "fa9c868153625fc61b03",
+    "url": "/Jorges-lilla/static/js/2.7b061495.chunk.js"
   },
   {
-    "revision": "ac575d9e87a9029dbb85",
-    "url": "/Jorges-lilla/static/js/main.2cf28422.chunk.js"
+    "revision": "10ca90864d32d9e7a636",
+    "url": "/Jorges-lilla/static/js/main.ed934ca8.chunk.js"
   },
   {
     "revision": "8e3d685108bcc3b551a8",
