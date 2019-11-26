@@ -25,8 +25,8 @@ const AbilitiesCard = (props) => {
 				</Typography>
 
 				<div>
-					{abilities.map((ability) => (
-						<div key={ability.name} className={classes.content}>
+					{abilities.map((ability, idx) => (
+						<div key={`${ability.name}_${idx}`} className={classes.content}>
 							<Typography gutterBottom variant="h5" component="h2">
 								{ability.name}
 							</Typography>
