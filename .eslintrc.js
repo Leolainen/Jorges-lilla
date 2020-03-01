@@ -62,6 +62,7 @@ module.exports = {
     "react/no-multi-comp": "off",
     "react/require-default-props": "off",
     "react/sort-prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
 
     "import/namespace": ["error", { allowComputed: true }],
     "import/no-extraneous-dependencies": "off", // It would be better to enable this rule.
